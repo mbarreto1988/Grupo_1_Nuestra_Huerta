@@ -1,0 +1,22 @@
+{
+  "name": "grupo-integrador-dh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbarreto1988/grupoUno.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbarreto1988/grupoUno/issues"
+  },
+  "homepage": "https://github.com/mbarreto1988/grupoUno#readme",
+  "dependencies": {
+    "sequelize": "^6.19.0"
+  }
+}
