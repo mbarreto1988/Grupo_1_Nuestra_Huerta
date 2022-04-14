@@ -7,7 +7,7 @@ Brindamos productos naturales, madurados por el sol, para que los disfrutemos y 
 
 INTEGRANTES:
 
-1) 
+1) Soy Mechi Solis, mamá de Joaco y Agus.  
 2) 
 3)
 4)
