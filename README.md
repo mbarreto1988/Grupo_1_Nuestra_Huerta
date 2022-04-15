@@ -8,5 +8,5 @@ Brindamos productos naturales, madurados por el sol, para que los disfrutemos y 
 
 1.
 2. Soy Juampi Scrigna, contador de profesión y emprendedor por elección. Apasionado por mi familia, mis amigos y mi querido Excursionistas. Buscador de desafíos constantes que me mantengan activo. Y con muchas ganas de convertirme en FSD!!
-3.
+3. Soy Leandro Bressi, padre de José y Felipe, politólogo y por la pandemia empecé a virar mi formación hacia lo digital, especializándome en la UTN en el Marketing digital y ahora decidí dar un paso más y estudiar Full Stack en Digital House. Cada vez me doy cuenta que este camino que comencé por la pandemia me apasiona.
 4.
