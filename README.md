@@ -6,7 +6,7 @@ Los alimentos recolectados en la época apropiada proporcionan al organismo los 
 Nuestro objetivo es ofrecer productos frescos y de temporada, recién recolectados y directos de la huerta, sin atravesar largas cadenas de comercialización. 
 Brindamos productos naturales, madurados por el sol, para que los disfrutemos y nos beneficiemos de todas sus propiedades y su alto valor nutricional (vitaminas, minerales, agua, antioxidantes, hidratos de carbono y otros nutrientes esenciales).
 
-1.
+1. Soy Mechi Solis, mamá de Joaquín y de Agustín y estoy casada con Juan. Soy lic en Administración, coach organizacional y cada vez más entusiasmada por quitarme etiquetas. Aprendiz empedernida, me gusta saciar mi curiosidad voraz, y me interesa desarrollar habilidades que me permitan ver el mundo y las situaciones desde otras miradas. Esas ganas e inquietud es la que hoy me trajo hasta acá, a estudiar programación. 
 
 2. Soy Juampi Scrigna, contador de profesión y emprendedor por elección. Apasionado por mi familia, mis amigos y mi querido Excursionistas. Buscador de desafíos constantes que me mantengan activo. Y con muchas ganas de convertirme en FSD!!
 
