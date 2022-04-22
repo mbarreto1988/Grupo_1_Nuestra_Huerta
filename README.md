@@ -13,3 +13,21 @@ Brindamos productos naturales, madurados por el sol, para que los disfrutemos y 
 3. Soy Leandro Bressi, padre de José y Felipe, politólogo y por la pandemia empecé a virar mi formación hacia lo digital, especializándome en la UTN en el Marketing digital y ahora decidí dar un paso más y estudiar Full Stack en Digital House. Cada vez me doy cuenta que este camino que comencé por la pandemia me apasiona.
 
 4. Soy Matías Barreto, papá de Gonzalo. Empleado en un Banco y con el objetivo de poder trabajar a distancia pudiendo asi pasar el mayor tiempo posible con mi familia, a su vez vivir en Corrientes cerca de mi familia a orillas del Paraná, por eso decidí estudiar en DH, encontrando a su vez un mundo increíble sin limites.
+
+
+Listado de Referentes:
+Habiendo definido para la temática del proyecto integrador un sitio de compra online de frutas y verduras, hemos tomado como referencias las páginas que se adjuntan en el archivo "Links_asociados.md"
+Aclaración: 
+Si bien todas esas páginas han sido consultadas, no necesariamente hemos sacado algo de cada una de ellas.
+
+    Tienda Huertas del pilar: creemos que de esta pagina sobresale principalmente por su estetica y funcionalidad.
+
+    Tallo Verde: al igual que la página anterior, la estética general de la página y la calidad de las imagenes, sobresalen a primera vista. También nos parece correcta la forma en la que presenta sus productos. Por último, creemos que la versión Mobile se ajusta mucho a lo que pretendemos replicar en nuestro proyecto.
+
+    Estilo Organico: el carrousel central/principal, la paleta de colores y la coincidencia en orientacion al público al cual está dirigida con el público al cual queremos llegar, son los atractivos de esta página. Asimismo, la presentación de su Home creemos que es replicable en el wireframe asociado a nuestros productos.
+
+    Tomatela Huerta: si bien a priori consideramos que esta página es poco atractiva en su versión para "grandes pantallas", la version Mobile nos llamó poderosamente la atención para bine. Es una versión dinámica, con una buena presentacion y animación global.
+
+    Coto: es indudable que no podemos dejar pasar esta página, por más que no está asociada 100% a la idea de nuestro proyecto. La funcionalidad y presentación de la misma en el carrito de compras es lo que nos atrae para poder replicarlo.
+    
+    Tu Huerta Online: si bien esta página no nos generó valor estético o funcional por encima de las ya mencionadas, creemos que presentan de manera adecuada los beneficios y características de los productos que ofrecen.
