@@ -20,14 +20,14 @@ Habiendo definido para la temática del proyecto integrador un sitio de compra o
 Aclaración: 
 Si bien todas esas páginas han sido consultadas, no necesariamente hemos sacado algo de cada una de ellas.
 
-    Tienda Huertas del pilar: creemos que de esta pagina sobresale principalmente por su estetica y funcionalidad.
+Tienda Huertas del pilar: creemos que de esta pagina sobresale principalmente por su estetica y funcionalidad.
 
-    Tallo Verde: al igual que la página anterior, la estética general de la página y la calidad de las imagenes, sobresalen a primera vista. También nos parece correcta la forma en la que presenta sus productos. Por último, creemos que la versión Mobile se ajusta mucho a lo que pretendemos replicar en nuestro proyecto.
+Tallo Verde: al igual que la página anterior, la estética general de la página y la calidad de las imagenes, sobresalen a primera vista. También nos parece correcta la forma en la que presenta sus productos. Por último, creemos que la versión Mobile se ajusta mucho a lo que pretendemos replicar en nuestro proyecto.
 
-    Estilo Organico: el carrousel central/principal, la paleta de colores y la coincidencia en orientacion al público al cual está dirigida con el público al cual queremos llegar, son los atractivos de esta página. Asimismo, la presentación de su Home creemos que es replicable en el wireframe asociado a nuestros productos.
+Estilo Organico: el carrousel central/principal, la paleta de colores y la coincidencia en orientacion al público al cual está dirigida con el público al cual queremos llegar, son los atractivos de esta página. Asimismo, la presentación de su Home creemos que es replicable en el wireframe asociado a nuestros productos.
 
-    Tomatela Huerta: si bien a priori consideramos que esta página es poco atractiva en su versión para "grandes pantallas", la version Mobile nos llamó poderosamente la atención para bine. Es una versión dinámica, con una buena presentacion y animación global.
+Tomatela Huerta: si bien a priori consideramos que esta página es poco atractiva en su versión para "grandes pantallas", la version Mobile nos llamó poderosamente la atención para bine. Es una versión dinámica, con una buena presentacion y animación global.
 
-    Coto: es indudable que no podemos dejar pasar esta página, por más que no está asociada 100% a la idea de nuestro proyecto. La funcionalidad y presentación de la misma en el carrito de compras es lo que nos atrae para poder replicarlo.
+Coto: es indudable que no podemos dejar pasar esta página, por más que no está asociada 100% a la idea de nuestro proyecto. La funcionalidad y presentación de la misma en el carrito de compras es lo que nos atrae para poder replicarlo.
     
-    Tu Huerta Online: si bien esta página no nos generó valor estético o funcional por encima de las ya mencionadas, creemos que presentan de manera adecuada los beneficios y características de los productos que ofrecen.
+Tu Huerta Online: si bien esta página no nos generó valor estético o funcional por encima de las ya mencionadas, creemos que presentan de manera adecuada los beneficios y características de los productos que ofrecen.
