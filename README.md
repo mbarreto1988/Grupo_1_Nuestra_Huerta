@@ -31,3 +31,7 @@ Tomate la Huerta: si bien a priori consideramos que esta página es poco atracti
 Coto: es indudable que no podemos dejar pasar esta página, por más que no está asociada 100% a la idea de nuestro proyecto. La funcionalidad y presentación de la misma en el carrito de compras es lo que nos atrae para poder replicarlo.
     
 Tu Huerta Online: si bien esta página no nos generó valor estético o funcional por encima de las ya mencionadas, creemos que presentan de manera adecuada los beneficios y características de los productos que ofrecen.
+
+
+Enlace al tablero de trabajo (Trello)
+https://trello.com/b/FA34d4zm/proyecto-grupo-1-nuestra-huerta
