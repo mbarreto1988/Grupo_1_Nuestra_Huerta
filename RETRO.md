@@ -1,3 +1,11 @@
+Reunión de Retrospectiva del Sprint 1:
+
+Este preimer sprint, nos llevó a un ambiente de comunión de ideas y metodologías para organizarnos, pero a conflictos y desencuentros para coincidir en los tiempos de reuniones y agendas de cada uno.
+Con el correr de los días, pudimos organizarnos y terminar el primer entregable en tiempo y forma, con una participación activa de los cuatro miembros del equipo. 
+Encontramos muchos puntos de mejora para aplicar en los próximos Sprints. La división del trabajo y la colaboración mutua serán la clave para poder terminarlos de una manera en la que todos estemos de acuerdo con el diseño, estilo y funcionalidad; y en la que todos estemos 100% seguros de nuestro trabajo y aprendizajes adquiridos.
+
+Enfocados en la metodología Estrella de Mar:
+
 1.	Seguir haciendo - Este paso llena al equipo de energía positiva porque es cuando el líder del equipo reconoce las cosas que se hacen bien y el valor que aportan a un proyecto.
 •	Conocernos como personas, nuestras familias, nuestros trabajos y nuestros tiempos para generar energía transformadora que nos lleve al éxito de este proyecto. 
 •	Entender qué es lo que nos resulta más fácil y que no, de este nuevo camino que estamos recorriendo. 
