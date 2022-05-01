@@ -1,6 +1,6 @@
 Reunión de Retrospectiva del Sprint 1:
 
-Este preimer sprint, nos llevó a un ambiente de comunión de ideas y metodologías para organizarnos, pero a conflictos y desencuentros para coincidir en los tiempos de reuniones y agendas de cada uno.
+Este primer sprint, nos llevó a un ambiente de comunión de ideas y metodologías para organizarnos, pero a conflictos y desencuentros para coincidir en los tiempos de reuniones y agendas de cada uno.
 Con el correr de los días, pudimos organizarnos y terminar el primer entregable en tiempo y forma, con una participación activa de los cuatro miembros del equipo. 
 Encontramos muchos puntos de mejora para aplicar en los próximos Sprints. La división del trabajo y la colaboración mutua serán la clave para poder terminarlos de una manera en la que todos estemos de acuerdo con el diseño, estilo y funcionalidad; y en la que todos estemos 100% seguros de nuestro trabajo y aprendizajes adquiridos.
 
