@@ -248,8 +248,41 @@ figcaption {
 /* <!-- *******************************TRABAJO LEITO************************************* --> */
 
 
+/* <!-- *******************************REGISTER************************************* --> */
 
+.create-form{
+    padding: 20px 15px;
+}
 
+.control-formulario{
+    margin-bottom: 15px;
+    
+    
+}
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block; /*esto mueve los bloques debajo del texto*/
+    
+}
+.control{
+    width: 70%;
+    padding: 8px;
+    justify-content: center;
+    border-radius: 5%;
+    border: 1px solid #000;
+}
+
+.button-form{
+background-color: #39b54a;
+color: #ffffff;
+border: none;
+font-size: 20px;
+padding: 5px 10px;
+border-radius: 5px;
+align-self: center;
+}
+/* <!-- *******************************REGISTER************************************* --> */
 
 
 
