@@ -1,9 +1,10 @@
 {
   "name": "grupo-integrador-dh",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nuestra huerta nace con el objetivo de acercar los productos de temporada a todas las personas que desean disfrutar de una vida sana y saludable.",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/mbarreto1988/grupoUno#readme",
   "dependencies": {
+    "express": "^4.18.1",
     "sequelize": "^6.19.0"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "keywords": []
 }
+
+
+
