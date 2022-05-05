@@ -1,0 +1,258 @@
+/* <!-- ********************************GENERAL********************************* --> */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fff;
+    background-color: #48130d;
+    background-image: url(../img/fondo.jpg);
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    width: auto;
+    padding: 10px;
+   
+}
+
+/* <!-- ********************************HEADER********************************* --> */
+
+
+
+header{
+    width: 100%;
+}
+
+a .logo_menu{
+    width: 150px;
+    border-radius: 50%; 
+    padding: 0; 
+    text-align: start;  
+    padding-bottom: 40px;
+}
+
+.head-nav {
+    overflow: hidden;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.head-nav a {
+    float: right;
+    display: block;
+    color: rgb(131, 7, 7);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.head-nav input[type=text] {
+    border-radius: 9px;
+    font-size: 25px;
+    
+    
+}
+
+.head-nav input{
+    padding-top: 50px;
+}
+
+
+.head-nav a, .head-nav input[type=text] {
+    float: none;
+    display: inline;
+    text-align: left;
+    vertical-align: top;
+    width: 60%;
+    padding: 7px;
+    padding-top: 10px;
+}
+
+.lupa{
+    margin-top: 2px;
+    margin-left: -55px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    color: rgba(93, 93, 89, 0.402);
+}
+
+.lupa:hover{
+    color: #000000;
+}
+
+
+.user i{
+    color: #000000;
+    padding-top: 7px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.user i:hover{
+    color: #977878;
+    
+}
+
+.carrito i{
+    color: #000000;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.carrito i:hover{
+    color: #977878;
+}
+
+.list-servicio{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.list-servicio li{
+    float: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.list-servicio li a{
+    color: #0c5a7b;
+    border: 1px solid rgb(0, 187, 255);
+    border-radius: 12px;
+    background-color: rgb(0, 187, 255);
+    padding-bottom: 10px;
+    opacity: .8;
+}
+
+.list-servicio li a:hover{
+    color: #0015ff;
+    text-decoration: underline;
+    border-bottom: 2px solid #fff;
+    opacity: .6;
+    border-radius: 15px;
+}
+
+
+
+/* <!-- ********************************BANNER********************************* --> */
+
+.banner{
+    width: 100%;
+    height: 550px;
+    background: url("../img/banner2.jpeg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* <!-- *******************************SUB_TITULO*************************************** --> */
+
+.sub_titulo h2{
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    background-color: aqua;
+    border: 2px thick red;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-end;
+
+}
+
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #ff0000;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #fff;
+  }
+
+.btn:hover {
+    opacity: 0.6;
+  }
+
+/* <!-- *******************************ARTICULOS_UNO************************************* --> */
+
+.articulos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px; 
+    margin: 10px 0;
+}
+
+article img{
+    width: 100%;
+    height: 180px;
+}
+figcaption {
+    background-color: rgba(112, 241, 77, 0.838);
+    color: rgb(255, 0, 0);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    padding-right: 30px;
+    border-radius: 5px;
+}
+.carrito-dos{
+    color: rgb(37, 67, 133);
+    left: 30px;
+    width: 15px;
+    border: 1px solid #ff0000;
+    border-radius: 3px;
+}
+
+.carrito-dos:hover {
+    border-radius: 8px;
+    opacity: 0.5;
+  }
+
+  button{
+      background-color: #5590f5;
+      border-radius: 5px;
+      padding: 10px;
+  }
+  
+  button:hover{
+      border-radius: 8px;
+      opacity: 0.5;
+  }
+
+  article a img{
+      border-radius: 10px;
+  }
+
+
+/* <!-- *******************************ARTICULOS_DOS************************************* --> */
+
+
+
+
+/* <!-- *******************************TRABAJO LEITO************************************* --> */
+
+
+
+
+
+
+
+
+
+
