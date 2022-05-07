@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Oswald:wght@200;300;400&family=Sen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/inicio.css">
     <script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
     <link rel="icon" href="../public/img/logo.jpeg">
     <title>Nuestra Huerta</title>
 
@@ -20,13 +21,18 @@
         <header>
             <div class="head-nav">
                 <div class="head-nav">
-                    <a href="#"><img class="logo_menu" src="img/logo.png" alt="Volver al Inicio" title="Volver al Inicio"></a>
+                    <a href="inicio.html"><img class="logo_menu" src="img/logo.png" alt="Volver al Inicio" title="Volver al Inicio"></a>
                     <input type="text" placeholder="Buscar productos y recetas... "> <button class="lupa"><i class="fa fa-search fa-2x"></i></button>
-                   
-                    <a class="user" href="/login"> <i class="fa-solid fa-apple-whole" alt="Ingresa a tu Cuenta" title="Ingresa a tu Cuenta"></i></a>
+                    <a class="carrito" href="#"> <i class=" fa-solid fa-crate-apple fa-2x" alt="Tu Carrito de Compras" title="Tu Carrito de Compras" ></i> </a>
                     <a class="user" href="/register"> <i class="fas fa-solid fa-user fa-2x" alt="Crea tu Usuario" title="Crea tu Usuario"></i></a>
-                    <a class="carrito" href="#"> <i class="fa-solid fa-cart-shopping fa-2x" alt="Tu Carrito de Compras" title="Tu Carrito de Compras"></i> </a>
-               
+                    
+                    <a class="user" href="/login"> <i class="fa-solid fa-apple-whole fa-2x" alt="Ingresa a tu Cuenta" title="Ingresa a tu Cuenta"></i></a>
+                    
+                    
+                    <!-- <a class="carrito" href="#"> <i class="fa-solid fa-cart-shopping fa-2x" alt="Tu Carrito de Compras" title="Tu Carrito de Compras"></i> </a> -->
+                    
+                    <!-- <a class="user" href="/login"> <i class="fa-solid fa-apple-whole fa-2x" alt="Ingresa a tu Cuenta" title="Ingresa a tu Cuenta"></i></a> -->
+                    
             </div>
             <nav class="list-servicio">
                 <ul>
@@ -58,7 +64,7 @@
         <!-- *******************************ARTICULOS_UNO************************************* -->
         <div class="articulos">
             <article>
-                <a href="#"><img src="img/banana.jpg" alt="Frutas"></a>
+                <a href="#"><img class="imagenes_copadas" src="img/banana.jpg" alt="Frutas"></a>
                 <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
                 </article>
 
@@ -141,55 +147,71 @@
             </article>
                    </div>  
      <!-- **************************Newsletter************************************** -->
-        <h3>Newsletter</h3>
+     <hr class="principio-footer">   
+
         <div class="newsletter">
-         <h2>¿Querés conocer todas las novedades que tenemos para vos y no perderte ningun descuento?</h2>
+            <h3>Newsletter</h3>
+                     <h2 class="texto-newsletter">¿Querés conocer todas las novedades que tenemos para vos y no perderte ningun descuento?</h2>
                      <br>
+                     <h2 class="tu-mail"> Dejanos tu e-mail <input type="text" placeholder=" Ej: leito@gmail.com"><button class="boton-enviar">Enviar</button></h2>
+
         </div>
         
     </section>
         <!-- **************************FOOTER************************************** -->
-
+            
     <footer>
-     <div class="container__footer">
-              <div class="box_footer">
-                  <div class="logo">
-                       <img src="/img/logo.png"alt"logo">
-              </div>   
-            <div class="acerca">
-                <p>Nuestra huerta nace con el objetivo de acercar los productos de temporada a todas las personas que desean disfrutar de una vida sana y saludable.
-                  La naturaleza es sabia.
-                  Los alimentos recolectados en la época apropiada proporcionan al organismo los nutrientes necesarios para hacer frente a cada época del año.</p>
-                </div>      
-  <div class="box__footer">
-  <h2>La Huerta</h2>
-  <a href="#">Acerca de </a>
-  <a href="#">Direccion</a>
-  <a href="#">telefono</a>
-  <a href="#">Email</a>
-  <a href="#">Contacto</a>
-  </div>
-  
-  <div class="box__footer">
-  <h2>Menu</h2>
-  <a href="#">Frutas Orgánica</a>
-  <a href="#">Verduras Orgánica</a>
-  <a href="#">Bolsones y Promos</a>
-  <a href="#">Nuestras Recetas</a>
-  <a href="#">Cambio y devoluciones</a>
-  </div>
-  
-  <div class="box__footer">
-  <h2>Siguenos en nuestras Redes Sociales:</h2>
-  <a href="#"><i class="fa-brands fa-facebook-square"></i>Facebook</a>
-  <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
-  </div>
-  <div class="box__copyright">
-  <hr>
-  <p>Todos los derechos reservados <i class="fa-solid fa-registered"></i> 2022:
-      <b>Nuestra Huerta</b></P>
-  
-  </div>
+        <div class="contenedor-footer-menu">
+            <div class="box_footer">
+                <img src="/img/logo.png" alt = "logo">
+                    <p>Nuestra huerta nace con el objetivo de acercar los productos de temporada a todas las personas que desean disfrutar de una vida sana y saludable. La naturaleza es sabia. Los alimentos recolectados en la época apropiada proporcionan al organismo los nutrientes necesarios para hacer frente a cada época del año.</p>
+            </div> 
+          
+                
+            <div class="box_footer">
+                <h2 class="menu-1">La Huerta</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Acerca de </a></li>
+                            <li><a href="#">Direccion</a></li>
+                            <li><a href="#">telefono</a></li>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+            </div>
+        
+            <div class="box_footer">
+                <h2 class="menu-2">Menu</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Frutas Orgánica</a></li>
+                            <li><a href="#">Verduras Orgánica</a></li>
+                            <li><a href="#">Bolsones y Promos</a></li>
+                            <li><a href="#">Nuestras Recetas</a></li>
+                            <li><a href="#">Cambio y devoluciones</a></li>
+                        </ul>
+                    </nav>
+            </div>
+
+            <div class="box_footer">
+                <h2>Siguenos en nuestras Redes Sociales:</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-square"></i>Facebook</a</li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    </ul>
+                </nav>                    
+            </div>
+        </div>
+                
+            <div class="box__copyright">
+                <hr>
+                    <p>Todos los derechos reservados <i class="fa-solid fa-registered"></i> 2022:
+                        <b>Nuestra Huerta</b></P>
+        
+        
+        
   </footer>
   <br>
 </body>

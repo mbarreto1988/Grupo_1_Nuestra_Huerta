@@ -106,7 +106,7 @@ a .logo_menu{
 }
 
 .carrito i{
-    color: #000000;
+    color: #ff0000;
     padding-top: 7px;
     padding-left: 10px;
     padding-right: 15px;
@@ -212,12 +212,18 @@ a .logo_menu{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px; 
     margin: 10px 0;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 20px;
 }
 
 article img{
     width: 100%;
     height: 180px;
 }
+
+
+
+
 figcaption {
     background-color: rgba(112, 241, 77, 0.838);
     color: rgb(255, 0, 0);
@@ -260,48 +266,49 @@ figcaption {
 
 
 /* <!-- *******************************TRABAJO LEITO************************************* --> */
-.newsletter{
-    font-size: 14px;
+.newsletter h3{
+    font-size: 60px;
+    align-items: center;
     text-align: center;
+    color: #7a7a7a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tu-mail{
+text-align: center;
+color: rgb(67, 67, 67);
+
+padding-bottom: 180px;
+}
+.tu-mail input{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px medium double red;
+    border-radius: 7px;
+    opacity: .6;
+    padding: 5px;
+}
+
+ .newsletter h2 .boton-enviar{
+    background-color: rgb(93, 166, 96);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    color: aqua;
+    
+
+}
+
+.texto-newsletter{
+    text-align: center;
+    color: #7a7a7a;
 }
 
 /* <!-- *******************************REGISTER************************************* --> */
 
-.create-form{
-    padding: 20px 15px;
-}
-
-.control-formulario{
-    margin-bottom: 15px;
-    
-    
-}
-.control-formulario label{
-    margin-bottom: 5px;
-    font-style: italic;
-    display: block; /*esto mueve los bloques debajo del texto*/
-    
-}
-.control{
-    background-color: white;
-    border-color: black;
-    color: #ffffff;
-    width: 100%;
-    font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 5px;
-       
-}
-
-.button-form{
-    background-color: #39b54a;
-    color: #ffffff;
-    border: none;
-    font-size: 20px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    width: 100%;
-}
 
 /* <!-- *******************************REGISTER************************************* --> */
 
@@ -309,52 +316,33 @@ figcaption {
 
 /* <!-- *******************************footer************************************* --> */
 
-footer{
-    width: 100%;
-    padding: 50px 0px;
-    background-image: url(../img/olas.png);
-    background-size: cover;
-   }
-.container__footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
+.box_footer img{
+    width: 150px;
+    display: block;
+    margin: 0px auto;
 }
-.box__footer{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-}
-.logo img{
-width: 180px;
-}
-.acerca{
-    max-width: 350px;
-    margin-top: 20px;
-    font-weight: 500;
-    color: black;
-    font-size: 18px;
 
+
+.box_footer{
+    display: inline-block;
+    width: 50%;
+	padding: 20px;
+	border: 5px solid blue;
+	top: 20px;
+	bottom: 20px;
+    
 }
-h2{
-    margin-bottom:30 px;
-    color: #343434;
-    font-weight: 700;
+
+.contenedor-footer-menu{
+    justify-content: space-between; 
+    display: flex;
 }
-.box__footer a{
-margin-top: 10px;
-color: black;
-font-weight: 600;
-}
-a:hover{
-opacity: 0.6;
-}
-.box__footer a fab{
-    font-size: 20px;
-    }
+
+
+
+
+
+
     .box__copyright{
         max-width: 1200px;
         margin:auto;
@@ -374,6 +362,34 @@ p{
         border:none;
         height: 1px;
         background-color: black;
+    }
+
+
+
+
+
+    @media (max-width: 800px){
+
+        .articulos{
+            
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @media (max-width: 450px){
+
+        .articulos{
+            
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 300px){
+
+        .articulos{
+            
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 
 
