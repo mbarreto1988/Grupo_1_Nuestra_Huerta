@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/inicio.css">
     </head>
     <div class="contenedor">
         <header>
@@ -32,33 +32,41 @@
     </div>
     <br>
     <body>
-        <header>Crear Cuenta</header>
-        <h4>Comprá en Nuestra Huerta y llevá el control de tus pedidos en forma rápida</h4>
+        <header class="estilo">Crear Cuenta</header>
+        <h4 class="estilo">Comprá en Nuestra Huerta y llevá el control de tus pedidos en forma rápida</h4>
             <form action="/info-guardada" method="GET" class= "create-form">
                 <div class="control-formulario"> 
                     <label>Nombre y apellido</label>
                     <input type:"text" name: "nombre" placeholder="ej: Jose Pepin" class="control">                    
                 </div>
+                <br>
                 <div class="control-formulario"> 
                     <label>Email</label>
                     <input type:"text" name: "mail" placeholder="ej: josepepin@hotmail.com" class="control">                    
                 </div>
+                <br>
                 <div class="control-formulario"> 
                     <label>Teléfono (opcional)</label>
-                    <input type:"text" name: "telefono" placeholder="ej: 1122223333" class="control">                    
+                    <input type:"text" name: "telefono" placeholder="ej: 1122223333" class="control" required>                    
                 </div>
+                <br>
                 <div class="control-formulario"> 
                     <label>Contraseña</label>
                     <input type:"password" name: "clave" class="control">                    
                 </div>
+                <br>
                 <div class="control-formulario"> 
                     <label>Confirmar contraseña</label>
                     <input type:"password" name: "clave" class="control">                    
                 </div>
+                <br>
 
 
                 <button type="reset" class="button-form">Borrar</button>
+                <br>
+                <Br>
                 <button type="submit" class="button-form">Crear Usuario</button>
+                <br>
             </form>    
                    
         

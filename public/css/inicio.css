@@ -5,16 +5,25 @@
     padding: 0;
 }
 
-body {
-    color: #fff;
-    background-color: #48130d;
+/*body {
+    color: grey;
+    background-color: white;
     background-image: url(../img/fondo.jpg);
     font-size: 16px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif
     width: auto;
     padding: 10px;
-   
+}*/
+
+
+body{
+    font-size: 16px;
+    line-height: 26px;
+    background: #fff;
+    font-family: "Lato",Arial,sans-serif;
+    margin:0%;
 }
+
 
 /* <!-- ********************************HEADER********************************* --> */
 
@@ -106,6 +115,13 @@ a .logo_menu{
 .carrito i:hover{
     color: #977878;
 }
+
+/*formato para iconos de links*/
+.ico-3 {
+    color: rgba(8, 8, 199, 0.721);
+    font-size: 32px; /*2em son 32px*/
+    
+  }
 
 .list-servicio{
     font-weight: bold;
@@ -267,22 +283,26 @@ figcaption {
     
 }
 .control{
-    width: 70%;
-    padding: 8px;
-    justify-content: center;
-    border-radius: 5%;
-    border: 1px solid #000;
+    background-color: white;
+    border-color: black;
+    color: #ffffff;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+       
 }
 
 .button-form{
-background-color: #39b54a;
-color: #ffffff;
-border: none;
-font-size: 20px;
-padding: 5px 10px;
-border-radius: 5px;
-align-self: center;
+    background-color: #39b54a;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
 }
+
 /* <!-- *******************************REGISTER************************************* --> */
 
 
