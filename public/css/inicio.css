@@ -286,6 +286,75 @@ align-self: center;
 
 
 
+/* <!-- *******************************footer************************************* --> */
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../img/olas.png);
+    background-size: cover;
+   }
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.logo img{
+width: 180px;
+}
+.acerca{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+
+}
+h2{
+    margin-bottom:30 px;
+    color: #343434;
+    font-weight: 700;
+}
+.box__footer a{
+margin-top: 10px;
+color: black;
+font-weight: 600;
+}
+a:hover{
+opacity: 0.6;
+}
+.box__footer a fab{
+    font-size: 20px;
+    }
+    .box__copyright{
+        max-width: 1200px;
+        margin:auto;
+        text-align: center;
+        padding: 0px 40px;
+    }
+p{
+    margin-top: 20px;
+    color: black;
+    }
+    .box__copyright p{
+        margin-top: 100p0x;
+        color:black;
+
+    }
+   hr{
+        border:none;
+        height: 1px;
+        background-color: black;
+    }
+
 
 
 
