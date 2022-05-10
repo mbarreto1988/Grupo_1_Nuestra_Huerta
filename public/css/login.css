@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: grey;
+    background-color: white;
+    /*background-image: url(../img/fondo.jpg);*/
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    width: auto;
+    padding: 10px;
+}
+
+
+
+/* body{
+    font-size: 16px;
+    line-height: 26px;
+    background: #fff;
+    font-family: "Lato",Arial,sans-serif;
+    margin:0%;
+} */
+
+
+/* <!-- ********************************HEADER********************************* --> */
+
+
+
+header{
+    width: 100%;
+}
+
+a .logo_menu{
+    width: 150px;
+    border-radius: 50%; 
+    padding: 0; 
+    text-align: start;  
+    padding-bottom: 40px;
+}
+
+.head-nav {
+    overflow: hidden;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.head-nav a {
+    float: right;
+    display: block;
+    color: rgb(131, 7, 7);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.head-nav input[type=text] {
+    border-radius: 9px;
+    font-size: 25px;
+    
+    
+}
+
+.head-nav input{
+    padding-top: 50px;
+}
+
+
+.head-nav a, .head-nav input[type=text] {
+    float: none;
+    display: inline;
+    text-align: left;
+    vertical-align: top;
+    width: 60%;
+    padding: 7px;
+    padding-top: 10px;
+}
+
+.lupa{
+    margin-top: 2px;
+    margin-left: -55px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    color: rgba(93, 93, 89, 0.402);
+}
+
+.lupa:hover{
+    color: #000000;
+}
+
+
+.user i{
+    color: #000000;
+    padding-top: 7px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.user i:hover{
+    color: #977878;
+    
+}
+
+.carrito i{
+    color: #ff0000;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.carrito i:hover{
+    color: #977878;
+}
+
+/*formato para iconos de links*/
+.ico-3 {
+    color: rgba(8, 8, 199, 0.721);
+    font-size: 32px; /*2em son 32px*/
+    
+  }
+
+.list-servicio{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.list-servicio li{
+    float: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.list-servicio li a{
+    color: #0c5a7b;
+    border: 1px solid rgb(0, 187, 255);
+    border-radius: 12px;
+    background-color: rgb(0, 187, 255);
+    padding-bottom: 10px;
+    opacity: .8;
+}
+
+.list-servicio li a:hover{
+    color: #0015ff;
+    text-decoration: underline;
+    border-bottom: 2px solid #fff;
+    opacity: .6;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.create-form{
+    padding: 20px 15px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+    
+    
+}
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block; /*esto mueve los bloques debajo del texto*/
+    
+}
+.control{
+    background-color: white;
+    border-color: black;
+    color: #ffffff;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+       
+}
+
+.button-form{
+    background-color: #39b54a;
+    color: #ffffff;
+    border:solid
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+/*------------Ajustes Formularios-------------------*/
+
+
+.create-form{
+    padding: 20px 15px;
+    width: 100px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+
+}
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block; /*esto mueve los bloques debajo del texto*/
+    
+}
+.control{
+    width: 100%;
+    padding: 8px;
+}
+
+.check{
+    font-size: 22px;
+}
+
+.button2{
+    background-color: grey;
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    }
+
+.button3{
+background-color: grey;
+color: white;
+border:solid;
+width: 300px;
+font-size: 15px;
+padding: 5px 10px;
+border-radius: 5px;
+border-color: black;
+box-sizing: border-box;
+}
+
+.button4{
+background-color: white;
+border:10px;
+border:solid;
+color:black;
+width: 300px;
+font-size: 15px;
+padding: 5px 10px;
+border-radius: 5px;
+margin:0 auto;
+border-color: black;
+box-sizing: border-box;
+
+}
+
+.divisor{
+    margin-top: 15px;
+}
+
+

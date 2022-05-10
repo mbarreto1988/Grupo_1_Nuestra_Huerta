@@ -7,7 +7,7 @@
 body {
     color: grey;
     background-color: white;
-    background-image: url(../img/fondo.jpg);
+    /*background-image: url(../img/fondo.jpg);*/
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
     width: auto;
@@ -199,3 +199,85 @@ a .logo_menu{
     border-radius: 5px;
     width: 100%;
 }
+
+
+/*------------Ajustes Formularios-------------------*/
+
+
+.create-form{
+    padding: 20px 15px;
+    width: 100px;
+}
+
+.control-formulario{
+    margin-bottom: 15px;
+
+}
+.control-formulario label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block; /*esto mueve los bloques debajo del texto*/
+    
+}
+.control{
+    width: 100%;
+    padding: 8px;
+}
+
+.check{
+    font-size: 22px;
+}
+
+.button2{
+    background-color: grey;
+    color: white;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    }
+
+.button3{
+background-color: grey;
+color: white;
+border:solid;
+width: 300px;
+font-size: 15px;
+padding: 5px 10px;
+border-radius: 5px;
+border-color: black;
+box-sizing: border-box;
+}
+
+.button4{
+background-color: white;
+border:10px;
+border:solid;
+color:black;
+width: 300px;
+font-size: 15px;
+padding: 5px 10px;
+border-radius: 5px;
+margin:0 auto;
+border-color: black;
+box-sizing: border-box;
+
+}
+
+.button4 :hover{
+    background-color: #0015ff;
+}
+
+.button3 :hover{
+    background-color: #0015ff;
+}
+
+
+
+.divisor{
+    margin-top: 15px;
+}
+
+

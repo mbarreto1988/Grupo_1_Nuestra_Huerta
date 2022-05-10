@@ -29,46 +29,85 @@
                 </ul>
             </nav> -->
         </header>
-    </div>
-    <br>
-    <body>
-        <header class="estilo">Crear Cuenta</header>
-        <h4 class="estilo">Comprá en Nuestra Huerta y llevá el control de tus pedidos en forma rápida</h4>
-            <form action="/info-guardada" method="GET" class= "create-form">
-                <div class="control-formulario"> 
-                    <label>Nombre y apellido</label>
-                    <input type:"text" name: "nombre" placeholder="ej: Jose Pepin" class="control">                    
-                </div>
+        <main class="register">
+            <form action="/" method="get">
                 <br>
-                <div class="control-formulario"> 
-                    <label>Email</label>
-                    <input type:"text" name: "mail" placeholder="ej: josepepin@hotmail.com" class="control">                    
-                </div>
+                <input type="text" name="name" placeholder="Ej. José Pepin" class="button4">
                 <br>
-                <div class="control-formulario"> 
-                    <label>Teléfono (opcional)</label>
-                    <input type:"text" name: "telefono" placeholder="ej: 1122223333" class="control" required>                    
-                </div>
                 <br>
-                <div class="control-formulario"> 
-                    <label>Contraseña</label>
-                    <input type:"password" name: "clave" class="control">                    
-                </div>
+                <input type="email" name="email" placeholder="Ej. josepepin@hotmail.com" required class="button4">
                 <br>
-                <div class="control-formulario"> 
-                    <label>Confirmar contraseña</label>
-                    <input type:"password" name: "clave" class="control">                    
-                </div>
                 <br>
-
-
-                <button type="reset" class="button-form">Borrar</button>
+                <input type="number" name="telefono" placeholder="Ej. 1155550000" required class="button4">
                 <br>
-                <Br>
-                <button type="submit" class="button-form">Crear Usuario</button>
                 <br>
-            </form>    
-                   
+                <input type="password" name="pass" placeholder="Elegí tu contraseña" class="button4">
+                <br>
+                <br>
+                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña" class="button4">
+                <br>
+                <br>
+                <input type="submit" value="Enviar" class="button3">
+                <br>
+                <br>
+                <input type="reset" value="Borrar" class="button3">
+                <br>
+                <br>
+            </form>
+        </main>
+                 
+    <footer>
+        <div class="contenedor-footer-menu">
+            <div class="box_footer">
+                <img src="/img/logo.png" alt = "logo">
+                    <p>Nuestra huerta nace con el objetivo de acercar los productos de temporada a todas las personas que desean disfrutar de una vida sana y saludable. La naturaleza es sabia. Los alimentos recolectados en la época apropiada proporcionan al organismo los nutrientes necesarios para hacer frente a cada época del año.</p>
+            </div> 
+          
+                
+            <div class="box_footer">
+                <h2 class="menu-1">La Huerta</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Acerca de </a></li>
+                            <li><a href="#">Direccion</a></li>
+                            <li><a href="#">telefono</a></li>
+                            <li><a href="#">Email</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </nav>
+            </div>
         
-    </body>
-</html>
+            <div class="box_footer">
+                <h2 class="menu-2">Menu</h2>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Frutas Orgánica</a></li>
+                            <li><a href="#">Verduras Orgánica</a></li>
+                            <li><a href="#">Bolsones y Promos</a></li>
+                            <li><a href="#">Nuestras Recetas</a></li>
+                            <li><a href="#">Cambio y devoluciones</a></li>
+                        </ul>
+                    </nav>
+            </div>
+
+            <div class="box_footer">
+                <h2>Siguenos en nuestras Redes Sociales:</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-square"></i>Facebook</a</li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    </ul>
+                </nav>                    
+            </div>
+        </div>
+                
+            <div class="box__copyright">
+                <hr>
+                    <p>Todos los derechos reservados <i class="fa-solid fa-registered"></i> 2022:
+                        <b>Nuestra Huerta</b></P>
+        
+        
+        
+  </footer>
+             
+        </html>

@@ -394,4 +394,33 @@ p{
 
 
 
+.button3{
+background-color: grey;
+color: white;
+border: none;
+width: 300px;
+font-size: 15px;
+padding: 5px 10px;
+border-radius: 5px;
+border-color: black;
+}
+
+.button4{
+background-color: white;
+border:10px;
+color:black;
+width: 300px;
+font-size: 15px;
+padding: 5px 10px;
+border-radius: 5px;
+margin:0 auto;
+border-color: black;
+
+}
+
+.divisor{
+    margin-top: 15px;
+}
+
+
 
