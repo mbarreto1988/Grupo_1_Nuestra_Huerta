@@ -1,0 +1,114 @@
+h2.categoria {
+    color: grey;
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ecffcd;
+    border: 2px solid #e3dede;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+h2.productos {
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+h2.precio {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+h2.productos a {
+    text-decoration: none;
+  }
+
+
+
+h3.impuestos{
+    font-size: 12px;
+}
+
+h2.stock{
+    color: green;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+h2.origen {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+
+figcaption.enlacesproductos {
+    background-color: #ecffcd;
+    color: grey;
+    text-decoration: none;
+    font: smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 30px;
+    border-radius: 5px;
+
+}
+
+button.alcarrito{
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.cant-prod-todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-group{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+article img.foto_productos{
+    width: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    }
+
+    .control-label{
+        padding: 10px
+    }
+
+.qty{
+    background-color: #ecffcd;
+}    
+
+#quantity_wanted{
+    border-radius: 5%;
+    border: solid 3px #e3dede;
+    background-color: #ecffcd;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
