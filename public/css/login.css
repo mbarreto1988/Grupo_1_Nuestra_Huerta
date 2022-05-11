@@ -218,9 +218,14 @@ a .logo_menu:hover{
 *******************************************************************************************/
 
 
+.iniciar-sesion{
+    text-align: center;
+}
 
 
-
+.compra{
+    text-align: center;
+}
 
 
 .create-form{
@@ -263,7 +268,7 @@ a .logo_menu:hover{
 /*------------Ajustes Formularios-------------------*/
 
 
-.create-form{
+/* .create-form{
     padding: 20px 15px;
     width: 100px;
 }
@@ -277,7 +282,7 @@ a .logo_menu:hover{
     font-style: italic;
     display: block; /*esto mueve los bloques debajo del texto*/
     
-}
+/* }
 .control{
     width: 100%;
     padding: 8px;
@@ -285,9 +290,9 @@ a .logo_menu:hover{
 
 .check{
     font-size: 22px;
-}
+} */ 
 
-.button2{
+/* .button2{
     background-color: grey;
     color: white;
     border: none;
@@ -296,11 +301,20 @@ a .logo_menu:hover{
     padding: 5px 10px;
     border-radius: 5px;
     
-    }
+    } */
+    .form1 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
 
 .button3{
-background-color: grey;
-color: white;
+background-color: #ecffcd;
+color: black;
 border:solid;
 width: 300px;
 font-size: 15px;
@@ -308,6 +322,7 @@ padding: 5px 10px;
 border-radius: 5px;
 border-color: black;
 box-sizing: border-box;
+
 }
 
 .button4{
@@ -323,6 +338,13 @@ margin:0 auto;
 border-color: black;
 box-sizing: border-box;
 
+}
+.button4 :hover{
+    background-color: grey;
+}
+
+.button3 :hover{
+    background-color: grey;
 }
 /*.cont-form{
 margin-left: auto;
