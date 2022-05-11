@@ -5,15 +5,6 @@
     padding: 0;
 }
 
-/*body {
-    color: grey;
-    background-color: white;
-    background-image: url(../img/fondo.jpg);
-    font-size: 16px;
-    font-family: 'Oswald', sans-serif
-    width: auto;
-    padding: 10px;
-}*/
 
 
 body{
@@ -27,6 +18,31 @@ body{
 
 /* <!-- ********************************HEADER********************************* --> */
 
+/* //////////////CAMBIOS//////////////////// */
+
+.lis-uno{
+    display: block;
+    list-style: none;
+}
+
+.lis-uno > li{
+    position: relative;
+}
+
+
+
+
+
+
+
+/* //////////////CAMBIOS//////////////////// */
+
+
+
+
+
+
+
 
 
 header{
@@ -35,9 +51,14 @@ header{
 
 a .logo_menu{
     width: 120px;
-    border-radius: 50%; padding-top: -25px;
+    border-radius: 50%; 
+    padding-top: -25px;
     text-align: start;  
     padding-bottom: 40px;
+}
+
+a .logo_menu:hover{
+    opacity: .8;
 }
 
 .head-nav {
@@ -64,6 +85,10 @@ a .logo_menu{
 
 .head-nav input{
     background-color: #ecffcd;
+}
+
+.head-nav input::placeholder{
+    font-size: 20px;
 }
 
 .busca-dor{
@@ -108,7 +133,17 @@ a .logo_menu{
     
 }
 
-/* /////////////////////////////////// */
+.hambur i{
+    color: #000000;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 15px;
+    
+}
+
+.hambur i:hover{
+    color: #977878;
+}
 
 
 
@@ -134,7 +169,7 @@ a .logo_menu{
     font-weight: bold;
     font-size: 10px;
     text-align: center;
-    margin-top: -90px;
+    margin-top: -80px;
 }
 
 .list-servicio li{
@@ -143,6 +178,8 @@ a .logo_menu{
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
+    font-size: 15px;
+    
 }
 
 .list-servicio li a{
@@ -151,9 +188,10 @@ a .logo_menu{
     padding-bottom: 10px;
     opacity: .8;
     text-decoration: none;
+    
 }
 
-.list-servicio li a:hover{
+.list-servicio li:hover{
     color: #0015ff;
     text-decoration: underline;
     border-bottom: 2px solid #fff;
@@ -163,13 +201,23 @@ a .logo_menu{
     background-color: rgb(174, 212, 227);
 }
 
+.burgg a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.burgg i{
+    display: block;
+}
+
 
 
 /* <!-- ********************************BANNER********************************* --> */
 
 .banner{
     width: 100%;
-    height: 550px;
+    height: 500px;
     background: url("../img/banner2.jpeg") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
@@ -184,7 +232,7 @@ a .logo_menu{
 /* <!-- *******************************SUB_TITULO*************************************** --> */
 
 .sub_titulo h2{
-    color: #000000;
+    color: #1b1b1b;
     text-align: center;
     text-decoration: none;
     background-color: aqua;
@@ -193,7 +241,18 @@ a .logo_menu{
     align-items: center;
     padding: 10px;
     justify-content: flex-end;
+    font-size: 40px;
 
+}
+
+.sub_titulo h2:hover{
+    background-color: #63f956;
+    color: #323235;
+    font-size: 42px;
+}
+
+.sub_titulo a {
+    text-decoration: none;
 }
 
 
@@ -222,6 +281,11 @@ a .logo_menu{
     margin: 10px 0;
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;
+}
+
+article:hover{
+    box-shadow: 0px 0px 12px rgb(100, 100, 100);
+    border-radius: 5px;
 }
 
 article img{
@@ -274,13 +338,22 @@ figcaption {
 
 
 /* <!-- *******************************TRABAJO LEITO************************************* --> */
+.newsletter{
+    background-color: #cdfffc;
+}
+
 .newsletter h3{
     font-size: 60px;
     align-items: center;
     text-align: center;
     color: #7a7a7a;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
+}
+
+.newsletter h3:hover{
+    font-size: 65px;
+    color: #696975;
 }
 
 .tu-mail{
@@ -293,21 +366,34 @@ padding-bottom: 180px;
     font-size: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 2px medium double red;
+    border: 2px solid rgb(118, 118, 118);
     border-radius: 7px;
     opacity: .6;
     padding: 5px;
+    font-weight: lighter;
+}
+
+.tu-mail input::placeholder{
+    color: rgb(84, 55, 55);
+    font-size: 18px;
+    font-style: italic;
 }
 
  .newsletter h2 .boton-enviar{
-    background-color: rgb(93, 166, 96);
+    background-color: rgb(166, 172, 173);
     padding-left: 10px;
     padding-bottom: 5px;
     text-align: center;
     justify-content: center;
-    color: aqua;
+    color: rgb(73, 73, 237);
+    font-weight: bold;
     
 
+}
+
+.newsletter h2 .boton-enviar:hover{
+    background-color: rgb(244, 175, 175);
+    color: #000000;
 }
 
 .texto-newsletter{
@@ -315,11 +401,9 @@ padding-bottom: 180px;
     color: #7a7a7a;
 }
 
-/* <!-- *******************************REGISTER************************************* --> */
-
-
-/* <!-- *******************************REGISTER************************************* --> */
-
+.tu-mail{
+    padding-bottom: 50px;
+}
 
 
 /* <!-- *******************************footer************************************* --> */
@@ -328,16 +412,24 @@ padding-bottom: 180px;
     width: 150px;
     display: block;
     margin: 0px auto;
+    border-radius: 50%;
+}
+
+.box_footer p{
+    overflow: auto;
+    width: 300px;
+    height: 100px;
+    color: #595c80;
+    font-weight: bold;
 }
 
 
 .box_footer{
     display: inline-block;
     width: 50%;
-	padding: 20px;
-	border: 5px solid blue;
-	top: 20px;
-	bottom: 20px;
+    padding: 20px;
+    top: 20px;
+    bottom: 20px;
     
 }
 
@@ -348,9 +440,26 @@ padding-bottom: 180px;
     text-decoration: none;
 }
 
+
 .box_footer li{
-    background-color: #ff0000;
+    padding-top: 20px;
     text-decoration: none;
+    list-style: none;
+}
+
+.box_footer li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #595c80;
+    font-weight: bold;
+}
+
+.box_footer li a:hover{
+    border: 1px solid #7a7a7a;
+    border-radius: 9px;
+    padding: 8px;
+    background-color: #98beff;
+    color: #2c3d2a;
 }
 
 
@@ -382,7 +491,74 @@ p{
 
 
 
+/* ************************************MEDIA QUERY******************************************** */
 
+    
+
+
+    @media(min-width: 1200px){
+        .hambur i{
+            display: none;
+        }
+
+        
+    }
+
+    @media(min-width:648px){
+        .burgg i{
+            display: none;
+        }
+    }
+
+    
+    @media (max-width: 1200px){
+        .list-servicio li{
+            display: block;  
+            
+        }
+
+        .user i{
+            display: none;
+        }
+        .carrito i{
+            display: none;
+        }
+           
+
+        .contenedor-footer-menu{
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+        }
+
+    }
+
+
+
+
+
+
+    @media (max-width: 1000px){
+        .articulos{            
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .list-servicio li{
+            display: none;
+            
+        }
+
+        .box_footer p{
+            width: 400px;
+            height: 100px;
+            
+        }
+
+
+        
+
+
+    }
 
     @media (max-width: 800px){
 
@@ -390,27 +566,89 @@ p{
             
             grid-template-columns: repeat(3, 1fr);
         }
+
+        
+
     }
 
-    @media (max-width: 450px){
+    @media(max-width: 648px){
+        .hambur i{
+            display: none;            
+        }
+        .burgg i{
+            display: block;
+        }
+
+
+    }
+
+   
+
+    @media (max-width: 600px){
 
         .articulos{
             
             grid-template-columns: repeat(2, 1fr);
         }
+
+        .box_footer p{
+            width: 300px;
+            height: 100px;
+            text-align: center;
+            
+        }
     }
 
-    @media (max-width: 300px){
+    @media (max-width: 400px){
 
         .articulos{
             
             grid-template-columns: repeat(1, 1fr);
         }
+
+        .box_footer p{
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            
+        }
+    }
+
+    @media (max-width: 351px){
+
+        .articulos{
+            
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .head-nav a, .head-nav input[type=text] {
+            
+            width: 40%;
+            
+        }
+
+        .newsletter h3{
+            font-size: 40px;
+            
+        }
+
+        .tu-mail input{
+            font-size: 15px;
+            
+        }
+
+        .box_footer p{
+            width: 180px;
+            height: 100px;
+            text-align: center;
+            
+        }
+
     }
 
 
 
-.button3{
+/* .button3{
 background-color: grey;
 color: white;
 border: none;
@@ -436,7 +674,7 @@ border-color: black;
 
 .divisor{
     margin-top: 15px;
-}
+} */
 
 
 

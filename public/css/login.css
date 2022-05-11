@@ -279,3 +279,130 @@ width: 100%
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+    .articulos{            
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .list-servicio li{
+        display: none;
+        
+    }
+
+    .box_footer p{
+        width: 400px;
+        height: 100px;
+        
+    }
+
+
+    
+
+
+}
+
+@media (max-width: 800px){
+
+    .articulos{
+        
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    
+
+}
+
+@media(max-width: 648px){
+    .hambur i{
+        display: none;            
+    }
+    .burgg i{
+        display: block;
+    }
+
+
+}
+
+
+
+@media (max-width: 600px){
+
+    .articulos{
+        
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box_footer p{
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 400px){
+
+    .articulos{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box_footer p{
+        width: 200px;
+        height: 100px;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 351px){
+
+    .articulos{
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .head-nav a, .head-nav input[type=text] {
+        
+        width: 40%;
+        
+    }
+
+    .newsletter h3{
+        font-size: 40px;
+        
+    }
+
+    .tu-mail input{
+        font-size: 15px;
+        
+    }
+
+    .box_footer p{
+        width: 180px;
+        height: 100px;
+        text-align: center;
+        
+    }
+
+}
+
+
