@@ -19,4 +19,8 @@ app.get('/register', (req,res)=>{
     res.sendFile(__dirname + '/views/register.html');
 });
 
+app.get('/carrito', (req,res)=>{
+    res.sendFile(__dirname + '/views/carrito.html');
+});
+
 // npm start
