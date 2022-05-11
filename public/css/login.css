@@ -1,31 +1,47 @@
+/* <!-- ********************************GENERAL********************************* --> */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    color: grey;
-    background-color: white;
-    /*background-image: url(../img/fondo.jpg);*/
+
+
+body{
     font-size: 16px;
-    font-family: 'Oswald', sans-serif;
-    width: auto;
-    padding: 10px;
+    line-height: 26px;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Lato",Arial,sans-serif;
+    padding: 2px;
+}
+
+
+/* <!-- ********************************HEADER********************************* --> */
+
+/* //////////////CAMBIOS//////////////////// */
+
+.lis-uno{
+    display: block;
+    list-style: none;
+}
+
+.lis-uno > li{
+    position: relative;
 }
 
 
 
-/* body{
-    font-size: 16px;
-    line-height: 26px;
-    background: #fff;
-    font-family: "Lato",Arial,sans-serif;
-    margin:0%;
-} */
 
 
-/* <!-- ********************************HEADER********************************* --> */
+
+
+/* //////////////CAMBIOS//////////////////// */
+
+
+
+
+
+
 
 
 
@@ -34,16 +50,20 @@ header{
 }
 
 a .logo_menu{
-    width: 150px;
+    width: 120px;
     border-radius: 50%; 
-    padding: 0; 
+    padding-top: -25px;
     text-align: start;  
     padding-bottom: 40px;
 }
 
+a .logo_menu:hover{
+    opacity: .8;
+}
+
 .head-nav {
     overflow: hidden;
-    padding-top: 5px;
+    padding-top: 10px;
     width: 100%;
 }
 
@@ -57,14 +77,22 @@ a .logo_menu{
 }
 
 .head-nav input[type=text] {
+    border: 1px solid #e3dede;
     border-radius: 9px;
-    font-size: 25px;
-    
+    font-size: 25px;  
     
 }
 
 .head-nav input{
-    padding-top: 50px;
+    background-color: #ecffcd;
+}
+
+.head-nav input::placeholder{
+    font-size: 20px;
+}
+
+.busca-dor{
+    padding-top: 10px;
 }
 
 
@@ -75,14 +103,15 @@ a .logo_menu{
     vertical-align: top;
     width: 60%;
     padding: 7px;
-    padding-top: 10px;
+    padding-top: 12px;
+    margin-top: 15px;
 }
 
 .lupa{
-    margin-top: 2px;
+    margin-top: 17px;
     margin-left: -55px;
     margin-right: 10px;
-    background-color: #fff;
+    background-color: #eaffcb;
     border: none;
     font-size: 12px;
     color: rgba(93, 93, 89, 0.402);
@@ -95,9 +124,8 @@ a .logo_menu{
 
 .user i{
     color: #000000;
-    padding-top: 7px;
-    padding-left: 25px;
-    padding-right: 10px;
+    padding-top: 18px;
+    padding-left: 20px;
 }
 
 .user i:hover{
@@ -105,9 +133,23 @@ a .logo_menu{
     
 }
 
+.hambur i{
+    color: #000000;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 15px;
+    
+}
+
+.hambur i:hover{
+    color: #977878;
+}
+
+
+
 .carrito i{
-    color: #ff0000;
-    padding-top: 7px;
+    color: #000000;
+    padding-top: 18px;
     padding-left: 10px;
     padding-right: 15px;
 }
@@ -125,9 +167,9 @@ a .logo_menu{
 
 .list-servicio{
     font-weight: bold;
-    font-size: 18px;
+    font-size: 10px;
     text-align: center;
-    margin-top: -90px;
+    margin-top: -80px;
 }
 
 .list-servicio li{
@@ -136,27 +178,44 @@ a .logo_menu{
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
+    font-size: 15px;
+    
 }
 
 .list-servicio li a{
     color: #0c5a7b;
-    border: 1px solid rgb(0, 187, 255);
     border-radius: 12px;
-    background-color: rgb(0, 187, 255);
     padding-bottom: 10px;
     opacity: .8;
+    text-decoration: none;
+    
 }
 
-.list-servicio li a:hover{
+.list-servicio li:hover{
     color: #0015ff;
     text-decoration: underline;
     border-bottom: 2px solid #fff;
     opacity: .6;
     border-radius: 15px;
+    text-decoration: none;
+    background-color: rgb(174, 212, 227);
+}
+
+.burgg a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.burgg i{
+    display: block;
 }
 
 
 
+/*******************************************************************************************
+******************************************************************************************
+*******************************************************************************************/
 
 
 
@@ -193,7 +252,7 @@ a .logo_menu{
 .button-form{
     background-color: #39b54a;
     color: #ffffff;
-    border:solid
+    border:solid;
     font-size: 20px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -282,127 +341,318 @@ width: 100%
 
 
 
+/*******************************************************************************************
+******************************************************************************************
+*******************************************************************************************/
+
+
+
+/* <!-- *******************************TRABAJO LEITO************************************* --> */
+.newsletter{
+    background-color: #cdfffc;
+}
+
+.newsletter h3{
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    color: #7a7a7a;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.newsletter h3:hover{
+    font-size: 65px;
+    color: #696975;
+}
+
+.tu-mail{
+text-align: center;
+color: rgb(67, 67, 67);
+
+padding-bottom: 180px;
+}
+.tu-mail input{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(118, 118, 118);
+    border-radius: 7px;
+    opacity: .6;
+    padding: 5px;
+    font-weight: lighter;
+}
+
+.tu-mail input::placeholder{
+    color: rgb(84, 55, 55);
+    font-size: 18px;
+    font-style: italic;
+}
+
+ .newsletter h2 .boton-enviar{
+    background-color: rgb(166, 172, 173);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    color: rgb(73, 73, 237);
+    font-weight: bold;
+    
+
+}
+
+.newsletter h2 .boton-enviar:hover{
+    background-color: rgb(244, 175, 175);
+    color: #000000;
+}
+
+.texto-newsletter{
+    text-align: center;
+    color: #7a7a7a;
+}
+
+.tu-mail{
+    padding-bottom: 50px;
+}
+
+
+/* <!-- *******************************footer************************************* --> */
+
+.box_footer img{
+    width: 150px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+
+.box_footer p{
+    overflow: auto;
+    width: 300px;
+    height: 100px;
+    color: #595c80;
+    font-weight: bold;
+}
+
+
+.box_footer{
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+    top: 20px;
+    bottom: 20px;
+    
+}
+
+.contenedor-footer-menu{
+    justify-content: space-between; 
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.box_footer li{
+    padding-top: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.box_footer li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #595c80;
+    font-weight: bold;
+}
+
+.box_footer li a:hover{
+    border: 1px solid #7a7a7a;
+    border-radius: 9px;
+    padding: 8px;
+    background-color: #98beff;
+    color: #2c3d2a;
+}
 
 
 
 
 
 
+.box__copyright{
+    max-width: 1200px;
+    margin:auto;
+    text-align: center;
+    padding: 0px 40px;
+}
 
+p{
+    margin-top: 20px;
+    color: black;
+}
+    .box__copyright p{
+        margin-top: 100p0x;
+        color:black;
 
-
-
-
-
-
-
-
-@media (max-width: 1000px){
-    .articulos{            
-        grid-template-columns: repeat(4, 1fr);
+    }
+   hr{
+        border:none;
+        height: 1px;
+        background-color: black;
     }
 
-    .list-servicio li{
-        display: none;
-        
-    }
 
-    .box_footer p{
-        width: 400px;
-        height: 100px;
-        
-    }
 
+/* ************************************MEDIA QUERY******************************************** */
 
     
 
 
-}
+    @media(min-width: 1200px){
+        .hambur i{
+            display: none;
+        }
 
-@media (max-width: 800px){
-
-    .articulos{
         
-        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media(min-width:648px){
+        .burgg i{
+            display: none;
+        }
     }
 
     
+    @media (max-width: 1200px){
+        .list-servicio li{
+            display: block;  
+            
+        }
 
-}
+        .user i{
+            display: none;
+        }
+        .carrito i{
+            display: none;
+        }
+           
 
-@media(max-width: 648px){
-    .hambur i{
-        display: none;            
+        .contenedor-footer-menu{
+            display: inline-block;
+            text-align: center;
+            text-decoration: none;
+        }
+
     }
-    .burgg i{
-        display: block;
-    }
-
-
-}
 
 
 
-@media (max-width: 600px){
 
-    .articulos{
+
+
+    @media (max-width: 1000px){
+        .articulos{            
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .list-servicio li{
+            display: none;
+            
+        }
+
+        .box_footer p{
+            width: 400px;
+            height: 100px;
+            
+        }
+
+
         
-        grid-template-columns: repeat(2, 1fr);
+
+
     }
 
-    .box_footer p{
-        width: 300px;
-        height: 100px;
-        text-align: center;
-        
-    }
-}
+    @media (max-width: 800px){
 
-@media (max-width: 400px){
+        .articulos{
+            
+            grid-template-columns: repeat(3, 1fr);
+        }
 
-    .articulos{
         
-        grid-template-columns: repeat(1, 1fr);
+
     }
 
-    .box_footer p{
-        width: 200px;
-        height: 100px;
-        text-align: center;
-        
-    }
-}
+    @media(max-width: 648px){
+        .hambur i{
+            display: none;            
+        }
+        .burgg i{
+            display: block;
+        }
 
-@media (max-width: 351px){
 
-    .articulos{
-        
-        grid-template-columns: repeat(1, 1fr);
     }
 
-    .head-nav a, .head-nav input[type=text] {
-        
-        width: 40%;
-        
+   
+
+    @media (max-width: 600px){
+
+        .articulos{
+            
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .box_footer p{
+            width: 300px;
+            height: 100px;
+            text-align: center;
+            
+        }
     }
 
-    .newsletter h3{
-        font-size: 40px;
-        
+    @media (max-width: 400px){
+
+        .articulos{
+            
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .box_footer p{
+            width: 200px;
+            height: 100px;
+            text-align: center;
+            
+        }
     }
 
-    .tu-mail input{
-        font-size: 15px;
-        
+    @media (max-width: 351px){
+
+        .articulos{
+            
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .head-nav a, .head-nav input[type=text] {
+            
+            width: 40%;
+            
+        }
+
+        .newsletter h3{
+            font-size: 40px;
+            
+        }
+
+        .tu-mail input{
+            font-size: 15px;
+            
+        }
+
+        .box_footer p{
+            width: 180px;
+            height: 100px;
+            text-align: center;
+            
+        }
+
     }
-
-    .box_footer p{
-        width: 180px;
-        height: 100px;
-        text-align: center;
-        
-    }
-
-}
-
 

@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Oswald:wght@200;300;400&family=Sen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/inicio.css">
     <link rel="stylesheet" href="css/login.css">
     <script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/img/logo.png">
@@ -24,8 +23,8 @@
                     <a href="inicio.html" target="_blank"><img class="logo_menu" src="/img/logo.png" alt="Volver al Inicio" title="Volver al Inicio"></a>
                     <input type="text" placeholder="Buscar productos recetas y más... "> <button class="lupa"><i class="fa fa-search fa-2x"></i></button>
                     <a class="hambur"  href="#"> <i class="fa-solid fa-bars fa-2x"></i> </a>
-                    <a class="user" href="/login" target="_blank"> <i class="fa-solid fa-user fa-2x" alt="Ingresa a tu Cuenta" title="Ingresa a tu Cuenta"></i></a>
-                    <a class="user" href="/login" target="_blank"> <i class="fa-regular fa-user fa-2x" alt="Crear Cuenta" title="Crear Cuenta"></i> </a>
+                    <a class="user" href="/login" target="_blank"> <i class="fa-solid fa-user fa-2x" alt="Login" title="Login"></i></a>
+                    <a class="user" href="/register" target="_blank"> <i class="fa-regular fa-user fa-2x" alt="Register" title="Register"></i> </a>
                     <a class="carrito" href="#" target="_blank"> <i class="fa-solid fa-cart-shopping fa-2x" alt="Tu Carrito de Compras" title="Tu Carrito de Compras"></i> </a>
                 </div>
             </div>
@@ -48,7 +47,7 @@
     <hr>
 
 
-    <!-- ***********************************************************************************************
+<!-- ***********************************************************************************************
 ***********************************************************************************************
 ***********************************************************************************************
 ***********************************************************************************************
@@ -56,26 +55,36 @@
 
 
 
-<body>					
-<header>Iniciar Sesión</header>					
-<h4>Comprá en Nuestra Huerta y llevá el control de tus pedidos en forma rápida</h4>					
-<form action="/" method="get" class= "create-form">					
-		
-<div class="cont-form"></div>    
-<div class="control-formulario"> 					
-<label>Email</label>					
-<input type:"text" name: "mail" placeholder="ej: josepepin@hotmail.com" class="button4" required> 					
-</div>					
-<div class="control-formulario"> 					
-<label>Contraseña</label>					
-<input type="password" name="pass" placeholder="Elegí tu contraseña" class="button4">
-</div>					
-<br> 					
-					
-<button type="submit" class="button3">Iniciar Sesión</button>				
-</div>	
-</form> 				
-<br>
+    <body>
+        <div class="todo">
+            <div class="iniciar-sesion">Iniciar Sesión</div>
+                            
+            <!-- <header>Iniciar Sesión</header>					 -->
+            <h4 class="compra">Comprá en Nuestra Huerta y llevá el control de tus pedidos en forma rápida</h4>					
+            <form action="/" method="get" class= "create-form">					
+            
+            <div class="cont-form"></div>    
+            <div class="control-formulario"> 				
+                <label class="email">Email</label>					
+                <input type= "text" name= "mail" placeholder="ej: josepepin@hotmail.com" class="button4" required> 					
+            </div>					
+            <div class="control-formulario"> 					
+            <label>Contraseña</label>					
+            <input type="password" name="pass" placeholder="Elegí tu contraseña" class="button4">
+            </div>					
+            <br> 					
+                                
+            <button type="submit" class="button3">Iniciar Sesión</button>				
+            </div>	
+            </form> 
+        </div>				
+            <br>
+
+    </body>
+
+
+
+
 
 <!-- ***********************************************************************************************
 ***********************************************************************************************
