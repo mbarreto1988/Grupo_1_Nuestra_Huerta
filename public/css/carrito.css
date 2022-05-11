@@ -218,6 +218,17 @@ a .logo_menu:hover{
     align-items: center;
    justify-content: center
 }; */
+
+.form1 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 table{
     justify-content: space-between;
     
@@ -234,19 +245,25 @@ table{
     table tr td img{
         width: 150px;
         padding-right: 20px;
-        margin-left:20px ;
-        }
+        margin:center ;
+    }
+
+    table tr td {
+        text-align: center;
+        margin:center ;
+    }
+
     .boton-suma-resta{
         display: flex;
         flex-direction: row;
-        background: red;
+        
     }
 
 .sum{
 width: 40px;
 height: 40px;
-background-color:red;
-color: white;
+background-color: #ecffcd;
+color: black;
 align-items: center;
 text-align: center;
 padding-top: 7px;
@@ -656,6 +673,3 @@ border-color: black;
 .divisor{
     margin-top: 15px;
 } */
-
-
-
