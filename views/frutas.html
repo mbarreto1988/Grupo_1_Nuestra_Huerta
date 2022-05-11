@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Oswald:wght@200;300;400&family=Sen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/inicio.css">
-    <script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/producto.css">
+       <script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/img/logo.png">
     <title>Nuestra Huerta</title>
 
@@ -23,8 +24,8 @@
                     <a href="inicio.html" target="_blank"><img class="logo_menu" src="/img/logo.png" alt="Volver al Inicio" title="Volver al Inicio"></a>
                     <input type="text" placeholder="Buscar productos recetas y más... "> <button class="lupa"><i class="fa fa-search fa-2x"></i></button>
                     <a class="hambur"  href="#"> <i class="fa-solid fa-bars fa-2x"></i> </a>
-                    <a class="user" href="/login" target="_blank"> <i class="fa-solid fa-user fa-2x" alt="Login" title="Login"></i></a>
-                    <a class="user" href="/register" target="_blank"> <i class="fa-regular fa-user fa-2x" alt="Register" title="Register"></i> </a>
+                    <a class="user" href="/login" target="_blank"> <i class="fa-solid fa-user fa-2x" alt="Ingresa a tu Cuenta" title="Ingresa a tu Cuenta"></i></a>
+                    <a class="user" href="/login" target="_blank"> <i class="fa-regular fa-user fa-2x" alt="Crear Cuenta" title="Crear Cuenta"></i> </a>
                     <a class="carrito" href="#" target="_blank"> <i class="fa-solid fa-cart-shopping fa-2x" alt="Tu Carrito de Compras" title="Tu Carrito de Compras"></i> </a>
                 </div>
             </div>
@@ -54,7 +55,7 @@
 *********************************************************************************************** -->
 
 
-    <!-- ********************************BANNER********************************* -->
+<!-- ********************************BANNER********************************* 
     <section>
         <div class="banner">
             <H2>Conoce nuestros campos!!</H2>
@@ -62,114 +63,83 @@
                 bienestar y la de tu familia</p>
             <a href="#" class="btn">Conoce <i class="fas fa-chevron-right"></i></a>
         </div>
-        <br>
+        <br>-->
         <!-- ******************************SUB_TITULO*************************************** -->
         <div class="sub_titulo">
-            <a href="#"> <h2>Lo Más Destacado</h2> </a>
+            <a href="#"> <h2 class="categoria">Frutas Orgánicas</h2></a>
         </div>
         <br>
         <!-- *******************************ARTICULOS_UNO************************************* -->
         <div class="articulos">
-            <article>
-                <a href="/bananas" target="_blank"><img class="imagenes_copadas" src="img/banana.jpg" alt="Frutas"></a>
-                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
+             <article>
+                <a href="bananas"><img class="imagenes_copadas" src="img/banana.jpg" alt="Frutas">
+                <figcaption class="enlacesproductos"> <h2 class="productos">Banana ecuador x 6 ud</h2> <br> <h2 class="productos">$320</h2> <br> <button class="alcarrito"> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </a>    
+            </article>
 
             <article>
-                <a href="/mandarina" target="_blank"><img src="img/mandarina1.jpg" alt="verduras"></a>
-                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
+                <a href="mandarina"><img src="img/mandarina.jpg" alt="Frutas">
+                <figcaption class="enlacesproductos"> <h2 class="productos">Mandarina Orgánica x Kg</h2> <br> <h2 class="productos">$220</h2> <br> <button class="alcarrito"> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </a>    
+            </article>
 
             <article>
-                <a href="/kiwi" target="_blank"><img src="img/kiwi1.jpg" alt="Frutas"></a>
-                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
+                <a href="kiwi"><img src="img/kiwi.jpg" alt="Frutas">
+                <figcaption class="enlacesproductos"> <h2 class="productos">Kiwi Orgánico x Kg</h2> <br> <h2 class="productos">$700</h2> <br> <button class="alcarrito"> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </a>    
+            </article>
 
             <article>
-                <a href="/limon" target="_blank"><img src="img/limon1.jpg" alt="verduras"></a>
-                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-            <article>
-                <a href="/brocoli" target="_blank"><img src="img/banana1.jpg" alt="Frutas"></a>
-                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-            <article>
-                <a href="/champignon" target="_blank"><img src="img/imagen de verduras.jpg" alt="verduras"></a>
-                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-            <article>
-                <a href="/lechuga" target="_blank"><img src="img/imagen de frutas.jpg" alt="Frutas"></a>
-                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-            <article>
-                <a href="/papa" target="_blank"><img src="img/imagen de verduras.jpg" alt="verduras"></a>
-                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
+                <a href="limon"><img src="img/limon.jpg" alt="Frutas">
+                <figcaption class="enlacesproductos"> <h2 class="productos">Limón Orgánico x Kg</h2> <br> <h2 class="productos">$210</h2> <br> <button class="alcarrito"> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </a>    
+            </article>
+        </div>
             <br>
         </div>
         
     </section>
- <!-- ******************************SUB_TITULO*************************************** -->
+ <!-- ******************************SUB_TITULO*************************************** 
  <div class="sub_titulo">
     <a href="#"> <h2>Ofertas</h2> </a>
 </div>
-<br>
-    <!-- *******************************SECCION_DOS************************************* -->
+<br>-->
+    <!-- *******************************SECCION_DOS************************************* 
             <div class="articulos">
-
-                <article>
-                    <a href="#" target="_blank"></a><img src="img/Rucula.png" alt="Lechuga" class="product_img">
-                    <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-                <article>
-                    <a href="#" target="_blank"></a><img src="img/Rucula.png" alt="Rucula" class="product_img">
-                    <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-                <article>
-                    <a href="#" target="_blank"></a><img src="img/papa-blanca.png" alt="Papa Blanca" class="product_img">
-                    <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-                <article>
-                    <a href="#" target="_blank"></a><img src="img/Batatas.png" alt="Batatas" class="product_img">
-                    <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-                <article>
-                    <a href="#" target="_blank"></a><img src="img/Tomate.jpg" alt="Tomate" class="product_img">
-                    <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-                <article>
-                    <a href="#" target="_blank"></a><img src="img/Batatas.png" alt="Batatas" class="product_img">
-                    <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-
-                <article>
-                    <a href="#" target="_blank"></a><img src="img/Tomate.jpg" alt="Tomate" class="product_img">
-                    <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-                
-                <article>
-                    <a href="#" target="_blank"></a><img src="img/Tomate.jpg" alt="Tomate" class="product_img">
-                    <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
-                </article>
-            </div>  
-
-<!-- ***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-*********************************************************************************************** -->
-
-
-
+            <article>
+                <a href="#"></a><img src="img/Rucula.png" alt="Lechuga" class="product_img">
+                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </article>
+            <article>
+                <a href="#"></a><img src="img/Rucula.png" alt="Rucula" class="product_img">
+                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </article>
+                       <article>
+                <a href="#"></a><img src="img/papa-blanca.png" alt="Papa Blanca" class="product_img">
+                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </article>
+            <article>
+                <a href="#"></a><img src="img/Batatas.png" alt="Batatas" class="product_img">
+                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </article>
+            <article>
+                <a href="#"></a><img src="img/Tomate.jpg" alt="Tomate" class="product_img">
+                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </article>
+            <article>
+                <a href="#"></a><img src="img/Batatas.png" alt="Batatas" class="product_img">
+                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </article>
+            <article>
+                <a href="#"></a><img src="img/Tomate.jpg" alt="Tomate" class="product_img">
+                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </article>
+            <article>
+                <a href="#"></a><img src="img/Tomate.jpg" alt="Tomate" class="product_img">
+                <figcaption> <h2>Producto 2</h2> <br> <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" /> </svg></button> </figcaption>
+            </article>
+                   </div>  -->
+     
      <!-- **************************Newsletter************************************** -->
      <br>
      <hr class="principio-footer">   

@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&family=Oswald:wght@200;300;400&family=Sen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/inicio.css">
-    <script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/producto.css">
+       <script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/img/logo.png">
     <title>Nuestra Huerta</title>
 
@@ -23,8 +24,8 @@
                     <a href="inicio.html" target="_blank"><img class="logo_menu" src="/img/logo.png" alt="Volver al Inicio" title="Volver al Inicio"></a>
                     <input type="text" placeholder="Buscar productos recetas y más... "> <button class="lupa"><i class="fa fa-search fa-2x"></i></button>
                     <a class="hambur"  href="#"> <i class="fa-solid fa-bars fa-2x"></i> </a>
-                    <a class="user" href="/login" target="_blank"> <i class="fa-solid fa-user fa-2x" alt="Login" title="Login"></i></a>
-                    <a class="user" href="/register" target="_blank"> <i class="fa-regular fa-user fa-2x" alt="Register" title="Register"></i> </a>
+                    <a class="user" href="/login" target="_blank"> <i class="fa-solid fa-user fa-2x" alt="Ingresa a tu Cuenta" title="Ingresa a tu Cuenta"></i></a>
+                    <a class="user" href="/login" target="_blank"> <i class="fa-regular fa-user fa-2x" alt="Crear Cuenta" title="Crear Cuenta"></i> </a>
                     <a class="carrito" href="#" target="_blank"> <i class="fa-solid fa-cart-shopping fa-2x" alt="Tu Carrito de Compras" title="Tu Carrito de Compras"></i> </a>
                 </div>
             </div>
@@ -53,44 +54,63 @@
 ***********************************************************************************************
 *********************************************************************************************** -->
 
+    <!-- ********************************BANNER********************************* 
+    <section>
+        <div class="banner">
+            <H2>Conoce nuestros campos!!</H2>
+            <p>Las mejores y mas frescas cosechas, sembrado con todas las normas y cuidados priorizando siempre tu
+                bienestar y la de tu familia</p>
+            <a href="#" class="btn">Conoce <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <br>-->
+    <!-- ******************************SUB_TITULO*************************************** -->
+    <div class="sub_titulo">
+        <a href="frutas">
+            <h2 class="categoria">Frutas / Limón</h2>
+        </a>
+    </div>
+    <br>
+    <!-- *******************************ARTICULOS_UNO************************************* -->
+    <div class="items">
+        <article class="productovta">
+            <a href="#"><img class="foto_productos" src="img/limon.jpg" width="192" height="128" alt="Verduras"></a>
+            <figcaption class="enlacesproductos">
+                <h2 class="productos">Limón Orgánico x Kg</h2> <br>
+                <h2 class="precio">$210,00</h2><h3 class="impuestos">Impuestos incluidos</h3> 
+                <br> 
+                <h2 class="stock"><i class="fa-solid fa-check"></i> En existencia</h2>
+                <h2 class="origen">Origen: Misiones Aires, Argentina</h2>
+                <button class="alcarrito"> <i class="fas fa-chevron-right"></i> Agregar al Carrito <svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-cart-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg></button>
+            </figcaption>
+            </a>    
+            </article>
+            <br>       
+        </div>
+        <div class="agregoprod">
+            <div class="cant-prod-todo">
+                <span class="control-label">Cantidad</span>
+                <div class="cant-prod-nro">
+                    <div class="cantidad">
+                <div class="input-group">
+                        <button class="qty" type="button">-</button>
+                        <input type="text" name="qty" id="quantity_wanted"
+                        value="1" class="input-group form-control" min="0" style="display: block;">
+                            <button class="qty" type="button">+</button>
+                
+                       </div>
+                    </div>
+                </div>
 
-        <main class="register">
-            <form action="/" method="get">
-                <br>
-                <input type="text" name="name" placeholder="Ej. José Pepin" class="button4">
-                <br>
-                <br>
-                <input type="email" name="email" placeholder="Ej. josepepin@hotmail.com" required class="button4">
-                <br>
-                <br>
-                <input type="number" name="telefono" placeholder="Ej. 1155550000" required class="button4">
-                <br>
-                <br>
-                <input type="password" name="pass" placeholder="Elegí tu contraseña" class="button4">
-                <br>
-                <br>
-                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña" class="button4">
-                <br>
-                <br>
-                <input type="submit" value="Enviar" class="button3">
-                <br>
-                <br>
-                <input type="reset" value="Borrar" class="button3">
-                <br>
-                <br>
-            </form>
-        </main>
+        
 
-
-
-
-<!-- ***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-***********************************************************************************************
-*********************************************************************************************** -->
-
-
+    </div>
+</div>
+    
 
      <!-- **************************Newsletter************************************** -->
      <br>
