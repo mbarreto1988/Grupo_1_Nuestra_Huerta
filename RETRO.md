@@ -39,5 +39,4 @@ Enfocados en la metodología Estrella de Mar:
 4. Dejar de hacer:
 • Cosas que no esten enfocadas a los pedidos de entregables de cada Sprint, salvo que nos sobre el tiempo.
 
-5. Empezar a hacer:
-• Weeklies y Pair programming.
+5. Empezar a hacer: daily/weekly + Pair Programming
