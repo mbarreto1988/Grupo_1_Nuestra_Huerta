@@ -5,6 +5,7 @@ const carritoRouter = require("./routers/carrito");
 const loginRouter = require("./routers/login");
 const registerRouter = require("./routers/register");
 const bananasRouter = require("./routers/bananas");
+const formProdRouter = require("./routers/formProd");
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.use("/carrito",carritoRouter);
 app.use("/login",loginRouter);
 app.use("/register",registerRouter);
 app.use("/bananas",bananasRouter);
+app.use("/formProd",formProdRouter);
 
 const port = process.env.PORT || 3000;
 app.listen(port, ()=>{

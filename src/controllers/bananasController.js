@@ -5,6 +5,10 @@ const controlador = {
     inicio : (req, res) => {
         res.sendFile(path.resolve('src/views/bananas.html'))
     },
+    // detalle : (req, res) => {
+    //     res.sendFile(path.resolve('src/views/bananas.html'))
+    // },
+
 }
 
 module.exports = controlador;
