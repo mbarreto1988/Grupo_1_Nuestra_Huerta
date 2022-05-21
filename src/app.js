@@ -1,27 +1,45 @@
 const express = require('express');
 
-const inicioRouter = require("./routers/inicio");
-const carritoRouter = require("./routers/carrito");
-const loginRouter = require("./routers/login");
-const registerRouter = require("./routers/register");
-const bananasRouter = require("./routers/bananas");
-const formProdRouter = require("./routers/formProd");
+const app = express(); // se requiere la libreria nativa express
 
-const app = express();
+const path = require ('path'); //se requiere la libreria nativa path
 
-app.use(express.static('public'));
+const mainRouter = require ('./routers/mainRoutes'); //se requiere las rutas con las carpetas
 
-app.use("/",inicioRouter);
-app.use("/carrito",carritoRouter);
-app.use("/login",loginRouter);
-app.use("/register",registerRouter);
-app.use("/bananas",bananasRouter);
-app.use("/formProd",formProdRouter);
+app.set('view engine', "ejs"); //aca se configura el ejs para hacer la extension en los html
 
-const port = process.env.PORT || 3000;
-app.listen(port, ()=>{
-    console.log('Servidor iniciado en el puerto: ' + port);
-    });
+app.set('views', path.resolve(__dirname, '../src/views'));
+
+app.use(express.static('public')); //aca se hace que la carpeta public sea publica
+
+app.use('/', mainRouter)
+
+app.listen(3000, () => { console.log('Servidor arriba en el puerto 3000 👌');}) //aca se crea la direccion del localHost
+
+// const inicioRouter = require("./routers/inicio");
+// const carritoRouter = require("./routers/carrito");
+// const loginRouter = require("./routers/login");
+// const registerRouter = require("./routers/register");
+// const bananasRouter = require("./routers/bananas");
+// const formProdRouter = require("./routers/formProd");
+
+// const app = express();
+
+// app.use(express.static('public'));
+
+// app.set('view engine', "ejs"); //aca se configura el ejs para hacer la extension en los html
+
+// app.use("/",inicioRouter);
+// app.use("/carrito",carritoRouter);
+// app.use("/login",loginRouter);
+// app.use("/register",registerRouter);
+// app.use("/bananas",bananasRouter);
+// app.use("/formProd",formProdRouter);
+
+// const port = process.env.PORT || 3000;
+// app.listen(port, ()=>{
+//     console.log('Servidor iniciado en el puerto: ' + port);
+//     });
 
 
 

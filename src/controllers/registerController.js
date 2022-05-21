@@ -1,10 +1,10 @@
-const path = require('path')
+// const path = require('path')
 
-const controlador = {
+// const controlador = {
   
-    inicio : (req, res) => {
-        res.sendFile(path.resolve('src/views/register.html'))
-    },
-}
+//     inicio : (req, res) => {
+//         res.sendFile(path.resolve('src/views/register.html'))
+//     },
+// }
 
-module.exports = controlador;
+// module.exports = controlador;

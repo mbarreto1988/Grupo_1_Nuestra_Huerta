@@ -1,9 +1,9 @@
-const express = require("express");
+// const express = require("express");
 
-const carritoController = require("../controllers/carritoController");
+// const carritoController = require("../controllers/carritoController");
 
-const router = express.Router();
+// const router = express.Router();
 
-router.get("/", carritoController.inicio);
+// router.get("/", carritoController.inicio);
 
-module.exports = router;
+// module.exports = router;

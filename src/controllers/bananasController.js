@@ -1,14 +1,14 @@
-const path = require('path')
+// const path = require('path')
 
-const controlador = {
+// const controlador = {
   
-    inicio : (req, res) => {
-        res.sendFile(path.resolve('src/views/bananas.html'))
-    },
-    // detalle : (req, res) => {
-    //     res.sendFile(path.resolve('src/views/bananas.html'))
-    // },
+//     inicio : (req, res) => {
+//         res.sendFile(path.resolve('src/views/bananas.html'))
+//     },
+//     // detalle : (req, res) => {
+//     //     res.sendFile(path.resolve('src/views/bananas.html'))
+//     // },
 
-}
+// }
 
-module.exports = controlador;
+// module.exports = controlador;

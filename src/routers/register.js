@@ -1,9 +1,9 @@
-const express = require("express");
+// const express = require("express");
 
-const registerController = require("../controllers/registerController");
+// const registerController = require("../controllers/registerController");
 
-const router = express.Router();
+// const router = express.Router();
 
-router.get("/", registerController.inicio);
+// router.get("/", registerController.inicio);
 
-module.exports = router;
+// module.exports = router;

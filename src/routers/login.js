@@ -1,9 +1,9 @@
-const express = require("express");
+// const express = require("express");
 
-const loginController = require("../controllers/loginController");
+// const loginController = require("../controllers/loginController");
 
-const router = express.Router();
+// const router = express.Router();
 
-router.get("/", loginController.inicio);
+// router.get("/", loginController.inicio);
 
-module.exports = router;
+// module.exports = router;
