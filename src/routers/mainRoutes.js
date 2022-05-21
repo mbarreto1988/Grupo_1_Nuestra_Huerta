@@ -14,7 +14,8 @@ router.get('/login', mainController.login);
 
 router.get('/register', mainController.register);
 
-router.get('/formulario-productos', mainController.formProd);
+router.get('/formProd', mainController.formProd);
+// formulario-productos
 
 
 
