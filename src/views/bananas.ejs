@@ -1,0 +1,77 @@
+<!-- head -->
+
+<%- include ('./partials/head') %>
+
+<link rel="stylesheet" href="css/producto.css">
+
+<body>
+    <!-- HEADER -->
+    <%- include ('./partials/header') %>
+
+    <br>
+    <hr>
+
+    <!-- ******************************SUB_TITULO*************************************** -->
+    <div class="sub_titulo">
+        <a href="frutas">
+            <h2 class="categoria">Frutas / Banana</h2>
+        </a>
+    </div>
+
+    <br>
+    
+    <!-- *******************************ARTICULOS_UNO************************************* -->
+
+    <div class="items">
+        <article class="productovta">
+            <a href="#"><img class="foto_productos" src="img/banana.jpg" width="192" height="128" alt="Frutas"></a>
+                <figcaption class="enlacesproductos">
+                    <h2 class="productos">Banana ecuador x 6 ud</h2> <br>
+                    <h2 class="precio">$320,00</h2><h3 class="impuestos">Impuestos incluidos</h3> 
+
+                    <br> 
+
+                    <h2 class="stock"><i class="fa-solid fa-check"></i> En existencia</h2>
+                    <h2 class="origen">Origen: Ecuador</h2>
+                    
+                    <button class="alcarrito"> <i class="fa-solid fa-cart-shopping fa-2x" alt="Tu Carrito de Compras" title="Tu Carrito de Compras"></i></button>
+                </figcaption>
+            </a>    
+        </article> 
+        <br>       
+    </div>
+
+    <div class="agregoprod">
+        <div class="cant-prod-todo">
+            <span class="control-label">Cantidad</span>
+            <div class="cant-prod-nro">
+                <div class="cantidad">
+                    <div class="input-group">
+                            
+                        <button class="qty" type="button">-</button>
+                        <form action="#">
+                            <input type="text" placeholder="">
+                        </form>
+                        <!-- <input type="text" name="qty" id="quantity_wanted" value="1" class="input-group form-control" min="0" style="display: block;"> -->
+                        <button class="qty" type="button">+</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- Newsletter -->
+     
+     <%- include ('./partials/newsletter') %>
+
+    
+    <!-- FOOTER -->
+
+    <%- include ('./partials/footer') %>
+
+
+</body>
+
+</html>

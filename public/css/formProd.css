@@ -1,0 +1,71 @@
+/*-----------------------GENERALES---------------*/
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Lato",Arial,sans-serif;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+a .logo_menu{
+    width: 120px;
+    border-radius: 50%; 
+    padding-top: -25px;
+    text-align: start;  
+    padding-bottom: 40px;
+}
+
+a .logo_menu:hover{
+    opacity: .8;
+}
+
+
+/*-----------------------GENERALES---------------*/
+/*-----------------------Formulario------------------*/
+/* .style-form{
+padding: 15px 20px;
+font-style: italic;
+} */
+.element-form{
+    margin-bottom: 15px;
+    display: block;
+}
+.element-form label{
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+
+}
+
+.label{
+    font-weight: bold;
+    color: blue;
+}
+
+.element {
+    width: 50%;
+    display: block;
+    }
+
+ .button1{
+    background-color: grey;
+    color: white;
+    border: none;
+    width: 10%;
+    font-size: 20px;
+    align-items: center;    
+    border-radius: 5px;
+
+    }
+
+    .button1:hover{
+        background-color: blue;
+    }

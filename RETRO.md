@@ -19,3 +19,24 @@ Enfocados en la metodología Estrella de Mar:
 5.	Empezar a hacer - Pon en práctica nuevas ideas que muestren potencial y puedan llevar a los equipos al éxito.
 •	Comenzar a establecer modos de decidir para avanzar (si mayoría, si consenso, si unanimidad)
 •	Hacer más reuniones cortas de puesta en común. Formato simil daily: tres veces a la semana dedicar 15 minutos a: ¿Qué hiciste ayer? ¿En qué trabajarás hoy? ¿Tienes algún obstáculo?
+
+
+Reunión de Retrospectiva del Sprint 2:
+
+En este segundo sprint nos pudimos organizar mejor que en el primero, aunque tuvimos ciertos temas de agendas con los que lidiar. Fue un trabajo empujado por el objetivo de cumplirlo y no con la organización y dedicación que esperamos de cada uno de nosotros como parte de un equipo.
+
+Enfocados en la metodología Estrella de Mar:
+
+1. Seguir haciendo: 
+• Ayudarnos a entender lo que estamos haciendo, y seguir aprendiendo a diario.
+
+2. Menos de: 
+• Quejas por falta de tiempo, o por retrazos en las prácticas individuales.
+
+3. Más de:
+• Compromiso hacia con el grupo y el proyecto, en tiempos y dedicación.
+
+4. Dejar de hacer:
+• Cosas que no esten enfocadas a los pedidos de entregables de cada Sprint, salvo que nos sobre el tiempo.
+
+5. Empezar a hacer: daily/weekly + Pair Programming
