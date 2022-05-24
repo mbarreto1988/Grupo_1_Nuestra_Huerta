@@ -65,6 +65,17 @@ a .logo_menu:hover{
     overflow: hidden;
     padding-top: 10px;
     width: 100%;
+    display: flex;
+}
+
+.head-nav form input{
+    width: 100%;;
+  
+}
+
+form{
+    width: 100%;
+    flex-grow: 1;
 }
 
 .head-nav a {
@@ -170,7 +181,9 @@ a .logo_menu:hover{
     font-size: 10px;
     text-align: center;
     margin-top: -80px;
+    height: 20px;
 }
+
 
 .list-servicio li{
     float: none;
