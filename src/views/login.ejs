@@ -1,62 +1,37 @@
 <!-- head -->
-
 <%- include ('./partials/head') %>
+<link rel="stylesheet" href="/css/login.css">
+<!-- HEADER -->
+<%- include ('./partials/header') %>
+<br>
+<hr>
 
-<link rel="stylesheet" href="css/login.css">
-
-    <!-- HEADER -->
-
-    <%- include ('./partials/header') %>
-
-    <br>
-
-    <hr>
-    
-    <body>
-        <div class="todo">
-            <div class="iniciar-sesion">Iniciar Sesión</div>
-                            
-            <h4 class="compra">Comprá en Nuestra Huerta y llevá el control de tus pedidos en forma rápida</h4>					
-            
-            <div class="form1">
-            
-                <form action="/" method="get" class= "create-form">					
-                
-                    <div class="cont-form">    
-                        <div class="control-formulario"> 
-
-                            <label class="email">Email</label>					
-                            <input type= "text" name= "mail" placeholder="ej: josepepin@hotmail.com" class="button4" required> 					
-                        
-                        </div>	
-
-                        <div class="control-formulario"> 
-
-                            <label>Contraseña</label>					
-                            <input type="password" name="pass" placeholder="Elegí tu contraseña" class="button4">
-
-                        </div>	
-
-                        <br> 			
-                                            
-                        <button type="submit" class="button3">Iniciar Sesión</button>	
-
-                    </div>	
-
-                </form> 
-            </div>		
-        </div>		
+<body>
+    <div class="todo">
+        <div class="iniciar-sesion">Iniciar Sesión</div>
+        <h4 class="compra">Comprá en Nuestra Huerta y llevá el control de tus pedidos en forma rápida</h4>
+        <div class="form1">
+            <form action="/" method="get" class="create-form">
+                <div class="cont-form">
+                    <div class="control-formulario">
+                        <label class="email">Email</label>
+                        <input type="text" name="mail" placeholder="ej: josepepin@hotmail.com" class="button4" required>
+                    </div>
+                    <div class="control-formulario">
+                        <label>Contraseña</label>
+                        <input type="password" name="pass" placeholder="Elegí tu contraseña" class="button4">
+                    </div>
                     <br>
+                    <button type="submit" class="button3">Iniciar Sesión</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br>
+    <!-- Newsletter -->
+    <%- include ('./partials/newsletter') %>
+    <!-- FOOTER -->
+    <%- include ('./partials/footer') %>
+</body>
 
-            <!-- Newsletter -->
-     
-     <%- include ('./partials/newsletter') %>
-
-    
-     <!-- FOOTER -->
- 
-     <%- include ('./partials/footer') %>
- 
-
-    </body>
 </html>
