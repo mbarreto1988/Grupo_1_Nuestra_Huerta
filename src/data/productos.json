@@ -1,0 +1,146 @@
+[
+    {
+     "id": 1,
+     "nombreProducto": "fruta",
+     "precio": 100,
+     "descuento": 10,
+     "categoria": "lo mas destacado",
+     "descripcion": "Fruta fresca.etc",
+     "imagen": "banana.jpg"
+    },
+    {
+    "id": 2,
+    "nombreProducto": "fruta",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "lo mas destacado",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "Durazno.png"
+    },
+    {
+    "id": 3,
+    "nombreProducto": "fruta",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "lo mas destacado",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "frutilla.png"
+    },
+    {
+    "id": 4,
+    "nombreProducto": "fruta",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "lo mas destacado",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "kiwi.png"
+    },
+    {
+    "id": 5,
+    "nombreProducto": "verdura",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "lo mas destacado",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "cebolla.jpg"
+    },
+    {
+    "id": 6,
+    "nombreProducto": "verdura",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "lo mas destacado",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "brocoli.jpg"
+    },
+    {
+    "id": 7,
+    "nombreProducto": "verdura",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "lo mas destacado",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "espinaca.jpg"
+    },
+    {
+    "id": 8,
+    "nombreProducto": "verdura",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "lo mas destacado",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "zanahorias.jpg"
+    },
+    {
+    "id": 9,
+    "nombreProducto": "fruta",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "ofertas",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "banana.jpg"
+    },
+    {
+    "id": 10,
+    "nombreProducto": "fruta",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "ofertas",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "Durazno.png"
+    },
+    {
+    "id": 11,
+    "nombreProducto": "fruta",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "ofertas",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "frutilla.png"
+    },
+    {
+    "id": 12,
+    "nombreProducto": "fruta",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "ofertas",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "kiwi.png"
+    },
+    {
+    "id": 13,
+    "nombreProducto": "verdura",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "ofertas",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "cebolla.jpg"
+    },
+    {
+    "id": 14,
+    "nombreProducto": "verdura",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "ofertas",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "brocoli.jpg"
+    },
+    {
+    "id": 15,
+    "nombreProducto": "verdura",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "ofertas",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "espinaca.jpg"
+    },
+    {
+    "id": 16,
+    "nombreProducto": "verdura",
+    "precio": 100,
+    "descuento": 10,
+    "categoria": "ofertas",
+    "descripcion": "Fruta fresca.etc",
+    "imagen": "zanahorias.jpg"
+    }
+]

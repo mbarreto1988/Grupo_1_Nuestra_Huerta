@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "juam",
+        "apellido": "peresz",
+        "email": "juanperez@gmail.com",
+        "contrasenia": "************",
+        "categoria": "usuario",
+        "imagen": "imagen"
+    },
+    {
+        "id": 1,
+        "nombre": "juam",
+        "apellido": "peresz",
+        "email": "juanperez@gmail.com",
+        "contrasenia": "************",
+        "categoria": "usuario",
+        "imagen": "imagen"
+    },
+    {
+        "id": 1,
+        "nombre": "juam",
+        "apellido": "peresz",
+        "email": "juanperez@gmail.com",
+        "contrasenia": "************",
+        "categoria": "usuario",
+        "imagen": "imagen"
+    },
+    {
+        "id": 1,
+        "nombre": "juam",
+        "apellido": "peresz",
+        "email": "juanperez@gmail.com",
+        "contrasenia": "************",
+        "categoria": "usuario",
+        "imagen": "imagen"
+    }
+]
