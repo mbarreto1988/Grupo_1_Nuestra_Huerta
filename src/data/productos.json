@@ -141,13 +141,13 @@
     },
     {
     "id": 15,
-    "nombreProducto": "limón",
-    "precio": 210.00,
+    "nombreProducto": "zapallo kabutia",
+    "precio": 230.00,
     "descuento": 10,
-    "categoria": "frutas",
-    "sección": "destacados del mes",
-    "descripcion": "Limón tucumano x kg",
-    "imagen": "limon1.jpg"
+    "categoria": "verduras",
+    "sección": "nuestras verduras",
+    "descripcion": "Zapallo Kabutia x 1,5 kg aprox",
+    "imagen": "zapallo kabutia.jpg"
     },
     {
     "id": 16,
@@ -178,5 +178,35 @@
     "sección": "nuestras verduras",
     "descripcion": "Zapallo Anco (chico) x 1,2 kg aprox",
     "imagen": "zapallo anco.jpg"
+    },
+    {
+    "id": 19,
+    "nombreProducto": "Bolsón Nuestra Huerta Verduras",
+    "precio": 1360.00,
+    "descuento": 10,
+    "categoria": "verduras",
+    "sección": "bolsones y promos",
+    "descripcion": "Este bolsón incluye: 1 kg Papa blanca, 1 kg Zapallo anco, 1/2 kg Cebolla Común, 1 kg Batata, 2 atados de Espinaca y 400 g de Champignón",
+    "imagen": "combo verduras.png"
+    },
+    {
+    "id": 20,
+    "nombreProducto": "Bolsón Nuestra Huerta Frutas",
+    "precio": 1250.00,
+    "descuento": 10,
+    "categoria": "frutas",
+    "sección": "bolsones y promos",
+    "descripcion": "Este bolsón incluye: 1 kg Manzana Roja, 1 kg Naranja, 6 Bananas, 1 kg Kiwi, 1 kg Pomelo Rojo y 1 kg Pera",
+    "imagen": "combo frutas.png"
+    },
+    {
+    "id": 21,
+    "nombreProducto": "Bolsón Nuestra Huerta Combinado",
+    "precio": 1350.00,
+    "descuento": 10,
+    "categoria": "mixto",
+    "sección": "bolsones y promos",
+    "descripcion": "Este bolsón incluye: 1 kg Manzana Roja, 1 kg Naranja, 6 Bananas, 1 kg Kiwi, 1/2 kg Cebolla Común, 1 kg Batata, 2 atados de Espinaca y 400 g de Champignón",
+    "imagen": "combo mixto.png"
     }
 ]
