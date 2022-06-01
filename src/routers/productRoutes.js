@@ -2,7 +2,12 @@ const express = require('express');
 const productController = require('../controllers/productController');
 const router = express.Router();
 
+
 router.get('/create', productController.formProd);
+router.get('/:id/detail', productController.detail);
+
+
+
 router.get('/detalleProducto_bananas', productController.bananas);
 router.get('/detalleProducto_kiwi', productController.kiwi);
 router.get('/detalleProducto_brocoli', productController.brocoli);

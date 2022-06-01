@@ -20,17 +20,21 @@
         <section>
 
             <div class="articulos">
+                <% products.forEach(cualquierNombre => { %>
+              
                 <article>
-                    <a href="/product/detalleProducto_bananas" target="_blank"><img class="imagenes_copadas" src="img/banana.jpg"
-                            alt="Frutas"></a>
+                    <a href="/product/<%= cualquierNombre.id %>/detail" target="_blank">
+                        <img class="imagenes_copadas" src="img/<%= cualquierNombre.imagen%>" alt="Frutas">
+                    </a>
                     <figcaption>
-                        <h2>Producto 2</h2> <br>
-                        <h2>$4000</h2> <br> <button> <i class="fas fa-chevron-right"></i><i
+                        <h2><%= cualquierNombre.nombreProducto%></h2> <br>
+                        <h2>$<%= cualquierNombre.precio%></h2> <br> <button> <i class="fas fa-chevron-right"></i><i
                                 class="fas fa-chevron-right"></i> Agregar al Carrito <i
                                 class="fa-solid fa-cart-shopping"></i></button>
                     </figcaption>
                 </article>
-                <article>
+                <% }) %>
+                <!-- <article>
                     <a href="/product/detalleProducto_mandarina" target="_blank"><img src="img/mandarina1.jpg" alt="verduras"></a>
                     <figcaption>
                         <h2>Producto 2</h2> <br>
@@ -96,16 +100,16 @@
                 <br>
             </div>
 
-        </section>
+        </section> -->
         <!-- SUB_TITULO -->
-        <div class="sub_titulo">
+        <!-- <div class="sub_titulo">
             <a href="#">
                 <h2>Ofertas</h2>
             </a>
         </div>
-        <br>
+        <br> -->
         <!-- SECCION_DOS -->
-        <section>
+        <!-- <section>
             <div class="articulos">
                 <article>
                     <a href="#" target="_blank"> <img src="img/Rucula.png" alt="Lechuga" class="product_img"> </a>
@@ -179,7 +183,7 @@
                                 class="fas fa-chevron-right"></i> Agregar al Carrito <i
                                 class="fa-solid fa-cart-shopping"></i></button>
                     </figcaption>
-                </article>
+                </article> -->
             </div>
         </section>
     </main>
