@@ -14,7 +14,7 @@ const userRouter = require ('./routers/userRoutes');
 
 app.set('view engine', "ejs"); //aca se configura el ejs para hacer la extension en los html
 
-app.set('views', path.resolve(__dirname, '../src/views'));
+app.set('views', path.resolve(__dirname, '../src/views')); //para acceder a la carpeta views
 
 app.use(express.static('public')); //aca se hace que la carpeta public sea publica
 
