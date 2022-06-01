@@ -5,7 +5,10 @@ const router = express.Router();
 
 router.get('/create', productController.formProd);
 router.get('/:id/detail', productController.detail);
-
+/*** CREATE ONE PRODUCT ***/ 
+router.get('/create', productController.create); 
+router.get('/product-create-form', productController.create);
+// router.post('/create', upload.single("image"), productController.store); 
 
 
 router.get('/detalleProducto_bananas', productController.bananas);

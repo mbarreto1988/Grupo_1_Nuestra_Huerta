@@ -14,6 +14,11 @@ const controller = {
         res.render('productDetail', {product});
     },
 
+    // Create - Form to create
+	create: (req, res) => {
+		const product = products.find (element => element.id == req.params.id)
+		res.render("product-create-form", {product})
+	},
 //esto ya no se va a usar porque es solo una vista de Detail
 
         bananas: (req,res) => {
