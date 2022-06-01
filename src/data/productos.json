@@ -184,8 +184,8 @@
     "nombreProducto": "Bolsón Nuestra Huerta Verduras",
     "precio": 1360.00,
     "descuento": 10,
-    "categoria": "verduras",
-    "sección": "bolsones y promos",
+    "categoria": "bolsones y promos",
+    "sección": "combos",
     "descripcion": "Este bolsón incluye: 1 kg Papa blanca, 1 kg Zapallo anco, 1/2 kg Cebolla Común, 1 kg Batata, 2 atados de Espinaca y 400 g de Champignón",
     "imagen": "combo verduras.png"
     },
@@ -194,8 +194,8 @@
     "nombreProducto": "Bolsón Nuestra Huerta Frutas",
     "precio": 1250.00,
     "descuento": 10,
-    "categoria": "frutas",
-    "sección": "bolsones y promos",
+    "categoria": "bolsones y promos",
+    "sección": "combos",
     "descripcion": "Este bolsón incluye: 1 kg Manzana Roja, 1 kg Naranja, 6 Bananas, 1 kg Kiwi, 1 kg Pomelo Rojo y 1 kg Pera",
     "imagen": "combo frutas.png"
     },
@@ -204,8 +204,8 @@
     "nombreProducto": "Bolsón Nuestra Huerta Combinado",
     "precio": 1350.00,
     "descuento": 10,
-    "categoria": "mixto",
-    "sección": "bolsones y promos",
+    "categoria": "bolsones y promos",
+    "sección": "combos",
     "descripcion": "Este bolsón incluye: 1 kg Manzana Roja, 1 kg Naranja, 6 Bananas, 1 kg Kiwi, 1/2 kg Cebolla Común, 1 kg Batata, 2 atados de Espinaca y 400 g de Champignón",
     "imagen": "combo mixto.png"
     }

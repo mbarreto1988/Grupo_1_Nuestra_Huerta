@@ -9,6 +9,7 @@ const methodOverride = require('method-override'); // Pasar poder usar los méto
 const mainRouter = require ('./routers/mainRoutes'); //se requiere las rutas con las carpetas
 const productRouter = require ('./routers/productRoutes');
 const userRouter = require ('./routers/userRoutes');
+const formProdRouter = require("./routers/productRoutes");
 
 
 
