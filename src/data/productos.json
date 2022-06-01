@@ -1,7 +1,7 @@
 [
     {
      "id": 1,
-     "nombreProducto": "banana",
+     "nombreProducto": "Banana",
      "precio": 190.00,
      "descuento": 0,
      "categoria": "frutas",
@@ -11,97 +11,97 @@
     },
     {
     "id": 2,
-    "nombreProducto": "durazno",
+    "nombreProducto": "Mandarina",
     "precio": 320.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "nuestras frutas",
-    "descripcion": "Durazno de estación",
-    "imagen": "Durazno.png"
+    "descripcion": "Mandarina de estación x kilo",
+    "imagen": "mandarina.jpg"
     },
     {
     "id": 3,
-    "nombreProducto": "frutilla",
+    "nombreProducto": "Frutilla",
     "precio": 690.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "nuestras frutas",
     "descripcion": "Frutillas x 250 g",
-    "imagen": "frutilla.png"
+    "imagen": "frutillas.png"
     },
     {
     "id": 4,
-    "nombreProducto": "kiwi",
+    "nombreProducto": "Kiwi",
     "precio": 380.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "destacados del mes",
     "descripcion": "Kiwi orgánico x 500 g",
-    "imagen": "kiwi.png"
+    "imagen": "kiwi1.jpg"
     },
     {
     "id": 5,
-    "nombreProducto": "pera",
+    "nombreProducto": "Pera",
     "precio": 270.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "destacados del mes",
-    "descripcion": "Pera Williams x kg",
+    "descripcion": "Pera Williams x kilo",
     "imagen": "pera1.jpg"
     },
     {
     "id": 6,
-    "nombreProducto": "pomelo",
+    "nombreProducto": "Pomelo",
     "precio": 230.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "nuestras frutas",
-    "descripcion": "Pomelo Rosado x kg",
+    "descripcion": "Pomelo Rosado x kilo",
     "imagen": "pomelorojo1.jpg"
     },
     {
     "id": 7,
-    "nombreProducto": "naranja",
+    "nombreProducto": "Naranja",
     "precio": 150.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "nuestras frutas",
-    "descripcion": "Naranja para jugo x kg",
+    "descripcion": "Naranja para jugo x kilo",
     "imagen": "naranja.jpg"
     },
     {
     "id": 8,
-    "nombreProducto": "manzana verde",
+    "nombreProducto": "Manzana Verde",
     "precio": 340.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "destacados del mes",
-    "descripcion": "Manzanas Verdes Granny Smith x kg",
+    "descripcion": "Manzanas Verdes Granny Smith x kilo",
     "imagen": "manzana-verde1.jpg"
     },
     {
     "id": 9,
-    "nombreProducto": "manzana roja",
+    "nombreProducto": "Manzana Roja",
     "precio": 310.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "destacados del mes",
-    "descripcion": "Manzana Pink Lady x kg",
+    "descripcion": "Manzana Pink Lady x kilo",
     "imagen": "manzana-roja1.jpg"
     },
     {
     "id": 10,
-    "nombreProducto": "limón",
+    "nombreProducto": "Limón",
     "precio": 210.00,
     "descuento": 10,
     "categoria": "frutas",
     "sección": "destacados del mes",
-    "descripcion": "Limón tucumano x kg",
+    "descripcion": "Limón tucumano x kilo",
     "imagen": "limon1.jpg"
     },
     {
     "id": 11,
-    "nombreProducto": "lechuga",
+    "nombreProducto": "Lechuga",
     "precio": 135.00,
     "descuento": 10,
     "categoria": "verduras",
@@ -111,47 +111,47 @@
     },
     {
     "id": 12,
-    "nombreProducto": "papa",
+    "nombreProducto": "Papa Blanca",
     "precio": 140.00,
     "descuento": 10,
     "categoria": "verduras",
     "sección": "nuestras verduras",
-    "descripcion": "Papa blanca x kg",
+    "descripcion": "Papa blanca x kilo",
     "imagen": "papas.jpg"
     },
     {
     "id": 13,
-    "nombreProducto": "batata",
+    "nombreProducto": "Batata",
     "precio": 120.00,
     "descuento": 10,
     "categoria": "verduras",
     "sección": "nuestras verduras",
-    "descripcion": "Batata roja x kg",
+    "descripcion": "Batata roja x kilo",
     "imagen": "batata.jpg"
     },
     {
     "id": 14,
-    "nombreProducto": "cebolla",
+    "nombreProducto": "Cebolla",
     "precio": 170.00,
     "descuento": 10,
     "categoria": "verduras",
     "sección": "nuestras verduras",
-    "descripcion": "cebolla x kg",
+    "descripcion": "Cebolla x kilo",
     "imagen": "cebolla.jpg"
     },
     {
     "id": 15,
-    "nombreProducto": "zapallo kabutia",
+    "nombreProducto": "Zapallo Kabutia",
     "precio": 230.00,
     "descuento": 10,
     "categoria": "verduras",
     "sección": "nuestras verduras",
-    "descripcion": "Zapallo Kabutia x 1,5 kg aprox",
+    "descripcion": "Zapallo Kabutia x 1,5 kilo aprox",
     "imagen": "zapallo kabutia.jpg"
     },
     {
     "id": 16,
-    "nombreProducto": "champignon",
+    "nombreProducto": "Champignon",
     "precio": 460.00,
     "descuento": 10,
     "categoria": "verduras",
@@ -161,7 +161,7 @@
     },
     {
     "id": 17,
-    "nombreProducto": "espinaca",
+    "nombreProducto": "Espinaca",
     "precio": 220.00,
     "descuento": 10,
     "categoria": "verduras",
@@ -171,12 +171,12 @@
     },
     {
     "id": 18,
-    "nombreProducto": "zapallo anco",
+    "nombreProducto": "Zapallo Anco",
     "precio": 160.00,
     "descuento": 10,
     "categoria": "verduras",
     "sección": "nuestras verduras",
-    "descripcion": "Zapallo Anco (chico) x 1,2 kg aprox",
+    "descripcion": "Zapallo Anco (chico) x 1,2 kilo aprox",
     "imagen": "zapallo anco.jpg"
     },
     {

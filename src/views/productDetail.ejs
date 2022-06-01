@@ -20,11 +20,11 @@
             <a href="/bananas"><img class="foto_productos" src="/img/<%= product.imagen %>" width="192" height="128" alt="Frutas"></a>
             <figcaption class="enlacesproductos">
                 <h2 class="productos"><%= product.descripcion %></h2> <br>
-                <h2 class="precio">$320,00</h2>
+                <h2 class="precio">$<%= product.precio %></h2>
                 <h3 class="impuestos">Impuestos incluidos</h3>
                 <br>
                 <h2 class="stock"><i class="fa-solid fa-check"></i> En existencia</h2>
-                <h2 class="origen">Origen: Ecuador</h2>
+                <!-- <h2 class="origen">Origen: Ecuador</h2> -->
                 <button class="alcarrito"> <i class="fa-solid fa-cart-shopping fa-2x" alt="Tu Carrito de Compras"
                         title="Tu Carrito de Compras"></i></button>
             </figcaption>
