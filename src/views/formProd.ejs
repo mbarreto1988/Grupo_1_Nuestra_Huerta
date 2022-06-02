@@ -16,21 +16,18 @@
         </form>
     <h2>Formulario de Carga de Productos</h2>
     <main class="register">
-        <form>
-            <!-- <div class="element-form"> -->
-                <label class="label">Categoría:</label>
-                <select name="Categoria" class="element">
-                    <option value="verduras">Verduras</option>
-                    <option value="frutas">Frutas</option>
-                    <option value="bolsones y promos">Bolsones y Promos</option>
-                </select>
-            <!-- </div> -->
-        </form>
-        <form action="/product/create" method="POST" enctype="multipart/form-data"></form>
-        <!-- <form action="/registro" method="POST" class="element-form"> -->
+        
+        <form action="/product/create" method="POST" enctype="multipart/form-data">
+            <label class="label">Categoría:</label>
+            <select name="categoria" class="element">
+                <option value="verduras">Verduras</option>
+                <option value="frutas">Frutas</option>
+                <option value="bolsones y promos">Bolsones y Promos</option>
+            </select>
+            <!-- <form action="/registro" method="POST" class="element-form"> -->
             <!-- <div class="element-form"> -->
                 <label for="Nombre del Producto">Producto:</label>
-                <input type="Text" name="producto" id="producto" class="element">
+                <input type="Text" name="nombreProducto" id="nombreProducto" class="element">
             <!-- </div> -->
             <!-- <div class="element-form"> -->
                 <label for="Precio">Precio:</label>
@@ -42,20 +39,19 @@
             <!-- </div>
             <div class="element-form"> -->
                 <label for="Sección">Sección:</label>
-                <input type="text" name="pais" class="element">
+                <input type="text" name="seccion" class="element">
             <!-- </div>
             <div class="element-form"> -->
                 <label>Subir foto del Producto:</label>
-                <input type="file" name="avatar" accept=".jpg, .png" multiple>
+                <input type="file" name="image" accept=".jpg, .png">
             <!-- </div> -->
-        </form>
-        <form action="/contact" method="POST"class="element-form">
+        
+       
             <!-- <div> -->
                 <label for="Descripcion">Descripción:</label>
                 <textarea name="comentario" class="element">Descripción del Producto</textarea>
             <!-- </div> -->
-        </form>
-        <form action="" method="">
+      
             <button type="submit" class="button1">Agregar</button>
         </form>
         <!-- <form>

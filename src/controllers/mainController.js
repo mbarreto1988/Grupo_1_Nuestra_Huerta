@@ -4,10 +4,15 @@ const fileProducts = fs.readFileSync(path.resolve("src/data/productos.json"), "u
 
 const products = JSON.parse(fileProducts);
 
+//const masVisitados = products.filter(element => element.seccion == "ppp")
+
+const masVisitados = products.filter(element => element.descuento > 15)
+
 //busca el nombre del ejs a renderizar
 const controller = {
     inicio: (req, res) => {
-        res.render('inicio', {products}); // "inicio" EJS a renderizar {products} la keyword
+        console.log(products)
+        res.render('inicio', {products: masVisitados}); // "inicio" EJS a renderizar {products} la keyword
     },
     
 
