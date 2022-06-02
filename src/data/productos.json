@@ -208,35 +208,5 @@
   "seccion": "combos",
   "descripcion": "Este bolsón incluye: 1 kg Manzana Roja, 1 kg Naranja, 6 Bananas, 1 kg Kiwi, 1/2 kg Cebolla Común, 1 kg Batata, 2 atados de Espinaca y 400 g de Champignón",
   "imagen": "combo mixto.png"
- },
- {
-  "id": 22,
-  "categoria": "verduras",
-  "nombreProducto": "ppp",
-  "precio": 11,
-  "descuento": 21,
-  "seccion": "ppp",
-  "comentario": "Descripción del Producto",
-  "imagen": "image-1654132493558.png"
- },
- {
-  "id": 23,
-  "categoria": "verduras",
-  "nombreProducto": "ppp",
-  "precio": 11,
-  "descuento": 11,
-  "seccion": "ppppppp",
-  "comentario": "Descripción del Producto",
-  "imagen": "image-1654132585358.png"
- },
- {
-  "id": 24,
-  "categoria": "frutas",
-  "nombreProducto": "ppp",
-  "precio": 11,
-  "descuento": 1111,
-  "seccion": "ppp",
-  "comentario": "Descripción del Producto",
-  "imagen": "image-1654132674117.png"
- }
-]
+ } 
+ ]
