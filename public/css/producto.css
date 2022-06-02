@@ -17,6 +17,7 @@ h2.productos {
     text-align: center;
     align-items: center;
     margin: auto;
+    text-transform: capitalize;
 }
 
 h2.precio {

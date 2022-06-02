@@ -18,15 +18,16 @@
     <main class="register">
         <form>
             <!-- <div class="element-form"> -->
-                <label class="label">Categoría 1:</label>
-                <select name="Categoria 1" class="element">
+                <label class="label">Categoría:</label>
+                <select name="Categoria" class="element">
                     <option value="verduras">Verduras</option>
                     <option value="frutas">Frutas</option>
-                    <option value="bolsones">Bolsones</option>
+                    <option value="bolsones y promos">Bolsones y Promos</option>
                 </select>
             <!-- </div> -->
         </form>
-        <form action="/registro" method="POST" class="element-form">
+        <form action="/product/create" method="POST" enctype="multipart/form-data"></form>
+        <!-- <form action="/registro" method="POST" class="element-form"> -->
             <!-- <div class="element-form"> -->
                 <label for="Nombre del Producto">Producto:</label>
                 <input type="Text" name="producto" id="producto" class="element">
@@ -40,7 +41,7 @@
                 <input type="number" name="descuento" placeholder="10%" class="element">
             <!-- </div>
             <div class="element-form"> -->
-                <label for="Detalle">Detalle:</label>
+                <label for="Sección">Sección:</label>
                 <input type="text" name="pais" class="element">
             <!-- </div>
             <div class="element-form"> -->
@@ -57,25 +58,25 @@
         <form action="" method="">
             <button type="submit" class="button1">Agregar</button>
         </form>
-        <form>
-            <!-- <div class="style-form"> -->
+        <!-- <form>
+            <div class="style-form">
                 <label class="label">Categoría 2:</label>
                 <select name="Categoria 2" class="element">
                     <option value="recetas">Recetas</option>
                     <option value="batidos y licuados">Batidos y Licuados</option>
                 </select>
-            <!-- </div> -->
+            </div>
         </form>
         <form action="/contact" method="POST"class="element-form">
-            <!-- <div> -->
+            <div>
                 <label for="Descripcion">Descripción:</label>
                 <textarea name="comentario" class="element">Descripción del Producto</textarea>
-            <!-- </div> -->
+            </div>
         </form>
         <form action="" method="">
             <button type="submit" class="button1">Agregar</button>
         </form>
-        
+         -->
 
 </body>
 </html>

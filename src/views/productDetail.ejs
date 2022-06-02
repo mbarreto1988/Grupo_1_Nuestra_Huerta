@@ -10,21 +10,21 @@
     <!-- ******************************SUB_TITULO*************************************** -->
     <div class="sub_titulo">
         <a href="frutas">
-            <h2 class="categoria">Frutas / Banana</h2>
+            <h2 class="categoria"><%= product.categoria.charAt(0).toUpperCase() + product.categoria.slice(1) %> / <%= product.nombreProducto.charAt(0).toUpperCase() + product.nombreProducto.slice(1) %></h2>
         </a>
     </div>
     <br>
     <!-- *******************************ARTICULOS_UNO************************************* -->
     <div class="items">
         <article class="productovta">
-            <a href="/bananas"><img class="foto_productos" src="/img/banana.jpg" width="192" height="128" alt="Frutas"></a>
+            <a href="/bananas"><img class="foto_productos" src="/img/<%= product.imagen %>" width="192" height="128" alt="Frutas"></a>
             <figcaption class="enlacesproductos">
-                <h2 class="productos">Banana ecuador x 6 ud</h2> <br>
-                <h2 class="precio">$320,00</h2>
+                <h2 class="productos"><%= product.descripcion %></h2> <br>
+                <h2 class="precio">$<%= product.precio %></h2>
                 <h3 class="impuestos">Impuestos incluidos</h3>
                 <br>
                 <h2 class="stock"><i class="fa-solid fa-check"></i> En existencia</h2>
-                <h2 class="origen">Origen: Ecuador</h2>
+                <!-- <h2 class="origen">Origen: Ecuador</h2> -->
                 <button class="alcarrito"> <i class="fa-solid fa-cart-shopping fa-2x" alt="Tu Carrito de Compras"
                         title="Tu Carrito de Compras"></i></button>
             </figcaption>

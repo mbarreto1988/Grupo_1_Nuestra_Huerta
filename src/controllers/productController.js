@@ -1,8 +1,27 @@
+const path = require('path')
+const fs = require("fs"); //libreria que sirve para leer o escribir archivos
+const fileProducts = fs.readFileSync(path.resolve("src/data/productos.json"), "utf-8") //me lee los archivos de la variable anterior. Recibe como parametro la ruta del archivo
+
+const products = JSON.parse(fileProducts);
+
+
 const controller = {
     formProd: (req, res) => {
         res.render('formProd');
     },
-    bananas: (req,res) => {
+    detail: (req, res) => {
+        const product = products.find(element => element.id == req.params.id)
+        res.render('productDetail', {product});
+    },
+
+    // Create - Form to create
+	create: (req, res) => {
+		const product = products.find (element => element.id == req.params.id)
+		res.render("product-create-form", {product})
+	},
+//esto ya no se va a usar porque es solo una vista de Detail
+
+        bananas: (req,res) => {
         res.render('bananas');
     },
     kiwi: (req,res) => {
@@ -38,6 +57,6 @@ const controller = {
     nuestrasRecetas: (req, res) => {
         res.render('nuestrasRecetas');
     }
-}
 
-module.exports = controller;
+}
+    module.exports = controller;

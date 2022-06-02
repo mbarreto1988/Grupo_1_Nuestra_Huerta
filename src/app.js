@@ -4,21 +4,31 @@ const app = express(); // se requiere la libreria nativa express
 
 const path = require ('path'); //se requiere la libreria nativa path
 
+const methodOverride = require('method-override'); // Pasar poder usar los métodos PUT y DELETE 
+
 const mainRouter = require ('./routers/mainRoutes'); //se requiere las rutas con las carpetas
 const productRouter = require ('./routers/productRoutes');
 const userRouter = require ('./routers/userRoutes');
+const formProdRouter = require("./routers/productRoutes");
 
 
 
 app.set('view engine', "ejs"); //aca se configura el ejs para hacer la extension en los html
 
-app.set('views', path.resolve(__dirname, '../src/views'));
+app.set('views', path.resolve(__dirname, '../src/views')); //para acceder a la carpeta views
 
 app.use(express.static('public')); //aca se hace que la carpeta public sea publica
+
+app.use(express.urlencoded({ extended: false })); //agregado por JPS para usar Metodos
+app.use(express.json()); //agregado por JPS para usar Metodos
+app.use(methodOverride('_method')); //agregado por JPS para usar Metodos
 
 app.use('/', mainRouter);
 app.use('/product', productRouter);
 app.use('/user', userRouter);
+
+// ************ catch 404 and forward to error handler ************
+app.use((req, res, next) => { res.status(404).render('not-found'); })
 
 app.listen(3000, () => { console.log('Servidor arriba en el puerto 3000 👌');}) //aca se crea la direccion del localHost
 
