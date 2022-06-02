@@ -12,7 +12,7 @@
         <!-- SUB_TITULO -->
         <div class="sub_titulo">
             <a href="#">
-                <h2>Lo Más Destacado</h2>
+                <h2>Los destacados del mes</h2>
             </a>
         </div>
         <br>
@@ -20,7 +20,59 @@
         <section>
 
             <div class="articulos">
-                <% products.forEach(cualquierNombre => { %>
+                <% destacadosMes.forEach(cualquierNombre => { %>
+
+                <article>
+                    <a href="/product/<%= cualquierNombre.id %>/detail" target="_blank">
+                        <img class="imagenes_copadas" src="img/producto/<%= cualquierNombre.imagen%>" alt="Frutas">
+                    </a>
+                    <figcaption>
+                        <h2><%= cualquierNombre.nombreProducto%></h2> <br>
+                        <h2>$<%= cualquierNombre.precio%></h2> <br> <button> <i class="fas fa-chevron-right"></i><i
+                                class="fas fa-chevron-right"></i> Agregar al Carrito <i
+                                class="fa-solid fa-cart-shopping"></i></button>
+                    </figcaption>
+                </article>
+                <% }) %>
+            </section>
+            <section>
+
+                <div class="sub_titulo">
+                    <a href="#">
+                        <h2>Nuestros productos más elegidos</h2>
+                    </a>
+                </div>
+                <br>
+            
+                <div class="articulos">
+                <% masVisitados.forEach(cualquierNombre => { %>
+
+                    <article>
+                        <a href="/product/<%= cualquierNombre.id %>/detail" target="_blank">
+                            <img class="imagenes_copadas" src="img/producto/<%= cualquierNombre.imagen%>" alt="Frutas">
+                        </a>
+                        <figcaption>
+                            <h2><%= cualquierNombre.nombreProducto%></h2> <br>
+                            <h2>$<%= cualquierNombre.precio%></h2> <br> <button> <i class="fas fa-chevron-right"></i><i
+                                    class="fas fa-chevron-right"></i> Agregar al Carrito <i
+                                    class="fa-solid fa-cart-shopping"></i></button>
+                        </figcaption>
+                    </article>
+                    <% }) %>
+
+            </div>
+        </section>
+        <section>
+                      
+            <div class="sub_titulo">
+                <a href="#">
+                    <h2>Nuestras frutas de estación</h2>
+                </a>
+            </div>
+            <br>
+        
+            <div class="articulos">
+            <% nuestrasFrutas.forEach(cualquierNombre => { %>
 
                 <article>
                     <a href="/product/<%= cualquierNombre.id %>/detail" target="_blank">
@@ -35,8 +87,35 @@
                 </article>
                 <% }) %>
 
-            </div>
-        </section>
+        </div>
+    </section>
+    <section>
+                      
+        <div class="sub_titulo">
+            <a href="#">
+                <h2>Nuestras riquísimas verduras</h2>
+            </a>
+        </div>
+        <br>
+    
+        <div class="articulos">
+        <% nuestrasVerduras.forEach(cualquierNombre => { %>
+
+            <article>
+                <a href="/product/<%= cualquierNombre.id %>/detail" target="_blank">
+                    <img class="imagenes_copadas" src="img/producto/<%= cualquierNombre.imagen%>" alt="Frutas">
+                </a>
+                <figcaption>
+                    <h2><%= cualquierNombre.nombreProducto%></h2> <br>
+                    <h2>$<%= cualquierNombre.precio%></h2> <br> <button> <i class="fas fa-chevron-right"></i><i
+                            class="fas fa-chevron-right"></i> Agregar al Carrito <i
+                            class="fa-solid fa-cart-shopping"></i></button>
+                </figcaption>
+            </article>
+            <% }) %>
+
+    </div>
+</section>
     </main>
     <!-- Newsletter -->
     <%- include ('./partials/newsletter') %>
