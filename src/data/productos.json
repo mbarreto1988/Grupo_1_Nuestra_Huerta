@@ -185,7 +185,7 @@
   "precio": 1360,
   "descuento": 10,
   "categoria": "bolsones y promos",
-  "seccion": "combos",
+  "seccion": "mas visitados",
   "descripcion": "Este bolsón incluye: 1 kg Papa blanca, 1 kg Zapallo anco, 1/2 kg Cebolla Común, 1 kg Batata, 2 atados de Espinaca y 400 g de Champignón",
   "imagen": "combo verduras.png"
  },
@@ -195,7 +195,7 @@
   "precio": 1250,
   "descuento": 10,
   "categoria": "bolsones y promos",
-  "seccion": "combos",
+  "seccion": "mas visitados",
   "descripcion": "Este bolsón incluye: 1 kg Manzana Roja, 1 kg Naranja, 6 Bananas, 1 kg Kiwi, 1 kg Pomelo Rojo y 1 kg Pera",
   "imagen": "combo frutas.png"
  },
@@ -205,7 +205,7 @@
   "precio": 1350,
   "descuento": 20,
   "categoria": "bolsones y promos",
-  "seccion": "combos",
+  "seccion": "mas visitados",
   "descripcion": "Este bolsón incluye: 1 kg Manzana Roja, 1 kg Naranja, 6 Bananas, 1 kg Kiwi, 1/2 kg Cebolla Común, 1 kg Batata, 2 atados de Espinaca y 400 g de Champignón",
   "imagen": "combo mixto.png"
  } 

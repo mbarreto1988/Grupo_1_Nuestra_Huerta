@@ -5,14 +5,15 @@ const fileProducts = fs.readFileSync(path.resolve("src/data/productos.json"), "u
 const products = JSON.parse(fileProducts);
 
 const destacadosMes = products.filter(element => element.seccion == "destacados del mes");
-// const masVisitados = products.filter(element => element.seccion == "combos");
-const ofertas = products.filter(element => element.descuento > 15)
+const masVisitados = products.filter(element => element.seccion == "mas visitados");
+const nuestrasFrutas = products.filter(element => element.seccion == "nuestras frutas");
+const nuestrasVerduras = products.filter(element => element.seccion == "nuestras verduras")
 
 //busca el nombre del ejs a renderizar
 const controller = {
     inicio: (req, res) => {
         console.log(products)
-        res.render('inicio', {products: destacadosMes, ofertas}); // "inicio" EJS a renderizar {products} la keyword
+        res.render('inicio', {destacadosMes, masVisitados, nuestrasFrutas, nuestrasVerduras}); // "inicio" EJS a renderizar {products} la keyword
     },
     
 
