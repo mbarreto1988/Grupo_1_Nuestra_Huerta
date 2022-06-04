@@ -31,7 +31,7 @@ Enfocados en la metodología Estrella de Mar:
 • Ayudarnos a entender lo que estamos haciendo, y seguir aprendiendo a diario.
 
 2. Menos de: 
-• Quejas por falta de tiempo, o por retrazos en las prácticas individuales.
+• Quejas por falta de tiempo, o por retrasos en las prácticas individuales.
 
 3. Más de:
 • Compromiso hacia con el grupo y el proyecto, en tiempos y dedicación.
@@ -40,3 +40,12 @@ Enfocados en la metodología Estrella de Mar:
 • Cosas que no esten enfocadas a los pedidos de entregables de cada Sprint, salvo que nos sobre el tiempo.
 
 5. Empezar a hacer: daily/weekly + Pair Programming
+
+Reunión de Retrospectiva del Sprint 3:
+Este sprint nos encontró más organizados, al mismo tiempo de que fue un sprint con menos cantidad de trabajo. Nos sirvió para pulir cosas del Sprint 2 y trabajar sobre estilos.
+Enfocados en la metodología Estrella de Mar:
+1.	Seguir haciendo: • Ayudarnos a entender lo que estamos haciendo, y seguir aprendiendo a diario.
+2.	Menos de: • Quejas por falta de tiempo
+3.	Más de: • Compromiso hacia con el grupo y el proyecto, en tiempos y dedicación.
+4.	Dejar de hacer: • Cosas que no esten enfocadas a los pedidos de entregables de cada Sprint, salvo que nos sobre el tiempo.
+5.	Empezar a hacer: daily/weekly + Pair Programming + enseñarnos mutuamente
