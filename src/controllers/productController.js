@@ -37,46 +37,25 @@ const controller = {
     products.push(newProduct); //agrego el nuevo elemento al array//
     fs.writeFileSync(path.resolve("src/data/productos.json"), JSON.stringify(products, null, " "));
     res.redirect("/productDetail/" + id); //me redirige como pide el ejercicio, a la ruta /products//
-},
+    },
 
-//esto ya no se va a usar porque es solo una vista de Detail
+    	// Update - Form to edit
+	edit: (req, res) => {
+        const product = products.find(element => element.id == req.params.id)
+        res.render('product-edit-form', {product});
+    }, //http://localhost:3000/product/7/edit asi sería la ruta en localhost
 
-        bananas: (req,res) => {
-        res.render('bananas');
-    },
-    kiwi: (req,res) => {
-        res.render('kiwi');
-    },
-    brocoli: (req,res) => {
-        res.render('brocoli');
-    },
-    champignon: (req,res) => {
-        res.render('champignon');
-    },
-    lechuga: (req,res) => {
-        res.render('lechuga');
-    },
-    limon: (req,res) => {
-        res.render('limon');
-    },
-    mandarina: (req,res) => {
-        res.render('mandarina');
-    },
-    papa: (req,res) => {
-        res.render('papa');
-    },
-    frutasOrganicas: (req, res) => {
-        res.render('frutasOrganicas');
-    },
-    verdurasOrganicas: (req, res) => {
-        res.render('verdurasOrganicas');
-    },
-    bolsonesYPromos: (req, res) => {
-        res.render('bolsonesYPromos');
-    },
-    nuestrasRecetas: (req, res) => {
-        res.render('nuestrasRecetas');
-    }
+	// Update - Method to update----PENDIENTE
+	update: (req, res) => {
+		// Do the magic
+	},
+
+	// Delete - Delete one product from DB
+	destroy : (req, res) => {
+		// Do the magic
+	}
+    
+
 
 }
     module.exports = controller;
