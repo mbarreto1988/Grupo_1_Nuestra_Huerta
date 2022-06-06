@@ -36,7 +36,7 @@ const controller = {
     };
     products.push(newProduct); //agrego el nuevo elemento al array//
     fs.writeFileSync(path.resolve("src/data/productos.json"), JSON.stringify(products, null, " "));
-    res.redirect("/productDetail/" + id); //me redirige como pide el ejercicio, a la ruta /products//
+    res.redirect("/product/" + newProduct.id + "/detail");//me redirige como pide el ejercicio, a la ruta /products//
     },
 
     	// Update - Form to edit

@@ -212,11 +212,11 @@
  {
   "id": 22,
   "categoria": "verduras",
-  "nombreProducto": "Reviente",
-  "precio": 12,
-  "descuento": 1,
+  "nombreProducto": "NUEVO",
+  "precio": 10000,
+  "descuento": 11,
   "seccion": "nuestras frutas",
-  "comentario": "Prueba",
-  "imagen": "image-1654520256670.png"
+  "comentario": "PRUEBA",
+  "imagen": "image-1654528232603.png"
  }
 ]
