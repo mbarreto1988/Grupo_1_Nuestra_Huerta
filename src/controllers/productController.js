@@ -47,7 +47,9 @@ const controller = {
 
 	// Update - Method to update----PENDIENTE
 	update: (req, res) => {
-		// Do the magic
+		const product = products.find(element => element.id == req.params.id)
+        res.render('product-edit-form', {product});// Do the magic
+        
 	},
 
 	// Delete - Delete one product from DB

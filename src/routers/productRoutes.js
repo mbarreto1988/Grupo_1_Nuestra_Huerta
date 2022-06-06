@@ -23,8 +23,8 @@ router.get('/product-create-form', productController.create);
 router.post('/create', upload.single("image"), productController.store); 
 
 /*** EDIT ONE PRODUCT ***/ 
-router.get('/:id/edit', productController.edit); 
-router.put('/:id', productController.update); 
+router.get('/edit/:id', productController.edit); 
+router.put('/edit/:id', productController.update); 
 
 
 /*** DELETE ONE PRODUCT ***/ 
