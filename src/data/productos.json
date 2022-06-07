@@ -210,13 +210,13 @@
   "imagen": "combo mixto.png"
  },
  {
-  "id": 22,
+  "id": 26,
   "categoria": "verduras",
-  "nombreProducto": "NUEVO",
-  "precio": 10000,
-  "descuento": 11,
+  "nombreProducto": "jjjjj",
+  "precio": 111,
+  "descuento": 1,
   "seccion": "nuestras frutas",
-  "comentario": "PRUEBA",
-  "imagen": "image-1654528232603.png"
+  "comentario": "pppp",
+  "imagen": "default-image.png"
  }
 ]
