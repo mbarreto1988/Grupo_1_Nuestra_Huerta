@@ -208,5 +208,15 @@
   "seccion": "mas visitados",
   "descripcion": "Este bolsón incluye: 1 kg Manzana Roja, 1 kg Naranja, 6 Bananas, 1 kg Kiwi, 1/2 kg Cebolla Común, 1 kg Batata, 2 atados de Espinaca y 400 g de Champignón",
   "imagen": "combo mixto.png"
- } 
- ]
+ },
+ {
+  "id": 22,
+  "categoria": "verduras",
+  "nombreProducto": "NUEVO",
+  "precio": 10000,
+  "descuento": 11,
+  "seccion": "nuestras frutas",
+  "comentario": "PRUEBA",
+  "imagen": "image-1654528232603.png"
+ }
+]

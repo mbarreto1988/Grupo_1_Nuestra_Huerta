@@ -36,7 +36,7 @@ const controller = {
     };
     products.push(newProduct); //agrego el nuevo elemento al array//
     fs.writeFileSync(path.resolve("src/data/productos.json"), JSON.stringify(products, null, " "));
-    res.redirect("/productDetail/" + id); //me redirige como pide el ejercicio, a la ruta /products//
+    res.redirect("/product/" + newProduct.id + "/detail");//me redirige como pide el ejercicio, a la ruta /products//
     },
 
     	// Update - Form to edit
@@ -47,7 +47,9 @@ const controller = {
 
 	// Update - Method to update----PENDIENTE
 	update: (req, res) => {
-		// Do the magic
+		const product = products.find(element => element.id == req.params.id)
+        res.render('product-edit-form', {product});// Do the magic
+        
 	},
 
 	// Delete - Delete one product from DB
