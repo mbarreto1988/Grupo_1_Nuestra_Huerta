@@ -15,10 +15,20 @@ const controller = {
         console.log(products)
         res.render('inicio', {destacadosMes, masVisitados, nuestrasFrutas, nuestrasVerduras}); // "inicio" EJS a renderizar {products} la keyword
     },
-    
-
     contactanos: (req, res) => {
         res.render('contactanos');
+    },
+    frutasOrganicas: (req, res) => {
+        res.render('frutasOrganicas');
+    },
+    verdurasOrganicas: (req, res) => {
+        res.render('verdurasOrganicas');
+    },
+    bolsonesYPromos: (req, res) => {
+        res.render('bolsonesYPromos');
+    },
+    nuestrasRecetas: (req, res) => {
+        res.render('nuestrasRecetas');
     },
     preguntasFrecuentes: (req, res) => {
         res.render('preguntasFrecuentes');
