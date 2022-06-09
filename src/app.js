@@ -10,7 +10,7 @@ const mainRouter = require ('./routers/mainRoutes'); //se requiere las rutas con
 const productRouter = require ('./routers/productRoutes');
 const userRouter = require ('./routers/userRoutes');
 const formProdRouter = require("./routers/productRoutes");
-
+const adminRouter = require ('./routers/adminRoutes');
 
 
 app.set('view engine', "ejs"); //aca se configura el ejs para hacer la extension en los html
@@ -26,9 +26,10 @@ app.use(methodOverride('_method')); //agregado por JPS para usar Metodos
 app.use('/', mainRouter);
 app.use('/product', productRouter);
 app.use('/user', userRouter);
+app.use('/admin', adminRouter);
 
 // ************ catch 404 and forward to error handler ************
-app.use((req, res, next) => { res.status(404).render('not-found'); })
+//app.use((req, res, next) => { res.status(404).render('not-found'); })
 
 app.listen(3000, () => { console.log('Servidor arriba en el puerto 3000 👌');}) //aca se crea la direccion del localHost
 

@@ -70,13 +70,14 @@
   "imagen": "naranja.jpg"
  },
  {
-  "id": 8,
   "nombreProducto": "Manzana Verde",
-  "precio": 340,
-  "descuento": 10,
+  "descripcion": "Manzanas Verdes Granny Smith x kilo",
+  "precio": "350",
   "categoria": "frutas",
   "seccion": "destacados del mes",
-  "descripcion": "Manzanas Verdes Granny Smith x kilo",
+  "descuento": "0",
+  "oldImagen": "manzana-verde1.jpg",
+  "id": "8",
   "imagen": "manzana-verde1.jpg"
  },
  {
@@ -210,13 +211,13 @@
   "imagen": "combo mixto.png"
  },
  {
-  "id": 26,
+  "id": 22,
   "categoria": "verduras",
-  "nombreProducto": "jjjjj",
-  "precio": 111,
-  "descuento": 1,
+  "nombreProducto": "pppp",
+  "precio": 19,
+  "descuento": 11,
   "seccion": "nuestras frutas",
-  "comentario": "pppp",
+  "comentario": "PPP",
   "imagen": "default-image.png"
  }
 ]

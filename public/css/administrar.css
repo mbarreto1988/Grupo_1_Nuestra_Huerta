@@ -1,0 +1,27 @@
+.buttonAdm{
+    background-color: grey;
+    height: 30px;
+    width: 30px;
+border-color: white;    
+align-items: center;
+}
+
+.table{
+background-color: gainsboro;
+width: 100%;
+text-align: center;
+justify-content: center;
+}
+
+h2{
+    color:blueviolet;
+    text-align: center;
+}
+
+.addButton{
+    color:brown ;
+    padding: 10px;
+    text-decoration: none;
+    font-size: bold;
+
+}
