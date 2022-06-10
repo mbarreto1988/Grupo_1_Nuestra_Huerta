@@ -20,8 +20,17 @@ const controller = {
     contactanos: (req, res) => {
         res.render('contactanos');
     },
-    preguntasFrecuentes: (req, res) => {
-        res.render('preguntasFrecuentes');
+    frutasOrganicas: (req, res) => {
+        res.render('frutasOrganicas');
+    },
+    verdurasOrganicas: (req, res) => {
+        res.render('verdurasOrganicas');
+    },
+    bolsonesYPromos: (req, res) => {
+        res.render('bolsonesYPromos');
+    },
+    nuestrasRecetas: (req, res) => {
+        res.render('nuestrasRecetas');
     }
 }
 
