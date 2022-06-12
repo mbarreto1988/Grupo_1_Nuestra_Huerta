@@ -1,0 +1,35 @@
+.contactanos{
+    width: 100%;
+    height: 450px;
+    background-image: url(/img/bann.jpeg);
+}
+h1{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+}
+h1 a:hover{
+    color: rgb(65, 55, 55);
+}
+p{
+    text-align: center;
+}
+.sugerencias{
+    text-align: center;
+}
+.sugerencias input{
+    width: 200px;
+    height: 40px;
+}
+
+textarea{
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    opacity: .7;
+}

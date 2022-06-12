@@ -1,12 +1,30 @@
 <%- include ('./partials/head') %>
+<link rel="stylesheet" href="/css/contactanos.css">
+
 <body>
     <main>
         <!-- HEADER -->
         <%- include ('./partials/header') %>
         <br>
         <hr>
-        <div>
-            <h1>Aca van la seccion Contactanos</h1>
+        <div class="contactanos">
+            <h1> <a href="/">Nuestra Huerta</a> </h1>
+            <p>
+                Nuestra Huerta nacio con el proposito de brindar a las familias <br>
+                la mejor variedad de productos de calidad, <br>
+                hoy en dia estamos expuestos a consumir productos de desarrollo forzado a travez de quimicos. <br>
+                nuestra idea es volver a producir Frutas y verduras de origen organico <br> y de calidad para la mesa
+                familiar. <br>
+                Por es estamos abiertos a escuchar siempre tus sugerencias <br> para poder llegar a todos y que vuelva a
+                crecer el mercado organico.
+            </p>
+            <h1>Dejanos un mensaje o sugerencia</h1>
+            <div class="sugerencias">
+                <textarea name="Texto" id="textarea_sugerencia" cols="50" rows="5" placeholder="contactanos..."></textarea> <br>
+                <input type="submit">
+            </div>
+            <br>
+            
         </div>
         <!-- Newsletter -->
         <%- include ('./partials/newsletter') %>
@@ -14,4 +32,5 @@
         <%- include ('./partials/footer') %>
     </main>
 </body>
+
 </html>

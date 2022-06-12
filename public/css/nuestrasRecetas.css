@@ -1,0 +1,33 @@
+.recetas h1{
+text-align: center;
+margin-bottom: 20px;
+background-color: rgb(190, 241, 117);
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.recetas h1:hover{
+    background-color: rgb(158, 230, 111);
+}
+h2{
+    text-align: center;
+}
+ul li{
+    text-align: center;
+}
+img{
+    width: 500px;
+}
+.img_recetas{
+    text-align: center;
+}
+.img_recetas img{
+    
+    border: 3px solid green;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+}
+.receta_detalle{
+    background-color: rgb(88, 252, 252);
+}
