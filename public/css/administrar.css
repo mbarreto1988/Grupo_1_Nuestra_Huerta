@@ -1,27 +1,61 @@
-.buttonAdm{
-    background-color: grey;
+.buttonAdm {
+    background-color: black;
     height: 30px;
     width: 30px;
-border-color: white;    
-align-items: center;
+    border-color: white;
+    align-items: center;
+    color: white;
 }
 
-.table{
-background-color: gainsboro;
-width: 100%;
-text-align: center;
-justify-content: center;
-}
-
-h2{
-    color:blueviolet;
-    text-align: center;
-}
-
-.addButton{
-    color:brown ;
+.btn-info {
+    color: white;
     padding: 10px;
     text-decoration: none;
     font-size: bold;
+    background-color: brown;
+    border-radius: 7px;
+    text-align: center;
+    height: 40px;
+    margin: center;
+
+}
+
+.btn-danger {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: bold;
+    background-color: green;
+    border-radius: 7px;
+    text-align: center;
+    height: 40px;
+    margin: center;
+}
+
+
+.table {
+    background-color: gainsboro;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-color: black;
+    margin: 15px;
+    border-radius: 7px;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.addButton {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: bold;
+    background-color: brown;
+    border-radius: 7px;
+    text-align: center;
+    height: 25px;
 
 }

@@ -5,9 +5,9 @@ const fileProducts = fs.readFileSync(path.resolve("src/data/productos.json"), "u
 const products = JSON.parse(fileProducts);
 
 const controller = {
-    formProd: (req, res) => {
-        res.render('formProd');
-    },
+    // formProd: (req, res) => {
+    //     res.render('formProd');
+    // },
     detail: (req, res) => {
         const product = products.find(element => element.id == req.params.id)
         res.render('productDetail', {product});
