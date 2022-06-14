@@ -47,9 +47,9 @@
                                         <label for="Categoría">Categoría:</label>
                                         <select name="categoria" class="element">
                                             <option value="seleccionar">Seleccionar</option>
-                                            <option value="verduras">Verduras</option>
-                                            <option value="frutas">Frutas</option>
-                                            <option value="bolsones y promos">Bolsones y Promos</option>
+                                            <option value="verduras" <%=productoEditar.categoria =="verduras" ? "selected":""%> >Verduras</option> 
+                                            <option value="frutas" <%=productoEditar.categoria =="frutas" ? "selected":""%>>Frutas</option>
+                                            <option value="bolsones y promos"<%=productoEditar.categoria =="bolsones y promos" ? "selected":""%> >Bolsones y Promos</option>
                                         </select>
 
                                     </div>
@@ -58,10 +58,10 @@
                                         <label for="Sección">Sección:
                                             <select name="seccion" id="">
                                                 <option value="seleccionar">Seleccionar</option>
-                                                <option value="nuestras verduras">Nuestras Verduras</option>
-                                                <option value="nuestras frutas">Nuestras Frutas</option>
-                                                <option value="destacados del mes">Destacados del mes</option>
-                                                <option value="mas visitados">Mas Visitados</option>
+                                                <option value="nuestras verduras" <%=productoEditar.seccion =="nuestras verduras" ? "selected":""%>>Nuestras Verduras</option>
+                                                <option value="nuestras frutas" <%=productoEditar.seccion =="nuestras frutas" ? "selected":""%>>Nuestras Frutas</option>
+                                                <option value="destacados del mes" <%=productoEditar.seccion =="destacado del mes" ? "selected":""%>>Destacados del mes</option>
+                                                <option value="mas visitados"<%=productoEditar.seccion =="mas visitados" ? "selected":""%>>Mas Visitados</option>
 
                                             </select>
                                         </label>
