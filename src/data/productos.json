@@ -1,12 +1,13 @@
 [
   {
-    "id": 1,
     "nombreProducto": "Banana",
-    "precio": 190,
-    "descuento": 0,
+    "descripcion": "Banana ecuatoriana x 6 unindades",
+    "precio": "450",
     "categoria": "frutas",
     "seccion": "nuestras frutas",
-    "descripcion": "Banana ecuatoriana x 6 unindades",
+    "descuento": "15",
+    "oldImagen": "banana.jpg",
+    "id": "1",
     "imagen": "banana.jpg"
   },
   {
