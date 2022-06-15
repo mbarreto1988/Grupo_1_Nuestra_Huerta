@@ -9,29 +9,30 @@ const masVisitados = products.filter(element => element.seccion == "mas visitado
 const nuestrasFrutas = products.filter(element => element.seccion == "nuestras frutas");
 const nuestrasVerduras = products.filter(element => element.seccion == "nuestras verduras")
 
+const frutas = products.filter(element => element.categoria == "frutas")
+const verduras = products.filter(element => element.categoria == "verduras")
+const bolsones = products.filter(element => element.categoria == "bolsones")
 //busca el nombre del ejs a renderizar
 const controller = {
     inicio: (req, res) => {
         console.log(products)
         res.render('inicio', {destacadosMes, masVisitados, nuestrasFrutas, nuestrasVerduras}); // "inicio" EJS a renderizar {products} la keyword
+    }, 
+    
+    producto: (req, res) => {
+        res.render('producto', {frutas, verduras, bolsones});
+    },
+    categoria: (req, res) => {
+        let productos = products.filter(element => element.categoria == req.params.categoria)
+        res.render('producto', {productos})
     },
     
-
     contactanos: (req, res) => {
         res.render('contactanos');
     },
-    frutasOrganicas: (req, res) => {
-        res.render('frutasOrganicas');
-    },
-    verdurasOrganicas: (req, res) => {
-        res.render('verdurasOrganicas');
-    },
-    bolsonesYPromos: (req, res) => {
-        res.render('bolsonesYPromos');
-    },
     nuestrasRecetas: (req, res) => {
         res.render('nuestrasRecetas');
-    }
+    },
+        
 }
-
 module.exports = controller;
