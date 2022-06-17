@@ -6,3 +6,4 @@ const router = express.Router();
 router.get('/:id/detail', productController.detail);
 
 module.exports = router;
+
