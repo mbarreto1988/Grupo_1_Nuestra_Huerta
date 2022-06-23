@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<%- include ('../partials/head') %>
+	<link rel="stylesheet" href="/css/login.css">
+	
+	<body>
+		<!-- HEADER -->
+		<%- include ('../partials/header') %>
+
+	<!-- <%- include('../partials/navbar.ejs'); %> -->
+
+			<!-- Login-Form -->
+			<div class="container my-5">
+				<div class="row justify-content-center">
+					<div class="col-md-10">
+						<h2 class="labelText1">Listo para loguearte!</h2>
+
+						<form method="POST" action="/user/login">
+							<div class="row">
+								<div class="col-md-6 my-2">
+									<div class="labelText">
+										<label><b>Correo electrónico:</b></label>
+										<BR>
+										<input type="text" name="email" class="label2">
+										<% if (locals.errors && errors.email) { %>
+											<div class="text-danger">
+												<%= errors.email.msg %>
+											</div>
+											<% } %>
+									</div>
+								</div>
+								<div class="col-md-6 my-2">
+									<div class="labelText">
+										<label class="label"><b>Password:</b></label>
+										<BR>
+										<input type="password" name="password" class="label2">
+										<div class="invalid-feedback">
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-6 my-2">
+									<div class="form-group form-check">
+										<label class="label3">
+											<input type="checkbox" class="form-check-input"
+												name="remember_user"> ⚡Recordar mi usuario
+										</label>
+									</div>
+								</div>
+								<BR>
+								<div class="col-12 my-3">
+									<button type="submit" class="button3">Loguearme</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- //Login-Form -->
+
+			<%- include('../partials/footer.ejs'); %>
+	</body>
+
+</html>

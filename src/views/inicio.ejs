@@ -1,6 +1,6 @@
 <!-- head -->
 <%- include ('./partials/head') %>
-
+<link rel="stylesheet" href="/css/inicio.css">
 <body>
     <!-- HEADER -->
     <%- include ('./partials/header') %>
@@ -10,11 +10,13 @@
         <div class="banner">
         </div>
         <!-- SUB_TITULO -->
+        <br>
         <div class="sub_titulo">
             <a href="#">
                 <h2>Los destacados del mes</h2>
             </a>
         </div>
+        <br>
         <br>
         <!-- ARTICULOS_UNO -->
         <section>
@@ -27,23 +29,22 @@
                         <img class="imagenes_copadas" src="img/producto/<%= cualquierNombre.imagen%>" alt="Frutas">
                     </a>
                     <figcaption>
-                        <h2><%= cualquierNombre.nombreProducto%></h2> <br>
-                        <h2>$<%= cualquierNombre.precio%></h2> <br> <button> <i class="fas fa-chevron-right"></i><i
-                                class="fas fa-chevron-right"></i> Agregar al Carrito <i
-                                class="fa-solid fa-cart-shopping"></i></button>
+                        <h2 class="textoDesc"><%= cualquierNombre.nombreProducto%></h2> <br>
+                        <h2 clas="precioDesc">$<%= cualquierNombre.precio%></h2> <br> <button class="carrito"><i
+                                class="fa-solid fa-cart-shopping"></i> Agregar al Carrito <i></i></button>
                     </figcaption>
                 </article>
                 <% }) %>
         </section>
         <section>
-
+            <br>
             <div class="sub_titulo">
                 <a href="#">
                     <h2>Nuestros productos más elegidos</h2>
                 </a>
             </div>
             <br>
-
+            <br>
             <div class="articulos">
                 <% masVisitados.forEach(cualquierNombre => { %>
 
@@ -52,10 +53,9 @@
                         <img class="imagenes_copadas" src="img/producto/<%= cualquierNombre.imagen%>" alt="Frutas">
                     </a>
                     <figcaption>
-                        <h2><%= cualquierNombre.nombreProducto%></h2> <br>
-                        <h2>$<%= cualquierNombre.precio%></h2> <br> <button> <i class="fas fa-chevron-right"></i><i
-                                class="fas fa-chevron-right"></i> Agregar al Carrito <i
-                                class="fa-solid fa-cart-shopping"></i></button>
+                        <h2 class="textoDesc"><%= cualquierNombre.nombreProducto%></h2> <br>
+                        <h2 clas="precioDesc">$<%= cualquierNombre.precio%></h2> <br> <button class="carrito"><i
+                                class="fa-solid fa-cart-shopping"></i> Agregar al Carrito <i></i></button>
                     </figcaption>
                 </article>
                 <% }) %>
@@ -63,14 +63,14 @@
             </div>
         </section>
         <section>
-
+            <br>
             <div class="sub_titulo">
                 <a href="#">
                     <h2>Nuestras frutas de estación</h2>
                 </a>
             </div>
             <br>
-
+            <br>
             <div class="articulos">
                 <% nuestrasFrutas.forEach(cualquierNombre => { %>
 
@@ -79,10 +79,9 @@
                         <img class="imagenes_copadas" src="img/producto/<%= cualquierNombre.imagen%>" alt="Frutas">
                     </a>
                     <figcaption>
-                        <h2><%= cualquierNombre.nombreProducto%></h2> <br>
-                        <h2>$<%= cualquierNombre.precio%></h2> <br> <button> <i class="fas fa-chevron-right"></i><i
-                                class="fas fa-chevron-right"></i> Agregar al Carrito <i
-                                class="fa-solid fa-cart-shopping"></i></button>
+                        <h2 class="textoDesc"><%= cualquierNombre.nombreProducto%></h2> <br>
+                        <h2 clas="precioDesc">$<%= cualquierNombre.precio%></h2> <br> <button class="carrito"><i
+                                class="fa-solid fa-cart-shopping"></i> Agregar al Carrito <i></i></button>
                     </figcaption>
                 </article>
                 <% }) %>
@@ -90,14 +89,14 @@
             </div>
         </section>
         <section>
-
+            <br>
             <div class="sub_titulo">
                 <a href="#">
                     <h2>Nuestras riquísimas verduras</h2>
                 </a>
             </div>
             <br>
-
+            <br>
             <div class="articulos">
                 <% nuestrasVerduras.forEach(cualquierNombre => { %>
 
@@ -106,10 +105,9 @@
                         <img class="imagenes_copadas" src="img/producto/<%= cualquierNombre.imagen%>" alt="Frutas">
                     </a>
                     <figcaption>
-                        <h2><%= cualquierNombre.nombreProducto%></h2> <br>
-                        <h2>$<%= cualquierNombre.precio%></h2> <br> <button> <i class="fas fa-chevron-right"></i><i
-                                class="fas fa-chevron-right"></i> Agregar al Carrito <i
-                                class="fa-solid fa-cart-shopping"></i></button>
+                        <h2 class="textoDesc"><%= cualquierNombre.nombreProducto%></h2> <br>
+                        <h2 clas="precioDesc">$<%= cualquierNombre.precio%></h2> <br> <button class="carrito"><i
+                                class="fa-solid fa-cart-shopping"></i> Agregar al Carrito <i></i></button>
                     </figcaption>
                 </article>
                 <% }) %>

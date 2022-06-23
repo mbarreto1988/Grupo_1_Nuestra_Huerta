@@ -4,8 +4,8 @@ const path = require('path');
 const multer = require('multer');
 
 const adminController = require(path.resolve(__dirname,'../controllers/adminController'));
-//Requerir el middleware Ruta Acceso
-const acceso = require(path.resolve(__dirname,'../middlewares/acceso'));
+// //Requerir el middleware Ruta Acceso
+// const acceso = require(path.resolve(__dirname,'../middlewares/acceso'));
 
 //Como podemos indicar para subir el archivo nombre y donde guardarlo
 var storage = multer.diskStorage({
