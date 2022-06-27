@@ -58,3 +58,12 @@ Enfocados en la metodología Estrella de Mar:
 3.	Más de: • Compartir el conocimiento y el entendimiento de los temas.
 4.	Dejar de hacer: • En este Sprint creemos no haber perdido el tiempo/esfuerzo en cosas que debamos dejar de hacer.
 5.	Empezar a hacer: • Anotar lo que vamos viendo en clase y que no aplica directamente al Sprint en curso para ir incorporandolo en los Sprints futuros
+
+Reunión de Retrospectiva del Sprint 5:
+Este sprint fue uno de los más difíciles hasta el momento. También fue difícil la división de tareas. 
+Enfocados en la metodología Estrella de Mar:
+1.	Seguir haciendo: • Reunirnos en Pair Programming. Arrancar el trabajo una vez lanzado el Sprint
+2.	Menos de: • Dedicar tiempo a lo no exigible.
+3.	Más de: • Estar al día con los temas vistos para estar en sintonía en los Sprints.
+4.	Dejar de hacer: • En este Sprint creemos no haber perdido el tiempo/esfuerzo en cosas que debamos dejar de hacer.
+5.	Empezar a hacer: • Anotar lo que vamos viendo en clase y que no aplica directamente al Sprint en curso para ir incorporandolo en los Sprints futuros. Sumar cosas vistas para los Sprints siguientes.
