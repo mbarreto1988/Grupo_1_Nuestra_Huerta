@@ -7,7 +7,6 @@
 		<!-- HEADER -->
 		<%- include ('../partials/header') %>
 
-	<!-- <%- include('../partials/navbar.ejs'); %> -->
 	
 	<!-- Container -->
 	<div class="container" style="margin-top: 40px;">
@@ -18,7 +17,8 @@
 				<div class="alert alert-success"><h3> Estás registrado con este mail: <%= user.email %> </h3></div>
 				<br>
 				<br>
-				<img src="/img/users/<%= user.avatar %> ">
+				<img src="/img/users/<%= user.avatar %>" width="200"
+				style="border-radius: 8px;">
 			</div>
 		</div>
 	</div>

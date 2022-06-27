@@ -271,34 +271,24 @@
  },
  {
   "id": 31,
-  "fullName": "Juan",
-  "email": "22@22.com",
-  "password": "$2a$10$ELmm96oLDCPu3nejx2BVYecdCDZo.BZBKfUe20NYyDnExeX7pY9g6",
+  "fullName": "R",
+  "email": "a@a.com",
+  "password": "$2a$10$5722PZ272miLyZoU3WmVAeQSMmPPpwhTkO3b9qcJRXCWyVzjgskT2",
   "country": "Argentina",
-  "avatar": "1655992466885_img.jpeg"
+  "avatar": "1656253701482_img.jpeg"
  },
  {
   "id": 32,
   "fullName": "Juan",
-  "email": "33@33.com",
-  "password": "$2a$10$PlnBX3jq3CMoFm.GCyf2d.5gBl3hWPF48GwdP83.ivvztUoOOYN3y",
-  "country": "Argentina",
-  "avatar": "1655992519898_img.jpeg"
+  "email": "p@p.com",
+  "password": "$2a$10$F0psiGyG3ce3tIbbxcWXpeNbn/jEGtHO3GpP5sOAA/Wf8ViPRNR.y",
+  "avatar": "1656253819876_img.jpeg"
  },
  {
   "id": 33,
-  "fullName": "Juan",
-  "email": "44@44.com",
-  "password": "$2a$10$ZsAVwTEkgoseDDZLwD3f6uTyhhpX3VtknuK2yM/EcNKyt3VBAASjy",
-  "country": "Colombia",
-  "avatar": "1655998503910_img.jpeg"
- },
- {
-  "id": 34,
-  "fullName": "Juan",
-  "email": "juaMpi@55.com",
-  "password": "$2a$10$cXMVGz53Sef.BVarkxMql.ISusO9QFzCEFLu629If1UzBy1ayNihG",
-  "country": "Argentina",
-  "avatar": "1655999284263_img.jpeg"
+  "fullName": "juan",
+  "email": "000@000.com",
+  "password": "$2a$10$sTa5rIIFZsiYCjeu6V5hDubBJpyg2UXA0D.xNivhBCShXZ4759VOq",
+  "avatar": "1656357170500_img.jpeg"
  }
 ]

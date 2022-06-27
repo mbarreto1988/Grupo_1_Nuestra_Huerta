@@ -7,7 +7,8 @@
 
             <div class="buscador">
                 <form action="" method="post">
-                    <input type="text" placeholder="Buscar..." name=""> <button class="botonBusqueda"> <i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+                    <input type="text" placeholder="Buscar..." name=""> <button class="botonBusqueda"> <i
+                            class="fa-solid fa-magnifying-glass fa-2x"></i></button>
                 </form>
             </div>
 
@@ -15,15 +16,35 @@
                 <nav>
                     <ul class="lista-iconos">
                         <li class="hamburguesa"> <a href="#"> <i class="fa-solid fa-bars fa-2x"></i> </a></li>
-                        <li class="usuario-login"> <a href="/user/login"> <i class="fa-solid fa-user-group fa-2x"></i>
-                            </a>
-                            <ul>
-                                <li><a href="/user/login" target="_blank">Login</a></li>
-                                <li><a href="/user/Register" target="_blank">Register</a></li>
-                            </ul>
-                        </li>
-                        <li class="carrito-compras"> <a href="/user/carrito" target="_blank"> <i class="fa-solid fa-cart-shopping fa-2x"></i> </a></li>
-                    </ul>
+                        <!-- <li class="usuario-login"> <a href="/user/login"> <i class="fa-solid fa-user-group fa-2x"></i>
+                            </a> -->
+                        <li class="carrito-compras"> <a href="/user/carrito" target="_blank"> <i
+                                    class="fa-solid fa-cart-shopping fa-2x"></i> </a></li>
+
+                        <ul class="navbar-nav align-items-center">
+                            <% if (locals.isLogged) { %>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropUser" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="/img/users/<%= locals.userLogged.avatar %>" width="40"
+                                            style="border-radius: 150px">
+                                        Hola <%= locals.userLogged.fullName %>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="/user/profile">My profile</a>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <a class="dropdown-item" href="/user/logout">Logout</a>
+                                    </ul>
+                                </li>
+                                <% } else { %>
+                                    <li class="nav-item"><a class="nav-link" href="/user/register">Register</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="/user/login">Login</a></li>
+                                    <% } %>
+                        </ul>
+
+
                 </nav>
             </div>
         </div>
