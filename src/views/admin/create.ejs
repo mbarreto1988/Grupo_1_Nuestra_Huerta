@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/formProd.css"> 
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/formProd.css">
 </head>
 <link rel="stylesheet" href="/css/formProd.css">
+
 <body>
     <form action="" method="">
         <a href="/" target="_blank">
             <img class="logo_menu" src="/img/logo.png" alt="Volver al Inicio" title="Volver al Inicio">
         </a>
-        </form>
+    </form>
     <h2>Formulario de Carga de Productos</h2>
     <main class="register">
-        
+
         <form action="/admin/administrar/create" method="POST" enctype="multipart/form-data">
             <label class="label">Categoría:</label>
             <select name="categoria" class="element">
@@ -26,32 +30,49 @@
             </select>
             <!-- <form action="/registro" method="POST" class="element-form"> -->
             <!-- <div class="element-form"> -->
-                <label for="Nombre del Producto">Producto:</label>
-                <input type="Text" name="nombreProducto" id="nombreProducto" class="element">
+            <label for="Nombre del Producto">Producto:</label>
+            <input type="Text" name="nombreProducto" id="nombreProducto" class="element">
             <!-- </div> -->
             <!-- <div class="element-form"> -->
-                <label for="Precio">Precio:</label>
-                <input type="number" name="precio" placeholder="00.0" class="element">
+            <label for="Precio">Precio:</label>
+            <input type="number" name="precio" placeholder="00.0" class="element">
             <!-- </div>
             <div class="element-form"> -->
-                <label for="Descuento">Descuento:</label>
-                <input type="number" name="descuento" placeholder="10%" class="element">
+            <label for="descuento">Descuento:
+                <select name="descuento" class="custom-select" id="validationCustom04" required>
+                    <option disabled value="#">Seleccione un descuento</option>
+                    <option value="0">Sin descuento</option>
+                    <option value="15">15%</option>
+                    <option value="30">30%</option>
+                </select>
+            </label>
             <!-- </div>
             <div class="element-form"> -->
-                <label for="Sección">Sección:</label>
-                <input type="text" name="seccion" class="element">
+            <label for="Sección">Sección:
+                <select name="seccion" id="">
+                    <option value="seleccionar">Seleccionar</option>
+                    <option value="nuestras verduras">Nuestras Verduras</option>
+                    <option value="nuestras frutas">Nuestras Frutas</option>
+                    <option value="destacados del mes">Destacados del mes</option>
+                    <option value="mas visitados">Mas Visitados</option>
+
+                </select>
+            </label>
+
             <!-- </div>
             <div class="element-form"> -->
-                <label>Subir foto del Producto:</label>
-                <input type="file" name="imagen" accept=".jpg, .png">
+            <br>
+            <label>Subir foto del Producto:</label>
+            <input type="file" name="imagen" accept=".jpg, .png">
             <!-- </div> -->
-        
-       
+
+
             <!-- <div> -->
-                <label for="Descripcion">Descripción:</label>
-                <textarea name="comentario" class="element">Descripción del Producto</textarea>
+            <br>
+            <label for="Descripcion">Descripción:</label>
+            <textarea name="comentario" class="element">Descripción del Producto</textarea>
             <!-- </div> -->
-      
+
             <button type="submit" class="button1">Agregar</button>
         </form>
         <!-- <form>
@@ -75,4 +96,5 @@
          -->
 
 </body>
+
 </html>
