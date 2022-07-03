@@ -268,27 +268,6 @@
   "password": "L2kEqjqeZPq",
   "category": "user",
   "avatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAImSURBVDjLpZPfa1JhGMcHXfZ/eBUVdNOVBqGDgwaSy1HLg6R5IUVyYCi5li6Wv+dRysAQoiG4ple1aMyRYj/wF8Ugl8PVTSCM0GI0K/DbeR9RJ4xi9MLnnPf9Pg+f877ncMYAjP0PdOGjVZtEWKIsAT5a6fKRCvhwGUbpfiVagVEsgQ+VWqZIseTPbMK/XMN+QRyHHN6lDyOCTbZ6WPg6IP4X2DAGXneGArHS7gty9V0iv3UwfcHknVx3IDCEy79YGP/Hk/fvQO9aHx7hcqjUPew7mLi1NhRMBYoU6mbXoJ5ZBedcpfX2l/aBUK/zxVBwyfeWwjPTzzGXfI/TwspAsNP6MUJfcN6+MhRc9Lyh8NT1p7j5qAjOKiIYDCKRSMDr86H8roatz034/QHKWG3qhgi5XH60t4P5VyQ4dnUZvHAXoiii2Wyi0Wggl8shtBDGvfsP8LFep6xQKFCPWq329XYwXyDB8QseCNN2VDc24PF4oNFoYDabEYlE4HA4aM4yVmMSQRDaJJh05+krnOCsmHXNkaDT6UA1Po5sNotqtYp8Po90Ok0ZqzGB2+3eI8HE7ZfbTJBKpWCz2UjgcrmgVCqhUqmg1WoJNmcZqzGBxWJp9QQz6ws6Z/aZ+trjb+d0BngDYSwmnyCTySAWi5HUbrfTnGWLyaWuLxD6LR2nNvJrymSyIwqF4iTHcZ9MJtOu1Wrdk/ip1+sNEmel+XeWsRrrYb1/AB4L/elcpleiAAAAAElFTkSuQmCC"
- },
- {
-  "id": 31,
-  "fullName": "R",
-  "email": "a@a.com",
-  "password": "$2a$10$5722PZ272miLyZoU3WmVAeQSMmPPpwhTkO3b9qcJRXCWyVzjgskT2",
-  "country": "Argentina",
-  "avatar": "1656253701482_img.jpeg"
- },
- {
-  "id": 32,
-  "fullName": "Juan",
-  "email": "p@p.com",
-  "password": "$2a$10$F0psiGyG3ce3tIbbxcWXpeNbn/jEGtHO3GpP5sOAA/Wf8ViPRNR.y",
-  "avatar": "1656253819876_img.jpeg"
- },
- {
-  "id": 33,
-  "fullName": "juan",
-  "email": "000@000.com",
-  "password": "$2a$10$sTa5rIIFZsiYCjeu6V5hDubBJpyg2UXA0D.xNivhBCShXZ4759VOq",
-  "avatar": "1656357170500_img.jpeg"
  }
+ 
 ]
