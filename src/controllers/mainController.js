@@ -15,7 +15,7 @@ const bolsones = products.filter(element => element.categoria == "bolsones")
 //busca el nombre del ejs a renderizar
 const controller = {
     inicio: (req, res) => {
-        console.log(products)
+        // console.log(products)
         res.render('inicio', {destacadosMes, masVisitados, nuestrasFrutas, nuestrasVerduras}); // "inicio" EJS a renderizar {products} la keyword
     }, 
     

@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 const multer = require('multer');
+const authMiddleware = require("../middlewares/authMiddleware")
 
 const adminController = require(path.resolve(__dirname,'../controllers/adminController'));
 // //Requerir el middleware Ruta Acceso
@@ -18,6 +19,8 @@ var storage = multer.diskStorage({
   })
    
 const upload = multer({ storage })
+
+router.use(authMiddleware)
 
 router.get('/administrar', adminController.index);
 // router.get('/administrar/create', adminController.create);

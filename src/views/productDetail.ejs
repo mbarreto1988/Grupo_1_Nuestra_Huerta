@@ -17,9 +17,12 @@
     <br>
     <!-- *******************************ARTICULOS_UNO************************************* -->
     <div class="items">
+        <div class="itemsFoto">
         <article class="productovta">
-            <a href="/bananas"><img class="foto_productos" src="/img/producto/<%= product.imagen %>" width="192"
-                    height="128" alt="Frutas"></a>
+            <a href="/bananas"><img class="foto_productos" src="/img/producto/<%= product.imagen %>" width="300"
+                    height="300" alt="Frutas"></a>
+                </div>
+                <div class="itemsTexto">
             <figcaption class="enlacesproductos">
                 <h2 class="productos"><%= product.descripcion %></h2> <br>
                 <h2 class="precio">$<%= product.precio %></h2>
@@ -31,10 +34,12 @@
                     class="fa-solid fa-cart-shopping"></i> Agregar al Carrito <i></i></button>
             </figcaption>
             </a>
+
         </article>
+    </div>
         <br>
     </div>
-    <div class="agregoprod">
+    <!-- <div class="agregoprod">
         <div class="cant-prod-todo">
             <span class="control-label">Cantidad</span>
             <div class="cant-prod-nro">
@@ -46,15 +51,14 @@
                                 <input type="text" placeholder="1">
                             </form>
                         </div>
-                        <!-- <input type="text" name="qty" id="quantity_wanted" value="1" class="input-group form-control" min="0" style="display: block;"> -->
                         <button class="qty" type="button">+</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Newsletter -->
-    <%- include ('./partials/newsletter') %>
+    <!-- <%- include ('./partials/newsletter') %> -->
     <!-- FOOTER -->
     <%- include ('./partials/footer') %>
 </body>
