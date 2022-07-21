@@ -303,5 +303,20 @@
   "email": "ppp@ppp.com",
   "password": "$2a$10$sOOjAWuV/vtO67qwXMvhwOkGgQgcrAYrjuEwY1itrSGvcTQpEb0Je",
   "avatar": "1657904480027_img.jpeg"
+ },
+ {
+  "id": 36,
+  "fullName": "administrador",
+  "email": "admin_user@gmail.com",
+  "password": "$2a$10$A/X50H3IdUZ/VSXmY92EjeZcHH9nmHgRVjg.2DGeiuGYNFNMV1CB2",
+  "avatar": "1658422253714_img.png"
+ },
+ {
+  "id": 37,
+  "fullName": "administrador",
+  "email": "adminuser@gmail.com",
+  "password": "$2a$10$feu/ZlwuZdGWY/HJyuO0T.ybE7DHLExH5b8W2ZRNQ4mgTKQKHd8Dm",
+  "avatar": "1658422449437_img.png",
+  "category": "admin"
  }
 ]

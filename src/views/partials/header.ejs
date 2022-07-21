@@ -18,26 +18,29 @@
                         <li><a href="/user/carrito"> <i class="fa-solid fa-cart-shopping fa-2x"></i> </a></li>
                         <li class="usuario-login"> <a href="/user/login"> <span>INICIAR SESIÓN</span></i></a>
                             <ul class="navbar-nav align-items-center">
-                                <% if (locals.isLogged != undefined) { %>
-                                <li class="nav-item dropdown">
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li> <a class="dropdown-item" href="/user/profile">My profile</a> </li>
-                                        <hr>
-                                        <hr>
-                                        <li> <a class="dropdown-item" href="/user/logout">Logout</a> </li>
-                                    </ul>
-                                </li>
-                                <% } else { %>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
+                                <% if (locals.isLogged) { %>
+                                    <li class="nav-item dropdown">
+                                        <!-- <a class="nav-link dropdown-toggle" href="#" id="dropUser" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="/img/users/<%= locals.userLogged.avatar %>" width="40"
+                                                style="border-radius: 150px">
+                                            Hola <%= locals.userLogged.fullName %>
+                                        </a> -->
+                                        <br>
+                                        <br>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="/user/profile">My profile</a>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <a class="dropdown-item" href="/user/logout">Logout</a>
+                                        </ul>
+                                    </li>
+                                    <% } else { %>
                                         <li class="nav-item"><a class="nav-link" href="/user/register">Register</a></li>
-                                        <hr>
-                                        <hr>
                                         <li class="nav-item"><a class="nav-link" href="/user/login">Login</a></li>
-                                    </ul>
-                                <% } %>                            
+                                        <% } %>
                             </ul>
-                        </li>
-                    </ul>
                 </nav>
             </div>
         </div>
@@ -84,8 +87,6 @@
             <li class="menu__item"><a href="/verduras">Verduras Orgánicas</a></li>
             <li class="menu__item"><a href="/bolsones">Bolsones y Promos</a></li>
             <li class="menu__item"><a href="/nuestrasRecetas">Nuestros Sabores</a></li>
-            <li class="menu__item"><a href="/user/login">Iniciar Sesión</i></a></li>
-            <li class="menu__item"><a href="/user/register">Registrarse por primera vez</a></li>
         </ul>
     </div>
 </header>
