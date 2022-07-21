@@ -35,3 +35,12 @@ Tu Huerta Online: si bien esta página no nos generó valor estético o funciona
 
 Enlace al tablero de trabajo (Trello)
 https://trello.com/b/FA34d4zm/proyecto-grupo-1-nuestra-huerta
+
+
+
+DATOS PERFIL ADMINISTRADOR
+"fullName": "administrador",
+"email": "adminuser@gmail.com",
+"password": "1234567890",
+"avatar": "1658422449437_img.png",
+"category": "admin"

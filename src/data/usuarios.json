@@ -318,5 +318,13 @@
   "password": "$2a$10$feu/ZlwuZdGWY/HJyuO0T.ybE7DHLExH5b8W2ZRNQ4mgTKQKHd8Dm",
   "avatar": "1658422449437_img.png",
   "category": "admin"
+ },
+ {
+  "id": 38,
+  "fullName": "normal",
+  "email": "n@n.com",
+  "password": "$2a$10$x8xHeVvgX5e21dFdpwW2R.DP38pIP/5J8gqk2xQji/zPIEmeOauLa",
+  "avatar": "1658443145861_img.jpeg",
+  "category": "user"
  }
 ]
