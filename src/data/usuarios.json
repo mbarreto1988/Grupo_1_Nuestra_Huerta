@@ -268,5 +268,55 @@
   "password": "L2kEqjqeZPq",
   "category": "user",
   "avatar": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAImSURBVDjLpZPfa1JhGMcHXfZ/eBUVdNOVBqGDgwaSy1HLg6R5IUVyYCi5li6Wv+dRysAQoiG4ple1aMyRYj/wF8Ugl8PVTSCM0GI0K/DbeR9RJ4xi9MLnnPf9Pg+f877ncMYAjP0PdOGjVZtEWKIsAT5a6fKRCvhwGUbpfiVagVEsgQ+VWqZIseTPbMK/XMN+QRyHHN6lDyOCTbZ6WPg6IP4X2DAGXneGArHS7gty9V0iv3UwfcHknVx3IDCEy79YGP/Hk/fvQO9aHx7hcqjUPew7mLi1NhRMBYoU6mbXoJ5ZBedcpfX2l/aBUK/zxVBwyfeWwjPTzzGXfI/TwspAsNP6MUJfcN6+MhRc9Lyh8NT1p7j5qAjOKiIYDCKRSMDr86H8roatz034/QHKWG3qhgi5XH60t4P5VyQ4dnUZvHAXoiii2Wyi0Wggl8shtBDGvfsP8LFep6xQKFCPWq329XYwXyDB8QseCNN2VDc24PF4oNFoYDabEYlE4HA4aM4yVmMSQRDaJJh05+krnOCsmHXNkaDT6UA1Po5sNotqtYp8Po90Ok0ZqzGB2+3eI8HE7ZfbTJBKpWCz2UjgcrmgVCqhUqmg1WoJNmcZqzGBxWJp9QQz6ws6Z/aZ+trjb+d0BngDYSwmnyCTySAWi5HUbrfTnGWLyaWuLxD6LR2nNvJrymSyIwqF4iTHcZ9MJtOu1Wrdk/ip1+sNEmel+XeWsRrrYb1/AB4L/elcpleiAAAAAElFTkSuQmCC"
+ },
+ {
+  "id": 31,
+  "fullName": "JPS",
+  "email": "jj@jj.com",
+  "password": "$2a$10$mskGlIxdZ3InihLFriNMruh4xDPHkagXrgMwV45nPq0q6oGgMgZui",
+  "avatar": "1657109308541_img.jpeg"
+ },
+ {
+  "id": 32,
+  "fullName": "J",
+  "email": "j@j.com",
+  "password": "$2a$10$NcbKmHuSu6PMkbpk5OuND.F021JVUvBu9mVjnQ.yn2B4a73rxtCKS",
+  "avatar": "1657117038890_img.jpeg"
+ },
+ {
+  "id": 33,
+  "fullName": "Andrey",
+  "email": "a@and.com",
+  "password": "$2a$10$qDBZBYCdp2tqTtLB.Nl38uhgc3bb3cUZCSPqXQdY3UWUs55n9athu",
+  "avatar": "1657157495854_img.jpeg"
+ },
+ {
+  "id": 34,
+  "fullName": "matias barreto",
+  "email": "matiasbarreto@gmail.com",
+  "password": "$2a$10$t2OSkNPgUyjEmKoKQJ.fU.wXabyo4KJUYWEu0ZOhPW/PmXGBpskWS",
+  "avatar": "1657287330372_img.jpg"
+ },
+ {
+  "id": 35,
+  "fullName": "pppp",
+  "email": "ppp@ppp.com",
+  "password": "$2a$10$sOOjAWuV/vtO67qwXMvhwOkGgQgcrAYrjuEwY1itrSGvcTQpEb0Je",
+  "avatar": "1657904480027_img.jpeg"
+ },
+ {
+  "id": 36,
+  "fullName": "administrador",
+  "email": "admin_user@gmail.com",
+  "password": "$2a$10$A/X50H3IdUZ/VSXmY92EjeZcHH9nmHgRVjg.2DGeiuGYNFNMV1CB2",
+  "avatar": "1658422253714_img.png"
+ },
+ {
+  "id": 37,
+  "fullName": "administrador",
+  "email": "adminuser@gmail.com",
+  "password": "$2a$10$feu/ZlwuZdGWY/HJyuO0T.ybE7DHLExH5b8W2ZRNQ4mgTKQKHd8Dm",
+  "avatar": "1658422449437_img.png",
+  "category": "admin"
  }
 ]

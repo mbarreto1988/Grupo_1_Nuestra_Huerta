@@ -1,64 +1,92 @@
-<div class="contenedor">
-    <header>
-        <div class="header">
-            <div class="logo">
-                <a href="/"> <img src="/img/logo.png" alt="logo"> </a>
-            </div>
+<script src="https://kit.fontawesome.com/a214269803.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script defer src="/public/main.js"></script>
 
-            <div class="buscador">
-                <form action="" method="post">
-                    <input type="text" placeholder="Buscar..." name=""> <button class="botonBusqueda"> <i
-                            class="fa-solid fa-magnifying-glass fa-2x"></i></button>
-                </form>
+<header>
+    <div class="main-header">
+        <div class="header1">
+            <div class="header1_a">
+                <p>Contactanos al (011) 11 1111 2222 o por mail a consultas@nuestrahuerta.com</p>
             </div>
+        </div>
 
-            <div class="iconos-login-carrito">
+        <div class="header2">
+            
+            <div class="header2_a">
                 <nav>
                     <ul class="lista-iconos">
-                        <li class="hamburguesa"> <a href="#"> <i class="fa-solid fa-bars fa-2x"></i> </a></li>
-                        <!-- <li class="usuario-login"> <a href="/user/login"> <i class="fa-solid fa-user-group fa-2x"></i>
-                            </a> -->
-                        <li class="carrito-compras"> <a href="/user/carrito" target="_blank"> <i
-                                    class="fa-solid fa-cart-shopping fa-2x"></i> </a></li>
-
-                        <ul class="navbar-nav align-items-center">
-                            <% if (locals.isLogged) { %>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="dropUser" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img src="/img/users/<%= locals.userLogged.avatar %>" width="40"
-                                            style="border-radius: 150px">
-                                        Hola <%= locals.userLogged.fullName %>
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="/user/profile">My profile</a>
-                                        <li>
-                                            <hr class="dropdown-divider">
-                                        </li>
-                                        <a class="dropdown-item" href="/user/logout">Logout</a>
-                                    </ul>
-                                </li>
-                                <% } else { %>
-                                    <li class="nav-item"><a class="nav-link" href="/user/register">Register</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="/user/login">Login</a></li>
-                                    <% } %>
-                        </ul>
-
-
+                        <li><a href="/user/carrito"> <i class="fa-solid fa-cart-shopping fa-2x"></i> </a></li>
+                        <li class="usuario-login"> <a href="/user/login"> <span>INICIAR SESIÓN</span></i></a>
+                            <ul class="navbar-nav align-items-center">
+                                <% if (locals.isLogged) { %>
+                                    <li class="nav-item dropdown">
+                                        <!-- <a class="nav-link dropdown-toggle" href="#" id="dropUser" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="/img/users/<%= locals.userLogged.avatar %>" width="40"
+                                                style="border-radius: 150px">
+                                            Hola <%= locals.userLogged.fullName %>
+                                        </a> -->
+                                        <br>
+                                        <br>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="/user/profile">My profile</a>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <a class="dropdown-item" href="/user/logout">Logout</a>
+                                        </ul>
+                                    </li>
+                                    <% } else { %>
+                                        <li class="nav-item"><a class="nav-link" href="/user/register">Register</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/user/login">Login</a></li>
+                                        <% } %>
+                            </ul>
                 </nav>
             </div>
         </div>
-
-        <div class="navegacion">
-            <nav class="listaServicio">
-                <ul>
-                    <li><a href="/contactanos" target="_blank">Contactanos</a></li>
-                    <li><a href="/frutas" target="_blank">Frutas Orgánicas</a></li>
-                    <li><a href="/verduras" target="_blank">Verduras Orgánicas</a></li>
-                    <li><a href="/bolsones" target="_blank">Bolsones y Promos</a></li>
-                    <li><a href="/nuestrasRecetas" target="_blank">Nuestras Recetas</a></li>
-                </ul>
-            </nav>
+        <div class="divisoria">
         </div>
+    </div>
+    <div class="main-nav">
+        <div class="logo_general">
+            <a href="/"><img class="logo_menu" src="/img/logo.png" alt="Volver al Inicio" title="Volver al Inicio"></a>
+        </div>
+        <div class="buscar">
+            <form action="/">
+                <input type="text" placeholder="Buscar" required />
+            </form>
+            <div class="btn_buscador">
+              <i class="fas fa-search icon"></i>
+            </div>
+        </div>     
+        
+    </div>
 
-    </header>
+    <br>
+
+    <div class="list-servicio">
+        
+        <nav>
+            <ul class="list-servicio-1">                
+                <li class="list-servicio-2"><a class="link-motion" href="/contactanos">Conocenos</a></li>
+                <li class="list-servicio-2"><a class="link-motion" href="/frutas">Frutas Orgánicas</a></li>
+                <li class="list-servicio-2"><a class="link-motion" href="/verduras">Verduras Orgánicas</a></li>
+                <li class="list-servicio-2"><a class="link-motion" href="/bolsones">Bolsones y Promos</a></li>
+                <li class="list-servicio-2"><a class="link-motion" href="/nuestrasRecetas">Nuestros Sabores</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="hamburguer-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+        <ul class="menu__box">
+            <li class="menu__item"><a href="/contactanos">Conocenos</a></li>
+            <li class="menu__item"><a href="/frutas">Frutas Orgánicas</a></li>
+            <li class="menu__item"><a href="/verduras">Verduras Orgánicas</a></li>
+            <li class="menu__item"><a href="/bolsones">Bolsones y Promos</a></li>
+            <li class="menu__item"><a href="/nuestrasRecetas">Nuestros Sabores</a></li>
+        </ul>
+    </div>
+</header>

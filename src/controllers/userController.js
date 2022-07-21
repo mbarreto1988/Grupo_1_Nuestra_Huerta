@@ -42,7 +42,7 @@ const controller = {
             email:req.body.email.toLowerCase(),
             //lo que pongo, está pisando la propiedad password del objeto literal
             avatar: req.file.filename,
-            rol: 1
+            category: "user"//se agrega el campo rol en la base de datos usuarios.json
         }
         //si pasa todas las validaciones, me crea el usuario
         let userCreated = User.create(userToCreate);

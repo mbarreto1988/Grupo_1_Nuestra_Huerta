@@ -40,4 +40,4 @@ app.use('/admin', adminRouter);
 // ************ catch 404 and forward to error handler ************
 app.use((req, res, next) => { res.status(404).render('not-found'); })
 
-app.listen(3000, () => { console.log('Servidor arriba en el puerto 3000 👌');}) //aca se crea la direccion del localHost
+app.listen(3001, () => { console.log('Servidor arriba en el puerto 3001 👌');}) //aca se crea la direccion del localHost

@@ -1,9 +1,9 @@
 h2.categoria {
-    color: grey;
+    color: white;
     text-decoration: none;
     text-align: center;
     text-decoration: none;
-    background-color: #ecffcd;
+    background-color: grey ;
     border: 2px solid #e3dede;
     border-radius: 10px;
     align-items: center;
@@ -12,21 +12,28 @@ h2.categoria {
 }
 
 h2.productos {
-    font-size: medium;
-    text-decoration: none;
+    color: black;
+    font-family: "Lato",Arial,sans-serif;
+    text-transform: uppercase;
     text-align: center;
-    align-items: center;
+    letter-spacing: 4px;
+    font-size: 28px;
     margin: auto;
-    text-transform: capitalize;
 }
 
 h2.precio {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
     align-items: center;
+    
+    color: black;
+    font-family: "Lato",Arial,sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 22px;
     margin: auto;
+
+
+
 }
 
 h2.productos a {
@@ -54,15 +61,15 @@ h2.origen {
 
 
 figcaption.enlacesproductos {
-    background-color: #ecffcd;
-    color: grey;
-    text-decoration: none;
-    font: smaller sans-serif;
+    background-color: white;
+    color: black;
+    font-family: "Lato",Arial,sans-serif;
+    font-size: 15px;
     padding: 3px;
     text-align: center;
     padding-top: 10px;
-    padding-right: 30px;
     border-radius: 5px;
+    width: 100%;
 
 }
 
@@ -102,7 +109,7 @@ article img.foto_productos{
     width: auto;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: left;
     }
 
     .control-label{
@@ -112,6 +119,29 @@ article img.foto_productos{
 .qty{
     background-color: #ecffcd;
 }    
+
+.items{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    height: 300px;
+}
+
+.itemsFoto{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+
+}
+
+.itemsTexto{
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    font-size: 18px;
+}
+
 
 #quantity_wanted{
     border-radius: 5%;
