@@ -41,7 +41,8 @@ const controller = {
             password: bcryptjs.hashSync(req.body.password, 10), //busca encriptar la contraseña usando del modulo bccy el metodo hashSync
             email:req.body.email.toLowerCase(),
             //lo que pongo, está pisando la propiedad password del objeto literal
-            avatar: req.file.filename
+            avatar: req.file.filename,
+            rol: 1
         }
         //si pasa todas las validaciones, me crea el usuario
         let userCreated = User.create(userToCreate);
