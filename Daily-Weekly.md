@@ -9,3 +9,7 @@ Se realizó la division de los trabajos por equipos (pair progamming) y en vario
 Se explicaron conceptos teóricos que no quedaron claros para todos a fin de partir todos del mismo punto.
 
 Reunión 3 30-5-2022 Se realizó la division de los trabajos por equipos para encarar el Sprint 4. Se repasaron conceptos y dudas sobre el proyecto. Se explicaron conceptos teóricos que no quedaron claros para todos a fin de partir todos del mismo punto.
+
+Reunión 4 16-6-2022 Definimos que por la complejidad del Sprint 5, la mejor manera de trabajarlo no era dividiendo las tareas, sino hacer todos por separados el objetivo del Sprint, en pos de no complejizar el trabajo de equipo con la concatenación de tareas.
+
+Reunión 5 13-7-2022 Al igual que lo hicimos en el Sprint 5, definimos trabajar el 100% del CRUD del Sprint 6 de manera individual, pero sumando pair programming para temas puntuales. Se explicaron conceptos teóricos que no quedaron claros para todos a fin de partir todos del mismo punto.
