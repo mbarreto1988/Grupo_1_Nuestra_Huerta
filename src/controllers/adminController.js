@@ -3,6 +3,15 @@ const fs = require('fs');
 const fileProducts = fs.readFileSync(path.resolve("src/data/productos.json"), "utf-8") //me lee los archivos de la variable anterior. Recibe como parametro la ruta del archivo
 const products = JSON.parse(fileProducts);
 
+const db = require('../database/models');
+const { Op } = require("sequelize");
+
+const Categories = db.Category;
+const Sections = db.Section;
+const Products = db.Product;
+
+
+
 
 module.exports = {
     index: (req,res) =>{
@@ -12,6 +21,7 @@ module.exports = {
     create: (req,res) =>{
         let productos = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/productos.json')));
         res.render(path.resolve(__dirname, '../views/admin/create'));
+       
     },
 
     // Create - Form to create
@@ -98,4 +108,5 @@ module.exports = {
         res.redirect('/admin/administrar');
     }
 }
+
 

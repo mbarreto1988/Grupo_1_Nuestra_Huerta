@@ -4,8 +4,9 @@ const router = express.Router();
 router.get('/', mainController.inicio);
 
 router.get('/contactanos', mainController.contactanos);
-router.get('/', mainController.producto);
+router.get('/', mainController.inicio);
 router.get('/:categoria', mainController.categoria);
 router.get('/nuestrasRecetas', mainController.nuestrasRecetas);
+
 
 module.exports = router;

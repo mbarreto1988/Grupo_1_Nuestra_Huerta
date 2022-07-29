@@ -10,8 +10,8 @@
     <!-- ******************************SUB_TITULO*************************************** -->
     <div class="sub_titulo">
         <a href="frutas">
-            <h2 class="categoria"><%= product.categoria.charAt(0).toUpperCase() + product.categoria.slice(1) %> /
-                <%= product.nombreProducto.charAt(0).toUpperCase() + product.nombreProducto.slice(1) %></h2>
+            <h2 class="categoria"><%= product.categories.name.toUpperCase() %> /
+                <%= product.name.charAt(0).toUpperCase() + product.name.slice(1) %></h2>
         </a>
     </div>
     <br>
@@ -19,13 +19,13 @@
     <div class="items">
         <div class="itemsFoto">
         <article class="productovta">
-            <a href="/bananas"><img class="foto_productos" src="/img/producto/<%= product.imagen %>" width="300"
+            <a href="/bananas"><img class="foto_productos" src="/img/producto/<%= product.image %>" width="300"
                     height="300" alt="Frutas"></a>
                 </div>
                 <div class="itemsTexto">
             <figcaption class="enlacesproductos">
-                <h2 class="productos"><%= product.descripcion %></h2> <br>
-                <h2 class="precio">$<%= product.precio %></h2>
+                <h2 class="productos"><%= product.description %></h2> <br>
+                <h2 class="precio">$<%= product.price %></h2>
                 <h3 class="impuestos">Impuestos incluidos</h3>
                 <br>
                 <h2 class="stock"><i class="fa-solid fa-check"></i> En existencia</h2>
@@ -39,24 +39,6 @@
     </div>
         <br>
     </div>
-    <!-- <div class="agregoprod">
-        <div class="cant-prod-todo">
-            <span class="control-label">Cantidad</span>
-            <div class="cant-prod-nro">
-                <div class="cantidad">
-                    <div class="input-group">
-                        <button class="qty" type="button">-</button>
-                        <div class="input_producto_carrito">
-                            <form action="#">
-                                <input type="text" placeholder="1">
-                            </form>
-                        </div>
-                        <button class="qty" type="button">+</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <!-- Newsletter -->
     <!-- <%- include ('./partials/newsletter') %> -->
     <!-- FOOTER -->

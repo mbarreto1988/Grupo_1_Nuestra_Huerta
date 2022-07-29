@@ -1,38 +1,85 @@
 const path = require('path')
 const fs = require("fs"); //libreria que sirve para leer o escribir archivos
-const fileProducts = fs.readFileSync(path.resolve("src/data/productos.json"), "utf-8") //me lee los archivos de la variable anterior. Recibe como parametro la ruta del archivo
+const db = require('../database/models');
+const { Op } = require("sequelize");
 
-const products = JSON.parse(fileProducts);
+const Categories = db.Category;
+const Sections = db.Section;
+const Products = db.Product;
 
-const destacadosMes = products.filter(element => element.seccion == "destacados del mes");
-const masVisitados = products.filter(element => element.seccion == "mas visitados");
-const nuestrasFrutas = products.filter(element => element.seccion == "nuestras frutas");
-const nuestrasVerduras = products.filter(element => element.seccion == "nuestras verduras")
+const findProductsBySect = async (section) => {
+    try {
+        const products = await Products.findAll({
+            where: {
+                section_id: section.toString()
+            },
+        });
+        return products
 
-const frutas = products.filter(element => element.categoria == "frutas")
-const verduras = products.filter(element => element.categoria == "verduras")
-const bolsones = products.filter(element => element.categoria == "bolsones")
-//busca el nombre del ejs a renderizar
+    } catch (error) {
+
+    }
+}
+const findProductsByCat = async (category) => {
+    try {
+        const products = await Products.findAll({
+            where: {
+                category_id: category.toString()
+            },
+        });
+        return products
+
+    } catch (error) {
+
+    }
+}
+
 const controller = {
-    inicio: (req, res) => {
-        // console.log(products)
-        res.render('inicio', {destacadosMes, masVisitados, nuestrasFrutas, nuestrasVerduras}); // "inicio" EJS a renderizar {products} la keyword
-    }, 
-    
-    producto: (req, res) => {
-        res.render('producto', {frutas, verduras, bolsones});
+    inicio: async (req, res) => {
+        try {
+            const nuestrasFrutas = await findProductsBySect(1)
+            const destacadosMes = await findProductsBySect(2)
+            const nuestrasVerduras = await findProductsBySect(3)
+            const masVisitados = await findProductsBySect(4)
+            const data = {
+                destacadosMes,
+                masVisitados,
+                nuestrasFrutas,
+                nuestrasVerduras
+            }
+            res.render('./inicio', { Products: data })
+
+        } catch (error) {
+            console.log(error);
+
+        }
     },
-    categoria: (req, res) => {
-        let productos = products.filter(element => element.categoria == req.params.categoria)
-        res.render('producto', {productos})
+    categoria: async (req, res) => {
+        try {
+            switch (req.params.categoria) {
+                case "frutas": const frutas = await findProductsByCat(1)
+                    res.render('./producto', { Products: frutas })
+                    break;
+                case "verduras": const verduras = await findProductsByCat(2)
+                    res.render('./producto', { Products: verduras })
+                    break;
+                case "bolsones": const bolsones = await findProductsByCat(3)
+                    res.render('./producto', { Products: bolsones })
+                    break;
+            }
+        }
+        catch (error) {
+            console.log(error);
+        }
     },
-    
+
+
     contactanos: (req, res) => {
         res.render('contactanos');
     },
     nuestrasRecetas: (req, res) => {
         res.render('nuestrasRecetas');
     },
-        
+
 }
 module.exports = controller;
