@@ -40,7 +40,7 @@ module.exports = function(sequelize, dataTypes) {
     User.associate = function(models) {
         User.belongsTo(models.Role, {
             as: "roles",
-            foreignKey: "id"
+            foreignKey: "role_id"
         });
         User.hasMany(models.Cart, {
             as: "carts",
