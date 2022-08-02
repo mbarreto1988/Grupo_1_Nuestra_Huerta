@@ -82,13 +82,14 @@
     "imagen": "manzana-verde1.jpg"
   },
   {
-    "id": 9,
     "nombreProducto": "Manzana Roja",
-    "precio": 310,
-    "descuento": 10,
-    "categoria": "frutas",
-    "seccion": "destacados del mes",
     "descripcion": "Manzana Pink Lady x kilo",
+    "precio": "500",
+    "categoria": "frutas",
+    "seccion": "seleccionar",
+    "descuento": "30",
+    "oldImagen": "manzana-roja1.jpg",
+    "id": "9",
     "imagen": "manzana-roja1.jpg"
   },
   {

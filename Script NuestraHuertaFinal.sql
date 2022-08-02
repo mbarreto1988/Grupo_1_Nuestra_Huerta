@@ -4,7 +4,7 @@ USE `nuestra_huerta_final`;
 
 
 CREATE TABLE `products` (
-   `id` INT NOT NULL,
+   `id` INT NOT NULL AUTO_INCREMENT,
    `name` VARCHAR(255) NOT NULL,
    `price` INT NOT NULL,
    `description` VARCHAR(255),
@@ -24,7 +24,6 @@ CREATE TABLE `users` (
    `password` VARCHAR(255) NOT NULL,
    `image` VARCHAR(255) NOT NULL,
    `rol_id` INT NOT NULL,
-   `authenticated` BIT NOT NULL DEFAULT 0,
    PRIMARY KEY (`id`)
 );
 
@@ -47,13 +46,13 @@ CREATE TABLE `sections` (
 );
 
 CREATE TABLE `cart` (
-   `id` INT NOT NULL,
+   `id` INT NOT NULL AUTO_INCREMENT,
    `user_id` INT NOT NULL,
    PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `cart_detail` (
-   `id` INT NOT NULL,
+   `id` INT NOT NULL AUTO_INCREMENT,
    `quantity` INT NOT NULL,
    `product_id` INT NOT NULL,
    `cart_id` INT NOT NULL,
@@ -61,7 +60,7 @@ CREATE TABLE `cart_detail` (
 );
 
 CREATE TABLE `ticket` (
-   `id` INT NOT NULL,
+   `id` INT NOT NULL AUTO_INCREMENT,
    `payment_method` VARCHAR(255) NOT NULL,
    `payment_type` VARCHAR(255) NOT NULL,
    `cart_id` INT NOT NULL,

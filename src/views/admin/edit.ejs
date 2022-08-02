@@ -23,60 +23,73 @@
                     <div class="row">
                         <div class="col-8 mx-auto bg-light ">
                             <div class="create-form">
-                                <form action="/admin/administrar/edit/<%= productoEditar.id%>?_method=PUT
+                                <form action="/admin/administrar/edit/<%= Product.id%>?_method=PUT
                             " method="POST" enctype="multipart/form-data">
                                     <div class="form-group">
                                         <label for="Nombre">Nombre:</label>
-                                        <input type="text" class="form-control" name="nombreProducto"
+                                        <input type="text" class="form-control" name="name"
                                             placeholder="Nombre" required="required"
-                                            value="<%= productoEditar.nombreProducto%>">
+                                            value="<%= Product.name%>">
                                     </div>
                                     <div class="form-group">
                                         <label for="Descripcion">Descripción:</label>
-                                        <input type="text" class="form-control" name="descripcion"
+                                        <input type="text" class="form-control" name="description"
                                             placeholder="Descripción" required="required"
-                                            value="<%= productoEditar.descripcion%>">
+                                            value="<%= Product.description%>">
                                     </div>
                                     <div class="form-group">
                                         <label for="Precio">Precio:</label>
-                                        <input type="number" class="form-control" name="precio"
-                                            placeholder="Indique el precio" required="required"
-                                            value="<%= productoEditar.precio%>">
+                                        <input type="text" class="form-control" name="price"
+                                             required
+                                            value="<%= Product.price%>">
                                     </div>
                                     <div class="form-group">
+                                    <label for="stock">Stock:</label>
+                                    <input type="number" name="stock" 
+                                    required
+                                    value="<%= Product.stock%>">
+                            </div>
+                                    <div class="form-group">
                                         <label for="Categoría">Categoría:</label>
-                                        <select name="categoria" class="element">
+                                        <select name="category_id" class="element">
                                             <option value="seleccionar">Seleccionar</option>
-                                            <option value="verduras" <%=productoEditar.categoria =="verduras" ? "selected":""%> >Verduras</option> 
-                                            <option value="frutas" <%=productoEditar.categoria =="frutas" ? "selected":""%>>Frutas</option>
-                                            <option value="bolsones y promos"<%=productoEditar.categoria =="bolsones y promos" ? "selected":""%> >Bolsones y Promos</option>
+                                            <option value="verduras" <%=Product.category_id =="verduras" ? "selected":""%> >Verduras</option> 
+                                            <option value="frutas" <%=Product.category_id =="frutas" ? "selected":""%>>Frutas</option>
+                                            <option value="bolsones y promos"<%=Product.category_id =="bolsones y promos" ? "selected":""%> >Bolsones y Promos</option>
                                         </select>
+
+
+                                        //*pendiente ver logica con BD*//
+
+                                        
+
+
 
                                     </div>
                                     <div class="form-group">
 
                                         <label for="Sección">Sección:
-                                            <select name="seccion" id="">
+                                            <select name="section_id" id="">
                                                 <option value="seleccionar">Seleccionar</option>
-                                                <option value="nuestras verduras" <%=productoEditar.seccion =="nuestras verduras" ? "selected":""%>>Nuestras Verduras</option>
-                                                <option value="nuestras frutas" <%=productoEditar.seccion =="nuestras frutas" ? "selected":""%>>Nuestras Frutas</option>
-                                                <option value="destacados del mes" <%=productoEditar.seccion =="destacado del mes" ? "selected":""%>>Destacados del mes</option>
-                                                <option value="mas visitados"<%=productoEditar.seccion =="mas visitados" ? "selected":""%>>Mas Visitados</option>
+                                                <option value="nuestras verduras" <%=Product.section_id =="nuestras verduras" ? "selected":""%>>Nuestras Verduras</option>
+                                                <option value="nuestras frutas" <%=Product.section_id =="nuestras frutas" ? "selected":""%>>Nuestras Frutas</option>
+                                                <option value="destacados del mes" <%=Product.section_id =="destacado del mes" ? "selected":""%>>Destacados del mes</option>
+                                                <option value="mas visitados"<%=Product.section_id =="mas visitados" ? "selected":""%>>Mas Visitados</option>
 
                                             </select>
                                         </label>
                                     </div>
                                     <div class="form-group">
                                         <label for="descuento">Descuento:
-                                            <select name="descuento" class="custom-select" id="validationCustom04"
+                                            <select name="discount" class="custom-select" id="validationCustom04"
                                                 required>
                                                 <option disabled value="#">Seleccione un descuento"</option>
-                                                <option value="0" <%=productoEditar.descuento==0 ? "selected" : null %>
+                                                <option value="0" <%=Product.discount==0 ? "selected" : null %>
                                                     >Sin descuento</option>
-                                                <option value="15" <%=productoEditar.descuento==15 ? "selected" : null
+                                                <option value="15" <%=Product.discount==15 ? "selected" : null
                                                     %>
                                                     >15%</option>
-                                                <option value="30" <%=productoEditar.descuento==30 ? "selected" : null
+                                                <option value="30" <%=Product.discount==30 ? "selected" : null
                                                     %>
                                                     >30%</option>
                                             </select>
@@ -86,12 +99,14 @@
                                     <div class="custom-file">
                                         <figure class="form-group">
                                             <img class="imagenes_copadas"
-                                                src="/img/producto/<%= productoEditar.imagen%>"
-                                                alt="producto <%= productoEditar.nombre%>">
+                                                src="/img/producto/<%= Product.image%>"
+                                                alt="producto <%= Product.name%>">
                                         </figure>
-                                        <input type="hidden" name="oldImagen" value="<%= productoEditar.imagen%>">
+                                        <input type="hidden" name="oldImagen" value="<%= Product.image%>">
                                         <!--De esta forma logro conservar y que viaje la imagen anterior de esta forma evito que el usuario seleccione una imagen nuevamente, ( si no lo desea) -->
-                                        <input type="file" name="imagen">
+                                        
+                                        <input type="file" name="image" accept=".jpg, .jpeg, .png">
+
                                         <!--<input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01" name="imagen" required value=""> 
 
                                     <label class="custom-file-label" for="inputGroupFile01">Seleccione una imagen...</label>-->

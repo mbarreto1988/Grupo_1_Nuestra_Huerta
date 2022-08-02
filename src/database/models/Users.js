@@ -24,10 +24,11 @@ module.exports = function(sequelize, dataTypes) {
         },
         rol_id: {
             type: dataTypes.STRING
-        },
-        aunthenticated: {
-            type: dataTypes.INTEGER
         }
+        // ,
+        // aunthenticated: {
+        //     type: dataTypes.INTEGER
+        // }
     }
 
     let config = {

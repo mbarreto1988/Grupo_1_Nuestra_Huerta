@@ -23,54 +23,73 @@
 
         <form action="/admin/administrar/create" method="POST" enctype="multipart/form-data">
             <label class="label">Categoría:</label>
-            <select name="categoria" class="element">
+            <!-- <select name="categoria" class="element">
                 <option value="verduras">Verduras</option>
                 <option value="frutas">Frutas</option>
                 <option value="bolsones y promos">Bolsones y Promos</option>
+            </select> -->
+
+            <select name="category_id" id="" required>
+                <option value="" disabled selected>- Seleccione la Categoría - </option>
+                <% allCategories.forEach(category=> { %>
+                <option value="<%= category.id %>"><%= category.name %></option>
+                <% }); %>
             </select>
+<br>
             <!-- <form action="/registro" method="POST" class="element-form"> -->
             <!-- <div class="element-form"> -->
-            <label for="Nombre del Producto">Producto:</label>
-            <input type="Text" name="nombreProducto" id="nombreProducto" class="element">
+            <label for="name">Producto:</label>
+            <input type="Text" name="name" id="nombreProducto" class="element">
             <!-- </div> -->
             <!-- <div class="element-form"> -->
-            <label for="Precio">Precio:</label>
-            <input type="number" name="precio" placeholder="00.0" class="element">
+            <label for="price">Precio:</label>
+            <input type="number" name="price" placeholder="00.0" class="element">
+
+            <label for="stock">Stock:</label>
+            <input type="number" name="stock" placeholder="00" class="element">
             <!-- </div>
             <div class="element-form"> -->
             <label for="descuento">Descuento:
-                <select name="descuento" class="custom-select" id="validationCustom04" required>
+                <select name="discount" class="custom-select" id="validationCustom04" required>
                     <option disabled value="#">Seleccione un descuento</option>
                     <option value="0">Sin descuento</option>
                     <option value="15">15%</option>
                     <option value="30">30%</option>
                 </select>
             </label>
+            <BR>
             <!-- </div>
             <div class="element-form"> -->
             <label for="Sección">Sección:
-                <select name="seccion" id="">
+                <!-- <select name="seccion" id="">
                     <option value="seleccionar">Seleccionar</option>
                     <option value="nuestras verduras">Nuestras Verduras</option>
                     <option value="nuestras frutas">Nuestras Frutas</option>
                     <option value="destacados del mes">Destacados del mes</option>
                     <option value="mas visitados">Mas Visitados</option>
 
-                </select>
+                </select> -->
+                    <select name="section_id" id="" required>
+                        <option value="" disabled selected>- Seleccione el género - </option>
+                        <% allSections.forEach(section=> { %>
+                        <option value="<%= section.id %>"><%= section.name %></option>
+                        <% }); %>
+                    </select>
+                
             </label>
 
             <!-- </div>
             <div class="element-form"> -->
             <br>
             <label>Subir foto del Producto:</label>
-            <input type="file" name="imagen" accept=".jpg, .png">
+            <input type="file" name="image" accept=".jpg, .jpeg, .png">
             <!-- </div> -->
 
 
             <!-- <div> -->
             <br>
-            <label for="Descripcion">Descripción:</label>
-            <textarea name="comentario" class="element">Descripción del Producto</textarea>
+            <label for="Description">Descripción:</label>
+            <textarea name="description" class="element">Descripción del Producto</textarea>
             <!-- </div> -->
 
             <button type="submit" class="button1">Agregar</button>
