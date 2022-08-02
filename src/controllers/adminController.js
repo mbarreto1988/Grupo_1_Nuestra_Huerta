@@ -33,7 +33,7 @@ module.exports = {
         Promise
             .all([promCategories, promSections])
             .then(([allCategories, allSections]) => {
-                return res.render(path.resolve(__dirname, '..', 'views', 'admin/create'),
+                return res.render('admin/create',
                     { allCategories, allSections})
             })
             .catch(error => res.send(error))
@@ -97,7 +97,7 @@ module.exports = {
                     stock: req.body.stock,
                     section_id: req.body.section_id,
                     category_id: req.body.category_id,
-                    image,
+                    image
                 },
                 {
                     where: { id: productoEditar }

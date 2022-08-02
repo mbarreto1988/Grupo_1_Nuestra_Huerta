@@ -15,7 +15,7 @@ const controlador = {
     register: (req, res) => {
         res.render('./users/userRegisterForm')
     },
-    processRegister: async(req, res) => {
+    processRegister: async (req, res) => {
         try {
             const resultValidation = validationResult(req);
             if (!resultValidation.isEmpty()) {
@@ -39,7 +39,7 @@ const controlador = {
         } catch (error) {
             console.log(error)
         }
-            
+
     },
     login: (req, res) => {
         res.render('./users/userLoginForm')
@@ -47,28 +47,35 @@ const controlador = {
     loginProcess: async (req, res) => {
         try {
             let userToLogin = await Users.findOne({ where: { email: req.body.email } });
+
             if (userToLogin) {
-                let isOkThePassword = bcrypt.compare(req.body.password, userToLogin.password)
+
+                let isOkThePassword = bcrypt.compareSync(req.body.password, userToLogin.password)
+                
                 if (isOkThePassword) {
-                    if (userToLogin.rol_id == 2) {
+
+                    if (userToLogin.rol_id == 1) {
                         delete userToLogin.password;
                         req.session.adminLogged = userToLogin;
                         res.locals.adminLogged = true;
                     }
+
                     delete userToLogin.password;
                     req.session.userLogged = userToLogin;
                     if (req.body.remember_user) {
                         res.cookie('userEmail', req.body.email, { maxAge: (1000 * 60) * 2 })
                     }
-                    return res.redirect('/profile');
-                }
-                return res.render('./users/userRegisterForm', {
-                    errors: {
-                        email: {
-                            msg: 'Las credenciales son inválidas'
+    
+                    res.redirect('/user/profile');                    
+                } else {
+                    res.render('./users/userRegisterForm', {
+                        errors: {
+                            email: {
+                                msg: 'Las credenciales son inválidas'
+                            }
                         }
-                    }
-                })
+                    })
+                }
             }
         } catch (error) {
 
@@ -85,7 +92,7 @@ const controlador = {
         req.session.destroy();
         res.redirect('/');
     },
-    
+
     edit: function (req, res) {
         db.User.findByPk(req.params.id,
             {
@@ -113,20 +120,19 @@ const controlador = {
                     where: { id: UserId }
                 })
             .then(() => {
-                return res.redirect('/profile')
+                return res.redirect('/user/profile')
             })
             .catch(error => res.send(error))
     },
     destroy: function (req, res) {
         let userId = req.params.id;
         Users
-            .destroy({ where: { id: userId }, force: true }) // force: true es para asegurar que se ejecute la acción
+            .destroy({ where: { id: userId } }) // force: true es para asegurar que se ejecute la acción
             .then(() => {
                 return res.redirect('/')
             })
             .catch(error => res.send(error))
     },
-
     carrito: (req, res) => {
         res.render('./users/carrito');
     }
