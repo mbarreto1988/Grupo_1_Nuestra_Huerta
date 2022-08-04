@@ -5,7 +5,12 @@
 
 	<body>
 		<!-- HEADER -->
-		<%- include ('../partials/header') %>
+		
+		<% if (userLogged && userLogged.rol_id == "1") { %>                   
+			<%- include ('../partials/adminHeader') %>
+		<% } else { %>
+		  <%- include ('../partials/header') %> 
+		<% } %>
 
 	
 	<!-- Container -->
@@ -17,7 +22,7 @@
 				<div class="alert alert-success"><h3> Estás registrado con este mail: <%= user.email %> </h3></div>
 				<br>
 				<br>
-				<img src="/img/users/<%= user.avatar %>" width="200"
+				<img src="/img/users/<%= user.image %>" width="200"
 				style="border-radius: 8px;">
 			</div>
 		</div>
