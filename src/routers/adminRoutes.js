@@ -5,6 +5,8 @@ const multer = require('multer');
 // const authMiddleware = require("../middlewares/authMiddleware")
 const adminMiddleware = require("../middlewares/adminMiddleware")
 
+const validations = require('../middlewares/validateProductsMiddleware');
+
 const adminController = require(path.resolve(__dirname,'../controllers/adminController'));
 // //Requerir el middleware Ruta Acceso
 // const acceso = require(path.resolve(__dirname,'../middlewares/acceso'));
@@ -30,13 +32,13 @@ router.get('/administrar', adminController.index);
 // router.post('/administrar/create', upload.single('image'), adminController.save);
 router.get('/administrar/detail/:id', adminController.show);
 router.get('/administrar/edit/:id', adminController.edit);
-router.put('/administrar/edit/:id', upload.single('image'), adminController.update);
+router.put('/administrar/edit/:id', upload.single('image'), validations, adminController.update);
 router.delete('/administrar/delete/:id', adminController.destroy);
 
 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/administrar/create', adminController.create); 
-router.post('/administrar/create', upload.single("imagen"), adminController.store); 
-
+// router.post('/administrar/create', upload.single("imagen"), adminController.store); 
+router.post('/administrar/create', upload.single("image"), validations, adminController.store);
 
 module.exports = router;

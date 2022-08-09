@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const { validationResult } = require('express-validator');
 // const fileProducts = fs.readFileSync(path.resolve("src/data/productos.json"), "utf-8") //me lee los archivos de la variable anterior. Recibe como parametro la ruta del archivo
 // const products = JSON.parse(fileProducts);
 
@@ -27,6 +28,9 @@ module.exports = {
     },
     
     create: (req, res) => {
+      //me falta hacer el if del error//
+      
+      
         let promCategories = Categories.findAll();
         let promSections = Sections.findAll();
 

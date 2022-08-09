@@ -1,0 +1,55 @@
+<!-- head -->
+<%- include ('../partials/head') %>
+<!-- <link rel="stylesheet" href="/css/producto.css">
+<link rel="stylesheet" href="/css/login.css"> -->
+<link rel="stylesheet" href="/css/administrar.css">
+
+<body>
+    <!-- HEADER -->
+    <% if (userLogged && userLogged.rol_id == "1") { %>                   
+			<%- include ('../partials/adminHeader') %>
+		<% } else { %>
+		  <%- include ('../partials/header') %> 
+		<% } %>
+    
+      <!--Administrador de productos-->
+      <br>
+      <section class="row">
+        <article class="col-12 ">
+          <h2 class="display-4 text-white bg-info text-center pt-2">Administrador de Usuarios</h2>
+        </article>
+        <article class="col-12">
+          <a href="/admin/administrar/create" class="addButton"><ion-icon name="add-circle-outline"></ion-icon>Agregar</a>
+        </article>
+        <article class="col-12" >
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Ver</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Borrar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% usuarios.forEach(producto => { %>
+              <tr>
+                <td><%= usuario.id%> </td>
+                <td><%= producto.name%> </td>
+                <td><a href="/product/<%=producto.id%>/detail"> <ion-icon name="eye-outline"></ion-icon></a></td>
+                <td><a href="/admin/administrar/edit/<%= producto.id%> "> <ion-icon name="pencil-outline"></ion-icon></a></td>
+                <td><form action="/admin/administrar/delete/<%= producto.id%>?_method=DELETE" method="post">
+                  <button type="submit"  class="buttonAdm"><ion-icon name="trash-outline"></ion-icon></button>
+              </form></td>
+                
+                </tr>
+              <% }); %>
+            </tbody>
+          </table> 
+        </article>       
+      </section>
+      <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    </main>
+  </body>
+</html>
