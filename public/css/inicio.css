@@ -3,15 +3,37 @@
     padding: 0px;
     margin: 0px;
 }
-header{
+/* header{
     background: linear-gradient(#ffffff, #00ff4c, #b7ff00, #00ffe5,#ffffff, #00ff4c, #b7ff00, #00ffe5);
-}
-.header1_a{
+} */
+/* .header1_a{
     background: rgb(68, 4, 4);
     color: whitesmoke;
     text-align: center;
     height: 40px;
+} */
+.header1 {
+    background-color: rgb(0, 0, 0);
+    height: 25%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+
 }
+.header1_a {
+    display: flex;
+    word-wrap: normal;
+    align-items: center;
+    padding: 10px;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+
+}
+
 .header2 {
     background-color: #282828;
     color: #282828;
@@ -43,8 +65,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 250px;
-    background: linear-gradient(#ffffff, #00ff4c);
+    height: 150px;
+    background: linear-gradient(#ffffff, grey);
 }  
 .buscar {
     position: relative;
@@ -157,7 +179,7 @@ li>ul li a:hover {
 .list-servicio {
     display: flex;
     flex-direction: row;
-    margin-top: -60px;
+    margin-top: 0px;
     justify-content: center;
     font-family: Lato, Arial, sans-serif;
     text-transform: uppercase;
@@ -234,14 +256,20 @@ li>ul li a:hover {
     position: fixed;
     top: 0;
     left: -100%;
-    width: 350px;
-    height: 35%;
+    width: 250px;
+    height: 25%;
     margin: 0;
     padding: 80px 0;
     list-style: none;
-    background: linear-gradient(#ffffff, #00ff4c, #ffffff);
+    background: linear-gradient(#ffffff, #ffffff);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
+    font-size: 40px;
+    font-family: "Lato", Arial, sans-serif;
+    font-weight: lighter;
+    
+
+    
 }
 .menu__item a {
     display: block;
@@ -353,7 +381,6 @@ footer i {
 .sub_titulo h2 {
     color: grey;
     text-align: center;
-
     text-decoration: none;
     background-color: white;
     border: 2px thick red;
@@ -411,6 +438,17 @@ figcaption {
     text-align: center;
     border-radius: 10px;
 }
+
+.carrito {
+    background-color: #5ba718;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    font-family: "Lato", Arial, sans-serif;
+    padding: 10px;
+
+}
+
 .carrito-dos {
     color: rgb(37, 67, 133);
     left: 30px;

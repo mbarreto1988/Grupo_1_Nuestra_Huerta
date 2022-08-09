@@ -1,14 +1,23 @@
 h2.categoria {
-    color: white;
+    /* color: black; */
     text-decoration: none;
     text-align: center;
-    text-decoration: none;
+    /* text-decoration: none;
     background-color: grey ;
-    border: 2px solid #e3dede;
-    border-radius: 10px;
+    border: 2px solid #e3dede; */
+    /* border-radius: 10px; */
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    
     justify-content: flex-end;
+
+    background-color: #5ba718;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    font-family: "Lato", Arial, sans-serif;
+    /* padding: 10px; */
+
 }
 
 h2.productos {

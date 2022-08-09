@@ -32,10 +32,12 @@
             <select name="category_id" id="" required>
                 <option value="" disabled selected>- Seleccione la Categoría - </option>
                 <% allCategories.forEach(category=> { %>
-                <option value="<%= category.id %>"><%= category.name %></option>
-                <% }); %>
+                    <option value="<%= category.id %>">
+                        <%= category.name %>
+                    </option>
+                    <% }); %>
             </select>
-<br>
+            <br>
             <!-- <form action="/registro" method="POST" class="element-form"> -->
             <!-- <div class="element-form"> -->
             <label for="name">Producto:</label>
@@ -69,13 +71,15 @@
                     <option value="mas visitados">Mas Visitados</option>
 
                 </select> -->
-                    <select name="section_id" id="" required>
-                        <option value="" disabled selected>- Seleccione el género - </option>
-                        <% allSections.forEach(section=> { %>
-                        <option value="<%= section.id %>"><%= section.name %></option>
+                <select name="section_id" id="" required>
+                    <option value="" disabled selected>- Seleccione el género - </option>
+                    <% allSections.forEach(section=> { %>
+                        <option value="<%= section.id %>">
+                            <%= section.name %>
+                        </option>
                         <% }); %>
-                    </select>
-                
+                </select>
+
             </label>
 
             <!-- </div>
@@ -89,9 +93,9 @@
             <!-- <div> -->
             <br>
             <label for="Description">Descripción:</label>
-            <textarea name="description" class="element">Descripción del Producto</textarea>
+            <textarea name="description" class="element"></textarea>
             <!-- </div> -->
-
+            <bR>
             <button type="submit" class="button1">Agregar</button>
         </form>
         <!-- <form>
