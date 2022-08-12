@@ -7,6 +7,12 @@
     color: white;
 }
 
+
+.aviso-error{
+    color: red
+}
+
+
 .btn-info {
     color: white;
     padding: 10px;

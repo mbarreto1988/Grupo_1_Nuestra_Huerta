@@ -23,11 +23,6 @@
 
         <form action="/admin/administrar/create" method="POST" enctype="multipart/form-data">
             <label class="label">Categoría:</label>
-            <!-- <select name="categoria" class="element">
-                <option value="verduras">Verduras</option>
-                <option value="frutas">Frutas</option>
-                <option value="bolsones y promos">Bolsones y Promos</option>
-            </select> -->
 
             <select name="category_id" id="" required>
                 <option value="" disabled selected>- Seleccione la Categoría - </option>
@@ -41,62 +36,93 @@
             <!-- <form action="/registro" method="POST" class="element-form"> -->
             <!-- <div class="element-form"> -->
             <label for="name">Producto:</label>
-            <input type="Text" name="name" id="nombreProducto" class="element">
-            <!-- </div> -->
-            <!-- <div class="element-form"> -->
-            <label for="price">Precio:</label>
-            <input type="number" name="price" placeholder="00.0" class="element">
+            <input type="Text" name="name" id="nombreProducto" 
+            class="element <% locals.errors && errors.name ? 'is invalid' : null %>"
+            value="<%= locals.oldData ? oldData.name : null %>">
+            <% if(locals.errors && errors.name) { %>
+                <div class='aviso-error'>
+                    <%= errors.name.msg %>
+                </div>
+                <% } %>
+                <!-- </div> -->
+                <!-- <div class="element-form"> -->
+                <label for="price">Precio:</label>
+                <input type="number" name="price" placeholder="00.0" class="element" 
+                <% locals.errors && errors.price ? 'is invalid' : null %>"
+                value="<%= locals.oldData ? oldData.name : null %>">
+                <% if(locals.errors && errors.price) { %>
+                    <div class='aviso-error'>
+                        <%= errors.price.msg %>
+                    </div>
+                    <% } %>
 
-            <label for="stock">Stock:</label>
-            <input type="number" name="stock" placeholder="00" class="element">
-            <!-- </div>
+
+                <label for="stock">Stock:</label>
+                <input type="number" name="stock" placeholder="00" class="element"
+                <% locals.errors && errors.stock ? 'is invalid' : null %>"
+                value="<%= locals.oldData ? oldData.stock : null %>">
+                <% if(locals.errors && errors.stock) { %>
+                    <div class='aviso-error'>
+                        <%= errors.stock.msg %>
+                    </div>
+                    <% } %>
+                <!-- </div>
             <div class="element-form"> -->
-            <label for="descuento">Descuento:
-                <select name="discount" class="custom-select" id="validationCustom04" required>
-                    <option disabled value="#">Seleccione un descuento</option>
-                    <option value="0">Sin descuento</option>
-                    <option value="15">15%</option>
-                    <option value="30">30%</option>
-                </select>
-            </label>
-            <BR>
-            <!-- </div>
+                <label for="descuento">Descuento:
+                    <select name="discount" class="custom-select" id="validationCustom04" required>
+                        <option disabled value="#">Seleccione un descuento</option>
+                        <option value="0">Sin descuento</option>
+                        <option value="15">15%</option>
+                        <option value="30">30%</option>
+                    </select>
+                </label>
+                <BR>
+                <!-- </div>
             <div class="element-form"> -->
-            <label for="Sección">Sección:
-                <!-- <select name="seccion" id="">
-                    <option value="seleccionar">Seleccionar</option>
-                    <option value="nuestras verduras">Nuestras Verduras</option>
-                    <option value="nuestras frutas">Nuestras Frutas</option>
-                    <option value="destacados del mes">Destacados del mes</option>
-                    <option value="mas visitados">Mas Visitados</option>
+                <label for="Sección">Sección:
+                    <select name="section_id" id="" required>
+                        <option value="" disabled selected>- Seleccione el género - </option>
+                        <% allSections.forEach(section=> { %>
+                            <option value="<%= section.id %>">
+                                <%= section.name %>
+                            </option>
+                            <% }); %>
+                    </select>
 
-                </select> -->
-                <select name="section_id" id="" required>
-                    <option value="" disabled selected>- Seleccione el género - </option>
-                    <% allSections.forEach(section=> { %>
-                        <option value="<%= section.id %>">
-                            <%= section.name %>
-                        </option>
-                        <% }); %>
-                </select>
+                </label>
 
-            </label>
+                <br>
+                <label>Subir foto del Producto:</label>
+                <input type="file" name="image" accept=".jpg, .jpeg, .png, .gif"
+                value="<%= locals.oldImage ? oldImage.image : null %>"></input>
+            <% if(locals.errors && errors.image) { %>
+                <div class='aviso-error'>
+                    <%= errors.image.msg %>
+                </div>
+                <% } %>
 
-            <!-- </div>
-            <div class="element-form"> -->
-            <br>
-            <label>Subir foto del Producto:</label>
-            <input type="file" name="image" accept=".jpg, .jpeg, .png">
-            <!-- </div> -->
+                <!-- <div> -->
+                <br>
+                <label for="Description">Descripción:</label>
+                                          
+                        <input type="text" style="HEIGHT: 50px; WIDTH: 500px"  name="description" id="description"
+                        class="description required-entry
+<% locals.errors && errors.description ? 'is invalid' : null %>"
+                        value="<%= locals.oldData ? oldData.description : null %>"
+                        id="description"></input>
+                    <% if(locals.errors && errors.description) { %>
+                        <div class='aviso-error'>
+                            <%= errors.description.msg %>
+                        </div>
+                        <% } %>
 
 
-            <!-- <div> -->
-            <br>
-            <label for="Description">Descripción:</label>
-            <textarea name="description" class="element"></textarea>
-            <!-- </div> -->
-            <bR>
-            <button type="submit" class="button1">Agregar</button>
+
+
+
+                <!-- </div> -->
+                <bR>
+                <button type="submit" class="button1">Agregar</button>
         </form>
         <!-- <form>
             <div class="style-form">

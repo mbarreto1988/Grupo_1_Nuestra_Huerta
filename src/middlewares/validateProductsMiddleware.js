@@ -2,15 +2,16 @@ const path = require('path');
 const { check } = require('express-validator');
 
 module.exports = [
-	check('name').notEmpty().withMessage('Tienes que escribir un nombre'),
-	check('price').notEmpty().withMessage('Tienes que escribir un precio'),
-	check('description').notEmpty().withMessage('Tienes que escribir una descripcion'),
-	check('section_id').notEmpty().withMessage('Tienes que escribir una seccion'),
-	check('category_id').notEmpty().withMessage('Tienes que escribir una categoria'),
-	// check('country').notEmpty().withMessage('Tienes que elegir un país'),
+	check('name').notEmpty().withMessage('Ingrese el nombre del producto').isLength(5).withMessage('Minimo de 5 caracteres'),
+	check('price').notEmpty().withMessage('Ingrese un precio'),
+	check('description').notEmpty().withMessage('Ingrese la descripción del producto').isLength(20).withMessage('Minimo de 20 caracteres'),
+	check('section_id').notEmpty().withMessage('Ingrese la sección del producto').isLength(5).withMessage('Minimo de 5 caracteres'),
+	check('category_id').notEmpty().withMessage('Ingrese la categoría del producto').isLength(5).withMessage('Minimo de 5 caracteres'),
+	check('stock').notEmpty().withMessage('Ingrese el stock del producto'),
+	check('discount').notEmpty().withMessage('Ingrese el descuento del producto'),
 	check('image').custom((value, { req }) => {
 		let file = req.file;
-		let acceptedExtensions = ['.jpg','.jpeg', '.png', '.gif'];
+		let acceptedExtensions = ['.jpg', '.png', '.jpeg', '.gif'];
 
 		if (!file) {
 			throw new Error('Tienes que subir una imagen');
@@ -24,3 +25,4 @@ module.exports = [
 		return true;
 	})
 ]
+

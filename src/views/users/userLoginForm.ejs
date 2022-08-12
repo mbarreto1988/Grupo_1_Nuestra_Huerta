@@ -20,7 +20,7 @@
 									<div class="labelText">
 										<label><b>Correo electrónico:</b></label>
 										<BR>
-										<input type="text" name="email" class="label2">
+										<input type="text" name="email" class="label2" id="email">
 										<% if (locals.errors && errors.email) { %>
 											<div class="text-danger">
 												<%= errors.email.msg %>
@@ -31,7 +31,7 @@
 									<div class="labelText">
 										<label class="label"><b>Password:</b></label>
 										<BR>
-										<input type="password" name="password" class="label2">
+										<input type="password" name="password" class="label2" id="password">
 										<div class="invalid-feedback">
 										</div>
 									</div>
@@ -56,5 +56,5 @@
 
 			<%- include('../partials/footer.ejs'); %>
 	</body>
-
+<script src="/js/loginValidation.js"></script>
 </html>
