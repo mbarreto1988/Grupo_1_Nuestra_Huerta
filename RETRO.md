@@ -75,3 +75,11 @@ Enfocados en la metodología Estrella de Mar:
 3.	Más de: • Involucramiento y aporte de todos los miembros
 4.	Dejar de hacer: • En este Sprint dejamos pasar mucho tiempo al inicio y perdimos el foco de la importancia del mismo
 5.	Empezar a hacer: • Sumar cosas vistas para los Sprints siguientes.
+
+Reunión de Retrospectiva del Sprint 7:
+Enfocados en la metodología Estrella de Mar:
+1.	Seguir haciendo: • Reunirnos en Pair Programming. En este Sprint sirvió mucho esta metodología
+2.	Menos de: • Dedicar tiempo a lo no exigible.
+3.	Más de: • Involucramiento y aporte de todos los miembros. 
+4.	Dejar de hacer: • En este Sprint aprendimos de los errores anteriores, y fuimos eficientes. No hubo que dejar de hacer nada
+5.	Empezar a hacer: • Sumar cosas vistas para los Sprints siguientes.
