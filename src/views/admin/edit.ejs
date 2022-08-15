@@ -25,18 +25,39 @@
                             <div class="form-group">
                                 <label for="Nombre">Nombre:</label>
                                 <input type="text" class="form-control" name="name" placeholder="Nombre" value="<%= Product.name%>" id="nombreProducto">
+                                
+                                <% if(locals.errors && errors.name) { %>
+                                    <div class='aviso-error'>
+                                        <%= errors.name.msg %>
+                                    </div>
+                                    <% } %>
                             </div>
                             <div class="form-group">
                                 <label for="Descripcion">Descripción:</label>
                                 <input type="text" class="form-control" name="description" placeholder="Descripción" value="<%= Product.description%>" id="description">
+                                <% if(locals.errors && errors.description) { %>
+                                    <div class='aviso-error'>
+                                        <%= errors.description.msg %>
+                                    </div>
+                                    <% } %>
                             </div>
                             <div class="form-group">
                                 <label for="Precio">Precio:</label>
                                 <input type="text" class="form-control" name="price" value="<%= Product.price%>" id="price">
+                                <% if(locals.errors && errors.price) { %>
+                                    <div class='aviso-error'>
+                                        <%= errors.price.msg %>
+                                    </div>
+                                    <% } %>
                             </div>
                             <div class="form-group">
                                 <label for="stock">Stock:</label>
                                 <input type="text" name="stock" value="<%= Product.stock%>" id="stock">
+                                <% if(locals.errors && errors.stock) { %>
+                                    <div class='aviso-error'>
+                                        <%= errors.stock.msg %>
+                                    </div>
+                                    <% } %>
                             </div>
                             <div class="form-group">
                                 <label for="Categoría">Categoría:</label>

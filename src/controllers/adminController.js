@@ -1,7 +1,6 @@
 const path = require('path');
 const fs = require('fs');
 const { validationResult } = require('express-validator');
-
 const db = require('../database/models');
 const { Op } = require("sequelize");
 
@@ -62,14 +61,14 @@ module.exports = {
             Products
                 .create(
                     {
+                        category_id: req.body.category_id,
                         name: req.body.name,
                         price: req.body.price,
-                        description: req.body.description,
-                        discount: req.body.discount,
                         stock: req.body.stock,
+                        discount: req.body.discount,
                         section_id: req.body.section_id,
-                        category_id: req.body.category_id,
                         image,
+                        description: req.body.description,
                     }
                 )
                 .then(() => {

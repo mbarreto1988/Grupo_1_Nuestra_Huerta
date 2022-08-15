@@ -50,7 +50,7 @@ value="<%= locals.oldData ? oldData.name : null %>">
 <label for="price">Precio:</label>
 <input type="text" name="price" placeholder="00.0" id="price" class="element" <% locals.errors &&
 errors.price ? 'is invalid' : null %>"
-value="<%= locals.oldData ? oldData.name : null %>">
+value="<%= locals.oldData ? oldData.price : null %>">
 <% if(locals.errors && errors.price) { %>
 <div class='aviso-error'>
 <%= errors.price.msg %>
@@ -114,15 +114,11 @@ id="description"></input>
 <%= errors.description.msg %>
 </div>
 <% } %>
-                                                            <!-- </div> -->
 <br>
 <button type="submit" class="button1">Agregar</button>
-<!-- <div class="errores">
-<ul> </ul>
-</div> -->
-        </form>
-    </main>
+</form>
+</main>
 
-    <script src="/js/productCreateValidation.js"></script>
+<script src="/js/productCreateValidation.js"></script>
 </body>
 </html>
