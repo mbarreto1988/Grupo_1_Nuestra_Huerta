@@ -9,7 +9,6 @@ const Categories = db.Category;
 const Sections = db.Section;
 const Products = db.Product;
 
-
 module.exports = {
     index: (req, res) => {
         try {

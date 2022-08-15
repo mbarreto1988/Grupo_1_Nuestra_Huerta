@@ -28,12 +28,6 @@ a .logo_menu:hover{
 }
 
 
-/*-----------------------GENERALES---------------*/
-/*-----------------------Formulario------------------*/
-/* .style-form{
-padding: 15px 20px;
-font-style: italic;
-} */
 .element-form{
     margin-bottom: 15px;
     display: block;
@@ -43,6 +37,13 @@ font-style: italic;
     font-style: italic;
     display: block;
 
+}
+
+.errores{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;    
 }
 
 .aviso-error{

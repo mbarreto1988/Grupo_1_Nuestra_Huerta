@@ -102,8 +102,6 @@ const controlador = {
             .then(User => {
                 res.render('./users/userProfile', { User });
             });
-
-
     },
     update: function (req, res) {
         let image = req.body.image = req.file ? req.file.filename : req.body.oldImagen;

@@ -226,7 +226,7 @@ li>ul li a:hover {
 }
 .menu__btn {
     position: fixed;
-    top: 20px;
+    top: 60px;
     left: 20px;
     width: 26px;
     height: 26px;
@@ -240,7 +240,7 @@ li>ul li a:hover {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #3cff00;
+    background-color: #5ba718;
     transition-duration: .25s;
 }
 .menu__btn > span::before {
@@ -254,12 +254,12 @@ li>ul li a:hover {
 .menu__box {
     display: block;
     position: fixed;
-    top: 0;
+    top: 50px;
     left: -100%;
     width: 250px;
-    height: 25%;
+    height: 35%;
     margin: 0;
-    padding: 80px 0;
+    padding: 40px 0;
     list-style: none;
     background: linear-gradient(#ffffff, #ffffff);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
@@ -317,6 +317,7 @@ li>ul li a:hover {
     margin-left: 30px;
     height: 35%;
     margin: 5px auto;
+
 }
 
 .logoContainer {
@@ -330,6 +331,7 @@ footer i {
     font-size: 35px;
     margin: 0 5px 0 5px;
     padding-top: 15px;
+    color:rgb(0, 0, 0)
 }
 
 .icono {
@@ -572,15 +574,21 @@ footer i {
         background-color: #000;
     }
 }
+@media (max-width: 999px){
+       .usuario-login{
+        display: none;
+    }
+}
+
 @media (min-width: 1000px){   
    .menu__btn{
     display: none;
    }
 }
 @media (max-width: 600px) {
-    .banner {
+    /* .banner {
         height: 200px;
-    }
+    } */
     .articulos {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -616,9 +624,9 @@ footer i {
 
 }
 @media (max-width: 351px) {
-    .banner {
+    /* .banner {
         height: 150px;
-    }
+    } */
         .articulos {
         grid-template-columns: repeat(1, 1fr);
     }

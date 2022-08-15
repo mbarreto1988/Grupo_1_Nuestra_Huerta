@@ -12,7 +12,6 @@ module.exports = [
 	check('image').custom((value, { req }) => {
 		let file = req.file;
 		let acceptedExtensions = ['.jpg', '.png', '.jpeg', '.gif'];
-
 		if (!file) {
 			throw new Error('Tienes que subir una imagen');
 		} else {
@@ -21,7 +20,6 @@ module.exports = [
 				throw new Error(`Las extensiones de archivo permitidas son ${acceptedExtensions.join(', ')}`);
 			}
 		}
-
 		return true;
 	})
 ]

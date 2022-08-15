@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
-	<%- include ('../partials/head') %>
-	<link rel="stylesheet" href="/css/login.css">
-	
+<%- include ('../partials/head') %>
+<link rel="stylesheet" href="/css/login.css">
+
 	<body>
 		<!-- HEADER -->
 		<%- include ('../partials/header') %>
 
-
-			<!-- Login-Form -->
-			<div class="formLogin">
-				<div class="row justify-content-center">
-					<div class="col-md-10">
-						<h2 class="labelText1">Listo para loguearte!</h2>
-
-						<form method="POST" action="/user/login">
-							<div class="row">
-								<div class="col-md-6 my-2">
-									<div class="labelText">
-										<label><b>Correo electrónico:</b></label>
-										<BR>
-										<input type="text" name="email" class="label2" id="email">
+		<p class="mensaje" id="mensaje"></p>
+							<div class="errores">
+								<ul> </ul>
+							</div>
+		<!-- Login-Form -->
+		<div class="formLogin">
+			<div class="row justify-content-center">
+				<div class="col-md-10">
+					<h2 class="labelText1">Listo para loguearte!</h2>
+					<form method="POST" action="/user/login" id="loginForm">
+						<div class="row">
+							<div class="col-md-6 my-2">
+								<div class="labelText">
+									<label><b>Correo electrónico:</b></label>
+									<BR>
+									<input type="text" name="email" class="label2" id="loginEmail" required>
 										<% if (locals.errors && errors.email) { %>
 											<div class="text-danger">
 												<%= errors.email.msg %>
 											</div>
-											<% } %>
-									</div>
+										<% } %>
 								</div>
-									<div class="labelText">
-										<label class="label"><b>Password:</b></label>
-										<BR>
-										<input type="password" name="password" class="label2" id="password">
-										<div class="invalid-feedback">
-										</div>
-									</div>
-								
-								
-									<div class="labelText">
-										<label class="label3">
-											<input type="checkbox" class="form-check-input"
-												name="remember_user"> ⚡Recordar mi usuario
-										</label>
-									</div>
-								
-								<BR>
-									<button type="submit" class="button3">Loguearme</button>
-								
 							</div>
-						</form>
-					</div>
+							<div class="labelText">
+								<label class="label"><b>Password:</b></label>
+								<BR>
+								<input type="password" name="password" class="label2" id="loginPassword" required>
+								<div class="invalid-feedback">
+								</div>
+							</div>
+							<div class="labelText">
+								<label class="label3">
+									<input type="checkbox" class="form-check-input" name="remember_user"> ⚡Recordar mi
+									usuario
+								</label>
+							</div>
+							<BR>
+							<button type="submit" class="button3">Loguearme</button>
+							<br>
+							
+						</div>
+					</form>
 				</div>
 			</div>
-			<!-- //Login-Form -->
-
-			<%- include('../partials/footer.ejs'); %>
+		</div>
+		<!-- //Login-Form -->
+		<%- include('../partials/footer.ejs'); %>
+		<script src="/js/loginValidation.js"></script>
 	</body>
-<script src="/js/loginValidation.js"></script>
+
 </html>

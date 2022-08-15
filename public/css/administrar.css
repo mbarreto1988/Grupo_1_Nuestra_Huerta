@@ -8,6 +8,13 @@
 }
 
 
+.errores{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .aviso-error{
     color: red
 }
