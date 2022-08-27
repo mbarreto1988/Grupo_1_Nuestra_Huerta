@@ -36,6 +36,9 @@ Tu Huerta Online: si bien esta página no nos generó valor estético o funciona
 Enlace al tablero de trabajo (Trello)
 https://trello.com/b/FA34d4zm/proyecto-grupo-1-nuestra-huerta
 
+Enlace al Frond-end de React
+https://github.com/mbarreto1988/nuestraHuerta_REACT
+
 
 
 DATOS PERFIL ADMINISTRADOR
