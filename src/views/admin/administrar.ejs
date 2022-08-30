@@ -34,7 +34,7 @@
             <td><a href="/admin/administrar/edit/<%= producto.id%> "> <i class="fa-solid fa-pencil"></i> </a></td>
             <td>
               <form action="/admin/administrar/delete/<%= producto.id%>?_method=DELETE" method="post">
-                <button type="submit" onclick="return confirm('Seguro quiere eliminar el producto <%= producto.id%>')" class="buttonAdm"> <i class="fa-solid fa-trash-can"></i> </button>
+                <button type="submit" onclick="return confirm('Seguro quiere eliminar el producto <%= producto.id%> <%= producto.name%>')" class="buttonAdm"> <i class="fa-solid fa-trash-can"></i> </button>
                </form>
             </td>
           </tr>
