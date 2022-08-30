@@ -31,8 +31,6 @@ form.addEventListener('submit', (e) => {
         for (let i = 0; i < errores.length; i++) {
             erroresUl.innerHTML += "<li>" + errores[i] + "</li>";
         };
-    }else{
-        alert(errores)
     }
 });
 
