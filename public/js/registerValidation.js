@@ -16,14 +16,14 @@ form.addEventListener('submit', (e) => {
 
     //valido Nombre    
     if (firstName.value.length < 2) {
-        errores.push("Nombre no valido");
+        errores.push("Nombre no válido. Debe contener por lo menos 3 caracteres");
     };
     if (firstName.value == "") {
         errores.push("El campo Nombre no puede estar vacio");
     }
     //valido Apellido
     if (lastName.value.length < 2) {
-        errores.push("Apellido no valido");
+        errores.push("Apellido no valido. Debe contener por lo menos 3 caracteres");
     };
     if (lastName.value == "") {
         errores.push("El campo Apellido no puede estar vacio");
@@ -34,7 +34,7 @@ form.addEventListener('submit', (e) => {
     };
     //Valido Password
     if (pass.value.length < 8) {
-        errores.push("La contrasena debe tener entre 8 y 10 caracteres");
+        errores.push("La contraseña debe tener entre 8 y 10 caracteres");
     };
     if (pass.value == "") {
         errores.push("La contraseña no puede estar vacia");

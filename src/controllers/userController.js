@@ -46,6 +46,14 @@ const controlador = {
     },
     loginProcess: async (req, res) => {
         try {
+            const resultValidation = validationResult(req);
+            if (!resultValidation.isEmpty()) {
+                res.render('./users/userLoginForm', {
+                    errors: resultValidation.mapped(),
+                    oldData: req.body
+                })
+            }
+
             let userToLogin = await Users.findOne({ where: { email: req.body.email } });
 
             if (userToLogin) {

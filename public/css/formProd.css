@@ -43,7 +43,12 @@ a .logo_menu:hover{
     color: red;
     font-size: 15px;
     font-weight: bold;
-    text-align: center;    
+    text-align: center;
+   
+}
+
+.errores ul{
+   list-style-type: none;
 }
 
 .aviso-error{

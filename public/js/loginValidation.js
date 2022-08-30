@@ -11,10 +11,10 @@ form.addEventListener('submit', (e) => {
     };
     //Valido Password
     if (pass.value.length < 6 && pass.value.length < 8) {
-        errors.push("La contrasena debe tener entre 6 y 8 caracteres");
+        errors.push("La contraseña debe tener entre 6 y 8 caracteres");
     };
     if (pass.value == "") {
-        errors.push("La contrasena no puede estar vacia");
+        errors.push("La contraseña no puede estar vacia");
     };
     //compruebo las validaciones para poder enviar el formulario
     if (errors.length > 0) {
