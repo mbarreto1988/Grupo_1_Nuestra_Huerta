@@ -83,3 +83,6 @@ Enfocados en la metodología Estrella de Mar:
 3.	Más de: • Involucramiento y aporte de todos los miembros. 
 4.	Dejar de hacer: • En este Sprint aprendimos de los errores anteriores, y fuimos eficientes. No hubo que dejar de hacer nada
 5.	Empezar a hacer: • Sumar cosas vistas para los Sprints siguientes.
+
+Reunión de Retrospectiva del Sprint 8:
+Cambiamos la metodología de Estrella De Mar para hacer la Retrospectiva Final

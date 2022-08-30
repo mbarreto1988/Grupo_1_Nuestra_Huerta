@@ -20,7 +20,7 @@ form.addEventListener('submit', (e) => {
         errores.push("El campo Nombre del producto no puede estar vacio");
     };
     if (description.value.length < 10) {
-        errores.push("La descripcion debe tener al menos 10 caracteres");
+        errores.push("La descripción debe tener al menos 10 caracteres");
     };
     //valido que el precio no este vacio
     if (precio.value == "") {

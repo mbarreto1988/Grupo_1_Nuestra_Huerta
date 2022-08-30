@@ -34,7 +34,7 @@ form.addEventListener('submit', (e) => {
     };
     //Valido Password
     if (pass.value.length < 8) {
-        errores.push("La contrasena debe tener entre 8 y 10 caracteres");
+        errores.push("La contraseña debe tener entre 8 y 10 caracteres");
     };
     if (pass.value == "") {
         errores.push("La contraseña no puede estar vacia");
