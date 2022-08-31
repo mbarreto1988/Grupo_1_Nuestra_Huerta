@@ -63,11 +63,11 @@
                                 <label for="Categoría">Categoría:</label>
                                 <select name="category_id" class="element" required>
                                     <option value="seleccionar" required>Seleccionar</option>
-                                    <option value="1" <%=Product.category_id =="verduras" ? "selected":""%>>Verduras
+                                    <option value="1" <%=Product.category_id =="1" ? "selected":""%>>Frutas
                                     </option>
-                                    <option value="2" <%=Product.category_id =="frutas" ? "selected":""%>>Frutas
+                                    <option value="2" <%=Product.category_id =="2" ? "selected":""%>>Verduras
                                     </option>
-                                    <option value="3" <%=Product.category_id =="bolsones y promos" ? "selected":""%>>
+                                    <option value="3" <%=Product.category_id =="3" ? "selected":""%>>
                                         Bolsones y Promos</option>
                                 </select>
                             </div>
@@ -75,10 +75,10 @@
                                 <label for="Sección">Sección:
                                     <select name="section_id" id="" required>
                                         <option value="seleccionar" required>Seleccionar</option>
-                                        <option value="3" <%=Product.section_id =="nuestras verduras" ? "selected":""%>>Nuestras Verduras</option>
-                                        <option value="1" <%=Product.section_id =="nuestras frutas" ? "selected":""%>>Nuestras Frutas</option>
-                                        <option value="2" <%=Product.section_id =="destacado del mes" ? "selected":""%>>Destacados del mes</option>
-                                        <option value="4" <%=Product.section_id =="mas visitados" ? "selected":""%>>Mas Visitados</option>
+                                        <option value="3" <%=Product.section_id =="3" ? "selected":""%>>Nuestras Verduras</option>
+                                        <option value="1" <%=Product.section_id =="1" ? "selected":""%>>Nuestras Frutas</option>
+                                        <option value="2" <%=Product.section_id =="2" ? "selected":""%>>Destacados del mes</option>
+                                        <option value="4" <%=Product.section_id =="4" ? "selected":""%>>Mas Visitados</option>
                                     </select>
                                 </label>
                             </div>

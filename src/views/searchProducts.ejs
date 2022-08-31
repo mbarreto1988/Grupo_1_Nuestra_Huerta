@@ -1,0 +1,54 @@
+<!-- head -->
+<%- include ('./partials/head') %>
+    <link rel="stylesheet" href="/css/inicio.css">
+
+    <body>
+        <!-- HEADER -->
+        <%- include ('./partials/header') %>
+
+            <main>
+                <!-- BANNER -->
+                <div class="banner">
+                </div>
+                <!-- SUB_TITULO -->
+                <br>
+                <div class="sub_titulo">
+                    <% if (products.length> 0) { %>
+                        <a href="#">
+                            <h2>Productos encontrados</h2>
+                        </a>
+                </div>
+
+                <section>
+
+                        <div class="articulos">
+                            <% products.forEach(cualquierNombre=> { %>
+
+                                <article>
+                                    <a href="/product/<%= cualquierNombre.id %>/detail" target="_blank">
+                                        <img class="imagenes_copadas" src="/img/producto/<%= cualquierNombre.image %>"
+                                            alt="Frutas">
+                                    </a>
+                                    <figcaption>
+                                        <h2 class="textoDesc">
+                                            <%= cualquierNombre.name%>
+                                        </h2> <br>
+                                        <h2 clas="precioDesc">$<%= cualquierNombre.price%>
+                                        </h2> <br> <button class="carrito"><i class="fa-solid fa-cart-shopping"></i>
+                                            Agregar al Carrito <i></i></button>
+                                    </figcaption>
+                                </article>
+                                <% }) %>
+                        </div>
+                        <% }else { %>
+                            <h2>Producto no encontrado</h2>
+                            <% } %>
+                </section>
+            </main>
+            <!-- Newsletter -->
+            <%- include ('./partials/newsletter') %>
+                <!-- FOOTER -->
+                <%- include ('./partials/footer') %>
+    </body>
+
+    </html>

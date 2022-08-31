@@ -118,6 +118,7 @@ module.exports = {
                     })
             } else {
                 let image = req.body.image = req.file ? req.file.filename : req.body.oldImagen;
+                
                 Products
                     .update(
                         {

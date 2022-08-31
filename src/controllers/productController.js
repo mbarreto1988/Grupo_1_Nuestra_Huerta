@@ -26,6 +26,24 @@ const controller = {
             console.log(error);
         }
     },
+
+    search: (req, res) => {
+        let busqueda = req.query.searchAllProds.trim()
+        Products.findAll({
+            where: {
+                [Op.or]: [
+                    {name: {[Op.substring]:`%${busqueda}%`}},
+                    {description: {[Op.substring]:`%${busqueda}%`}},
+                    {price: {[Op.substring]:`%${busqueda}%`}},
+
+                ]
+            },
+           })
+        .then(products => {
+            console.log(products)
+            res.render('../views/searchProducts', {products})
+        })
+    }
 }
 
     module.exports = controller;
