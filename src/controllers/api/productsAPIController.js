@@ -16,13 +16,22 @@ const productsAPIController = {
             include: ['sections',"categories"]
         })
         .then(products => {
+            const totalFrutas = products.filter(product=>product.category_id == 1)
+            const totalVerduras = products.filter(product=>product.category_id == 2)
+            const totalBolsones = products.filter(product=>product.category_id == 3)
+           
             let respuesta = {
                 meta: {
                     status : 200,
                     total: products.length,
                     url: 'api/products'
                 },
-                data: products
+                data: products,
+                totals: {
+                    frutas: totalFrutas.length,
+                    verduras: totalVerduras.length,
+                    bolsones: totalBolsones.length,
+                }
             }
                 res.json(respuesta);
             })

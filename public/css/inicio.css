@@ -3,6 +3,11 @@
     padding: 0px;
     margin: 0px;
 }
+
+section {
+    margin: 5px;
+
+}
 /* header{
     background: linear-gradient(#ffffff, #00ff4c, #b7ff00, #00ffe5,#ffffff, #00ff4c, #b7ff00, #00ffe5);
 } */
@@ -423,6 +428,8 @@ footer i {
     margin: 10px 0;
     grid-template-columns: repeat(4, 1fr);
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 article:hover {
     box-shadow: 0px 0px 12px rgb(100, 100, 100);

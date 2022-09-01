@@ -1,4 +1,4 @@
-alert('estas en editar producto');
+
 const form = document.getElementById('form');
 const nameProduc = document.getElementById('nombreProducto');
 const description = document.getElementById('description');
