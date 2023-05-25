@@ -43,4 +43,4 @@ DATOS PERFIL ADMINISTRADOR
 "email": "adminuser@gmail.com",
 "password": "1234567890",
 "avatar": "1658422449437_img.png",
-"category": "admin"
+"category": "admin".
